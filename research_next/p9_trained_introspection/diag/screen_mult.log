@@ -1,0 +1,10 @@
+# RERUN 2026-10-22 11:58:06 of screen_mult.py (CPU, 4 threads); the original run printed to the console only
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   4%|▍         | 12/311 [00:00<00:04, 62.62it/s]Loading weights:   7%|▋         | 22/311 [00:00<00:04, 67.02it/s]Loading weights:   9%|▉         | 29/311 [00:00<00:04, 62.14it/s]Loading weights:  12%|█▏        | 36/311 [00:00<00:05, 50.49it/s]Loading weights:  14%|█▎        | 42/311 [00:00<00:05, 44.90it/s]Loading weights:  15%|█▌        | 47/311 [00:01<00:06, 38.02it/s]Loading weights:  16%|█▋        | 51/311 [00:01<00:07, 33.69it/s]Loading weights:  18%|█▊        | 55/311 [00:01<00:07, 32.37it/s]Loading weights:  19%|█▉        | 59/311 [00:01<00:07, 31.93it/s]Loading weights:  22%|██▏       | 67/311 [00:01<00:06, 38.10it/s]Loading weights:  23%|██▎       | 71/311 [00:01<00:06, 36.12it/s]Loading weights:  24%|██▍       | 75/311 [00:01<00:06, 34.54it/s]Loading weights:  25%|██▌       | 79/311 [00:02<00:07, 29.59it/s]Loading weights:  27%|██▋       | 83/311 [00:02<00:08, 26.06it/s]Loading weights:  29%|██▊       | 89/311 [00:02<00:06, 32.84it/s]Loading weights:  32%|███▏      | 98/311 [00:02<00:04, 45.56it/s]Loading weights:  33%|███▎      | 104/311 [00:02<00:05, 38.74it/s]Loading weights: 100%|██████████| 311/311 [00:02<00:00, 115.62it/s]
+PG1 accuracy (all 4 digits argmax) 20/20
+PG2 least-sure by probability vs by entropy agree 20/20; distribution Counter({1: 20})
+   example min log-probs: [-0.3133, -0.0001, -0.0003, -0.0142, -0.0022, -0.0, -0.0, -0.0015]
+PG3 swap from layer  0: least-sure digit (2-4) moves to the donor's 0/0 (rows where they differ); digits unchanged 19/20
+PG3 swap from layer 14: least-sure digit (2-4) moves to the donor's 0/0 (rows where they differ); digits unchanged 19/20
+PG3 swap from layer 21: least-sure digit (2-4) moves to the donor's 0/0 (rows where they differ); digits unchanged 19/20
+untrained report names the least-sure digit 0/20; report picks Counter({3: 11, 2: 9})
+# exit 0 at 2026-10-22 11:59:58

@@ -1,0 +1,328 @@
+\begin{thebibliography}{43}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Anonymous}(2026{\natexlab{a}})]{anon2026interventional}
+{Anonymous}.
+\newblock {Interventional Training Reduces Causal Bypass in In-Context
+  Introspection}.
+\newblock ACL Rolling Review, October 2026 cycle, Submission 8979 (anonymous,
+  under review), 2026{\natexlab{a}}.
+\newblock URL \url{https://openreview.net/forum?id=5P7dVpGNPO}.
+\newblock OpenReview, posted 13 October 2026.
+
+\bibitem[{Anonymous}(2026{\natexlab{b}})]{anon2026posthoc}
+{Anonymous}.
+\newblock {Introspection or Post-Hoc Rationalization? A Cross-Model and
+  Cross-Domain Study of LLM Metacognition}.
+\newblock Submitted to ICLR 2027, Submission 49498 (anonymous, under review),
+  2026{\natexlab{b}}.
+\newblock URL \url{https://openreview.net/forum?id=GqNWne0GxX}.
+\newblock OpenReview, public 3 October 2026.
+
+\bibitem[Aoki et~al.(2026)Aoki, Takatsuki, Minegishi, Haruki, and
+  Kawahara]{aoki2026neurofeedback}
+Koshiro Aoki, Ryota Takatsuki, Gouki Minegishi, Yusuke Haruki, and Daisuke
+  Kawahara.
+\newblock {In-Context Neurofeedback: Can LLMs Control Their Internal
+  Representations through Privileged Access?}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2609.00904}.
+
+\bibitem[Bhan et~al.(2026)Bhan, Vittaut, Chesneau, Chandar, and
+  Lesot]{bhan2026neurofaith}
+Milan Bhan, Jean-Noel Vittaut, Nicolas Chesneau, Sarath Chandar, and
+  Marie-Jeanne Lesot.
+\newblock {NeuroFaith: Evaluating LLM Self-Explanation Faithfulness via
+  Internal Representation Alignment}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2506.09277}.
+
+\bibitem[Binder et~al.(2024)Binder, Chua, Korbak, Sleight, Hughes, Long, Perez,
+  Turpin, and Evans]{binder2024looking}
+Felix~J Binder, James Chua, Tomek Korbak, Henry Sleight, John Hughes, Robert
+  Long, Ethan Perez, Miles Turpin, and Owain Evans.
+\newblock {Looking Inward: Language Models Can Learn About Themselves by
+  Introspection}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2410.13787}.
+
+\bibitem[Biran et~al.(2024)Biran, Gottesman, Yang, Geva, and
+  Globerson]{biran2024hopping}
+Eden Biran, Daniela Gottesman, Sohee Yang, Mor Geva, and Amir Globerson.
+\newblock {Hopping Too Late: Exploring the Limitations of Large Language Models
+  on Multi-Hop Queries}.
+\newblock In Yaser Al-Onaizan, Mohit Bansal, and Yun-Nung Chen, editors,
+  \emph{Proceedings of the 2024 Conference on Empirical Methods in Natural
+  Language Processing}, pages 14113--14130, Miami, Florida, USA, November 2024.
+  Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.emnlp-main.781}.
+\newblock URL \url{https://aclanthology.org/2024.emnlp-main.781/}.
+
+\bibitem[Carruthers(2011)]{carruthers2011opacity}
+Peter Carruthers.
+\newblock \emph{{The Opacity of Mind: An Integrative Theory of
+  Self-Knowledge}}.
+\newblock Oxford University Press, Oxford, 2011.
+\newblock ISBN 9780199596195.
+\newblock \doi{10.1093/acprof:oso/9780199596195.001.0001}.
+\newblock URL \url{https://doi.org/10.1093/acprof:oso/9780199596195.001.0001}.
+
+\bibitem[Cheah et~al.(2026)Cheah, P{\'e}rez-Ortiz, Siegel, and
+  Camburu]{cheah2026faithfulness}
+Yeoktatt Cheah, Mar{\'\i}a P{\'e}rez-Ortiz, Noah~Y. Siegel, and Oana-Maria
+  Camburu.
+\newblock {Training Large Language Models for Self-Explanation Faithfulness},
+  2026.
+\newblock URL \url{https://arxiv.org/abs/2607.21090}.
+
+\bibitem[Cortese et~al.(2016)Cortese, Amano, Koizumi, Kawato, and
+  Lau]{cortese2016multivoxel}
+Aurelio Cortese, Kaoru Amano, Ai~Koizumi, Mitsuo Kawato, and Hakwan Lau.
+\newblock {Multivoxel neurofeedback selectively modulates confidence without
+  changing perceptual performance}.
+\newblock \emph{Nature Communications}, 7:\penalty0 13669, 2016.
+\newblock \doi{10.1038/ncomms13669}.
+\newblock URL \url{https://doi.org/10.1038/ncomms13669}.
+
+\bibitem[Elazar et~al.(2020)Elazar, Ravfogel, Jacovi, and
+  Goldberg]{elazar2020amnesic}
+Yanai Elazar, Shauli Ravfogel, Alon Jacovi, and Yoav Goldberg.
+\newblock {Amnesic Probing: Behavioral Explanation with Amnesic
+  Counterfactuals}, 2020.
+\newblock URL \url{https://arxiv.org/abs/2006.00995}.
+
+\bibitem[Ferrara(2026)]{ferrara2026owmi}
+Emilio Ferrara.
+\newblock {Open-Weight Masked Introspection: Measuring What Language Models Can
+  Report About Their Own Computation}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2608.20569}.
+
+\bibitem[Fetsch et~al.(2014)Fetsch, Kiani, Newsome, and
+  Shadlen]{fetsch2014effects}
+Christopher~R. Fetsch, Roozbeh Kiani, William~T. Newsome, and Michael~N.
+  Shadlen.
+\newblock {Effects of Cortical Microstimulation on Confidence in a Perceptual
+  Decision}.
+\newblock \emph{Neuron}, 83\penalty0 (4):\penalty0 797--804, 2014.
+\newblock \doi{10.1016/j.neuron.2014.07.011}.
+\newblock URL \url{https://doi.org/10.1016/j.neuron.2014.07.011}.
+
+\bibitem[Fleming and Daw(2017)]{fleming2017self}
+Stephen~M. Fleming and Nathaniel~D. Daw.
+\newblock {Self-evaluation of decision-making: A general Bayesian framework for
+  metacognitive computation}.
+\newblock \emph{Psychological Review}, 124\penalty0 (1):\penalty0 91--114,
+  2017.
+\newblock \doi{10.1037/rev0000045}.
+\newblock URL \url{https://doi.org/10.1037/rev0000045}.
+
+\bibitem[Fleming et~al.(2010)Fleming, Weil, Nagy, Dolan, and
+  Rees]{fleming2010relating}
+Stephen~M. Fleming, Rimona~S. Weil, Zoltan Nagy, Raymond~J. Dolan, and Geraint
+  Rees.
+\newblock {Relating Introspective Accuracy to Individual Differences in Brain
+  Structure}.
+\newblock \emph{Science}, 329\penalty0 (5998):\penalty0 1541--1543, 2010.
+\newblock \doi{10.1126/science.1191883}.
+\newblock URL \url{https://doi.org/10.1126/science.1191883}.
+
+\bibitem[Fonseca~Rivera and Africa(2026)]{fonsecarivera2026steering}
+Joshua Fonseca~Rivera and David~Demitri Africa.
+\newblock {Steering Awareness: Detecting Activation Steering from Within},
+  2026.
+\newblock URL \url{https://arxiv.org/abs/2511.21399}.
+\newblock Conference on Language Modeling (COLM) 2026.
+
+\bibitem[Frederick(2012)]{frederick2012psychophysics}
+Jon~A. Frederick.
+\newblock {Psychophysics of EEG alpha state discrimination}.
+\newblock \emph{Consciousness and Cognition}, 21\penalty0 (3):\penalty0
+  1345--1354, 2012.
+\newblock \doi{10.1016/j.concog.2012.06.009}.
+\newblock URL \url{https://doi.org/10.1016/j.concog.2012.06.009}.
+
+\bibitem[Geiger et~al.(2021)Geiger, Wu, Lu, Rozner, Kreiss, Icard, Goodman, and
+  Potts]{geiger2021inducing}
+Atticus Geiger, Zhengxuan Wu, Hanson Lu, Josh Rozner, Elisa Kreiss, Thomas
+  Icard, Noah~D. Goodman, and Christopher Potts.
+\newblock {Inducing Causal Structure for Interpretable Neural Networks}, 2021.
+\newblock URL \url{https://arxiv.org/abs/2112.00826}.
+
+\bibitem[Geiping(2026)]{geiping2026proprioception}
+Jonas Geiping.
+\newblock {A Sense of Proprioception in Language Models}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2610.17495}.
+
+\bibitem[Geva et~al.(2023)Geva, Bastings, Filippova, and
+  Globerson]{geva2023dissecting}
+Mor Geva, Jasmijn Bastings, Katja Filippova, and Amir Globerson.
+\newblock {Dissecting Recall of Factual Associations in Auto-Regressive
+  Language Models}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2304.14767}.
+
+\bibitem[Guo et~al.(2026)Guo, Ruis, Andreas, and Li]{guo2026introspective}
+Zifan~Carl Guo, Laura Ruis, Jacob Andreas, and Belinda~Z. Li.
+\newblock {Introspective Coupling: Self-Explanation Training Tracks Behavioral
+  Change Despite Fixed Supervision}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2606.32038}.
+
+\bibitem[Hahami et~al.(2025)Hahami, Sinha, Jain, Kaplan, and
+  Hahami]{hahami2025detecting}
+Ely Hahami, Ishaan Sinha, Lavik Jain, Josh Kaplan, and Jon Hahami.
+\newblock {Detecting the Disturbance: A Nuanced View of Introspective Abilities
+  in LLMs}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2512.12411}.
+
+\bibitem[Hahami et~al.(2026)Hahami, Sinha, and Jain]{hahami2026introspection}
+Ely Hahami, Ishaan Sinha, and Lavik Jain.
+\newblock {Introspection Fine-Tuning (IFT): Training Small LLMs to Introspect},
+  2026.
+\newblock URL \url{https://arxiv.org/abs/2607.14111}.
+
+\bibitem[Hatua(2026)]{hatua2026verbalization}
+Amartya Hatua.
+\newblock {When Verbalization Is Not Introspection: Causal Tests for
+  Internal-State Reporting}.
+\newblock NeurIPS 2026 workshop on Neural Network Artifacts as a New Data
+  Modality (poster; not on arXiv), 2026.
+\newblock URL \url{https://neurips.cc/virtual/2026/162986}.
+
+\bibitem[Johansson et~al.(2005)Johansson, Hall, Sikstr{\"o}m, and
+  Olsson]{johansson2005failure}
+Petter Johansson, Lars Hall, Sverker Sikstr{\"o}m, and Andreas Olsson.
+\newblock {Failure to Detect Mismatches Between Intention and Outcome in a
+  Simple Decision Task}.
+\newblock \emph{Science}, 310\penalty0 (5745):\penalty0 116--119, 2005.
+\newblock \doi{10.1126/science.1111709}.
+\newblock URL \url{https://doi.org/10.1126/science.1111709}.
+
+\bibitem[Karvonen et~al.(2026)Karvonen, Ong, Kantamneni, and
+  Marks]{karvonen2026counterfactual}
+Adam Karvonen, Euan Ong, Subhash Kantamneni, and Samuel Marks.
+\newblock {Would this change your answer? Evaluating Explanations of LLM
+  Behavior In The Wild with Counterfactual Experiments}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2608.16747}.
+
+\bibitem[Kiani and Shadlen(2009)]{kiani2009representation}
+Roozbeh Kiani and Michael~N. Shadlen.
+\newblock {Representation of Confidence Associated with a Decision by Neurons
+  in the Parietal Cortex}.
+\newblock \emph{Science}, 324\penalty0 (5928):\penalty0 759--764, 2009.
+\newblock \doi{10.1126/science.1169405}.
+\newblock URL \url{https://doi.org/10.1126/science.1169405}.
+
+\bibitem[Lederman and Mahowald(2026)]{lederman2026contentagnostic}
+Harvey Lederman and Kyle Mahowald.
+\newblock {Emergent Introspection in AI is Content-Agnostic}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2603.05414}.
+
+\bibitem[Li et~al.(2025)Li, Guo, Huang, Steinhardt, and
+  Andreas]{li2025training}
+Belinda~Z. Li, Zifan~Carl Guo, Vincent Huang, Jacob Steinhardt, and Jacob
+  Andreas.
+\newblock {Training Language Models to Explain Their Own Computations}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2511.08579}.
+
+\bibitem[Lindsey(2025)]{lindsey2025emergent}
+Jack Lindsey.
+\newblock {Emergent Introspective Awareness in Large Language Models}.
+\newblock \emph{Transformer Circuits Thread}, 2025.
+\newblock URL
+  \url{https://transformer-circuits.pub/2025/introspection/index.html}.
+
+\bibitem[Macar et~al.(2026)Macar, Yang, Wang, Wallich, Ameisen, and
+  Lindsey]{macar2026mechanisms}
+Uzay Macar, Li~Yang, Atticus Wang, Peter Wallich, Emmanuel Ameisen, and Jack
+  Lindsey.
+\newblock {Mechanisms of Introspective Awareness}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2603.21396}.
+
+\bibitem[Meng et~al.(2022)Meng, Bau, Andonian, and Belinkov]{meng2022locating}
+Kevin Meng, David Bau, Alex Andonian, and Yonatan Belinkov.
+\newblock {Locating and Editing Factual Associations in GPT}, 2022.
+\newblock URL \url{https://arxiv.org/abs/2202.05262}.
+
+\bibitem[Morris and Plunkett(2025)]{morris2025bypassing}
+Adam Morris and Dillon Plunkett.
+\newblock {Tests of LLM introspection need to rule out causal bypassing}.
+\newblock LessWrong (cross-posted to the AI Alignment Forum), November 2025.
+\newblock URL
+  \url{https://www.lesswrong.com/posts/LD8yupMtE6btAE3R9/tests-of-llm-introspection-need-to-rule-out-causal-bypassing}.
+\newblock Blog post, 28 November 2025.
+
+\bibitem[Nguyen et~al.(2026)Nguyen, Ahmed, and Kim]{nguyen2026prefills}
+Quang~Minh Nguyen, Uzair Ahmed, and Taegyoon Kim.
+\newblock {Can LLMs Reliably Self-Report Adversarial Prefills, and How?}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2606.23671}.
+
+\bibitem[Nisbett and Wilson(1977)]{nisbett1977telling}
+Richard~E. Nisbett and Timothy~D. Wilson.
+\newblock {Telling more than we can know: Verbal reports on mental processes}.
+\newblock \emph{Psychological Review}, 84\penalty0 (3):\penalty0 231--259,
+  1977.
+\newblock \doi{10.1037/0033-295X.84.3.231}.
+\newblock URL \url{https://doi.org/10.1037/0033-295X.84.3.231}.
+
+\bibitem[Pepper et~al.(2026)Pepper, McKenzie, Pop, Servaes, Leitgab, Vaiana,
+  Rosenblatt, Graziano, and de~Lucena]{pepper2026learning}
+Keenan Pepper, Alex McKenzie, Florin Pop, Stijn Servaes, Martin Leitgab, Mike
+  Vaiana, Judd Rosenblatt, Michael S.~A. Graziano, and Diogo de~Lucena.
+\newblock {Learning Self-Interpretation from Interpretability Artifacts:
+  Training Lightweight Adapters on Vector-Label Pairs}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2602.10352}.
+
+\bibitem[Plunkett et~al.(2025)Plunkett, Morris, Reddy, and
+  Morales]{plunkett2025selfinterpretability}
+Dillon Plunkett, Adam Morris, Keerthi Reddy, and Jorge Morales.
+\newblock {Self-Interpretability: LLMs Can Describe Complex Internal Processes
+  that Drive Their Decisions}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2505.17120}.
+
+\bibitem[Ramdan(2026{\natexlab{a}})]{ramdan2026injected}
+Sam Ramdan.
+\newblock {The Injected Word Reaches the Answer but Not the Report:
+  Injected-Thought Reports in {Qwen3} Run Mainly Through a Content-Free Yes
+  Direction}.
+\newblock Zenodo,
+  \href{https://doi.org/10.5281/zenodo.23389066}{doi:10.5281/zenodo.23389066},
+  2026{\natexlab{a}}.
+
+\bibitem[Ramdan(2026{\natexlab{b}})]{ramdan2026settling}
+Sam Ramdan.
+\newblock {Where a Logit-Lens Settling Profile Is Carried, and Whether
+  Qwen3-1.7B Reports It: Answer-Fixed Interchange in Two Small Language
+  Models}, 2026{\natexlab{b}}.
+\newblock URL \url{https://doi.org/10.5281/zenodo.23532061}.
+
+\bibitem[Shibata et~al.(2011)Shibata, Watanabe, Sasaki, and
+  Kawato]{shibata2011perceptual}
+Kazuhisa Shibata, Takeo Watanabe, Yuka Sasaki, and Mitsuo Kawato.
+\newblock {Perceptual Learning Incepted by Decoded fMRI Neurofeedback Without
+  Stimulus Presentation}.
+\newblock \emph{Science}, 334\penalty0 (6061):\penalty0 1413--1415, 2011.
+\newblock \doi{10.1126/science.1212003}.
+\newblock URL \url{https://doi.org/10.1126/science.1212003}.
+
+\bibitem[Singh et~al.(2026)Singh, Linzen, and Ravfogel]{singh2026reality}
+Shashwat Singh, Tal Linzen, and Shauli Ravfogel.
+\newblock {Can LLMs Introspect? A Reality Check}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2605.26242}.
+
+\bibitem[Song et~al.(2025)Song, Lederman, Hu, and Mahowald]{song2025privileged}
+Siyuan Song, Harvey Lederman, Jennifer Hu, and Kyle Mahowald.
+\newblock {Privileged Self-Access Matters for Introspection in AI}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2508.14802}.
+
+\bibitem[Yang et~al.(2025)Yang, Li, Yang, et~al.]{yang2025qwen3}
+An~Yang, Anfeng Li, Baosong Yang, et~al.
+\newblock {Qwen3 Technical Report}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2505.09388}.
+
+\bibitem[Zhang and Nanda(2023)]{zhang2023best}
+Fred Zhang and Neel Nanda.
+\newblock {Towards Best Practices of Activation Patching in Language Models:
+  Metrics and Methods}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2309.16042}.
+
+\end{thebibliography}

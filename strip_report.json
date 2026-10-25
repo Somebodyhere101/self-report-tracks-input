@@ -1,0 +1,81 @@
+{
+ "maxlen": 40,
+ "drop_keys": [
+  "answer_text",
+  "completion",
+  "free1_text",
+  "generated",
+  "raw_text",
+  "text",
+  "texts"
+ ],
+ "exempt_keys": [
+  "l1",
+  "la,s_add",
+  "largest",
+  "lr",
+  "ls",
+  "q",
+  "reasons",
+  "s_kl",
+  "verdict",
+  "verdict_reported"
+ ],
+ "counts": {
+  "screen.json/items[]/free1_text (dropped key)": 1116
+ },
+ "zenodo_only": [
+  "research_next/p9_trained_introspection/res_v2/premise.json",
+  "research_next/p9_trained_introspection/res_v3/eval_I_s0.json",
+  "research_next/p9_trained_introspection/res_v3/eval_I_s1.json",
+  "research_next/p9_trained_introspection/res_v3/eval_J_s0.json",
+  "research_next/p9_trained_introspection/res_v3/eval_J_s1.json",
+  "research_next/p9_trained_introspection/res_v3/eval_N.json",
+  "research_next/p9_trained_introspection/res_v3/eval_O_s0.json",
+  "research_next/p9_trained_introspection/res_v3/eval_O_s1.json"
+ ],
+ "withheld": [
+  "research_next/p9_trained_introspection/res_selftest/jvec.pt",
+  "research_next/p9_trained_introspection/res_selftest/lora_I_s0.pt",
+  "research_next/p9_trained_introspection/res_selftest/lora_J_s0.pt",
+  "research_next/p9_trained_introspection/res_selftest/lora_O_s0.pt",
+  "research_next/p9_trained_introspection/res_selftest/lora_X_s0.pt",
+  "research_next/p9_trained_introspection/res_selftest_tiny/jvec.pt",
+  "research_next/p9_trained_introspection/res_selftest_tiny/lora_I_s0.pt",
+  "research_next/p9_trained_introspection/res_selftest_tiny/lora_J_s0.pt",
+  "research_next/p9_trained_introspection/res_selftest_tiny/lora_O_s0.pt",
+  "research_next/p9_trained_introspection/res_selftest_tiny/lora_X_s0.pt",
+  "research_next/p9_trained_introspection/res_v3/jvec.pt",
+  "research_next/p9_trained_introspection/res_v3/lora_I_s0.pt",
+  "research_next/p9_trained_introspection/res_v3/lora_I_s1.pt",
+  "research_next/p9_trained_introspection/res_v3/lora_J_s0.pt",
+  "research_next/p9_trained_introspection/res_v3/lora_J_s1.pt",
+  "research_next/p9_trained_introspection/res_v3/lora_O_s0.pt",
+  "research_next/p9_trained_introspection/res_v3/lora_O_s1.pt",
+  "research_next/p9_trained_introspection/res_v3/lora_X_s0.pt",
+  "research_next/p9_trained_introspection/res_v3/lora_X_s1.pt",
+  "research_next/p9_trained_introspection/res_v3_smoke/jvec.pt",
+  "research_next/p9_trained_introspection/res_v3_smoke/lora_I_s0.pt",
+  "research_next/p9_trained_introspection/res_v3_smoke/lora_J_s0.pt",
+  "research_next/p9_trained_introspection/res_v3_smoke/lora_O_s0.pt",
+  "research_next/p9_trained_introspection/res_v3_smoke/lora_X_s0.pt",
+  "research_next/p9_trained_introspection/res_v4_smoke/jvec.pt",
+  "research_next/p9_trained_introspection/res_v4_smoke/lora_I_s0.pt",
+  "research_next/p9_trained_introspection/res_v4_smoke/lora_Id_s0.pt",
+  "research_next/p9_trained_introspection/res_v4_smoke/lora_J_s0.pt",
+  "research_next/p9_trained_introspection/res_v4_smoke/lora_O_s0.pt",
+  "research_next/p9_trained_introspection/res_v4_smoke/lora_X_s0.pt"
+ ],
+ "user_folder_replaced_in": [
+  "research_next/p9_trained_introspection/audit/paper_audit_final/make_numbers_copy.py",
+  "research_next/p9_trained_introspection/audit/paper_audit_final/recompute_paper_copy.py",
+  "research_next/p9_trained_introspection/audit/paper_audit_final/regen/recompute_stdout.txt",
+  "research_next/p9_trained_introspection/code_v4/run_v4.sh",
+  "research_next/p9_trained_introspection/stage0/STAGE0.md",
+  "research_next/p9_trained_introspection/stage0/s0a_extract.py",
+  "research_next/p9_trained_introspection/stage0/s0a_probe.py",
+  "research_next/p9_trained_introspection/stage0b/s0b_extract.py",
+  "research_next/p9_trained_introspection/stage0b/s0b_gpu.log",
+  "research_next/p9_trained_introspection/stage0b/s0b_tailpos.py"
+ ]
+}

@@ -1,0 +1,3693 @@
+{
+ "items": [
+  {
+   "city": "Amiens",
+   "country": "France",
+   "continent": "Europe",
+   "split": "pilot",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.4806452989578247,
+    -1.8556452989578247,
+    -0.8556452989578247,
+    -2.480645179748535,
+    -2.230645179748535
+   ],
+   "cont_pred": "Africa",
+   "acc2": false,
+   "cont_margin": 0.625,
+   "top_token": "The",
+   "free1": "France",
+   "cands": [
+    "Germany",
+    "France",
+    "Netherlands",
+    "Belgium"
+   ],
+   "p1_scores": [
+    -1.4719723165035248,
+    -1.4094723165035248,
+    -1.4094723165035248,
+    -1.4094723165035248
+   ],
+   "p1": "France",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Angers",
+   "country": "France",
+   "continent": "Europe",
+   "split": "test",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -3.2333576679229736,
+    -1.7333576679229736,
+    -3.2333576679229736,
+    -0.6083577275276184,
+    -1.6083576679229736
+   ],
+   "cont_pred": "North America",
+   "acc2": false,
+   "cont_margin": 0.9999999403953552,
+   "top_token": "Ang",
+   "free1": "France",
+   "cands": [
+    "France",
+    "Germany",
+    "Belgium",
+    "Netherlands"
+   ],
+   "p1_scores": [
+    -1.4403380900621414,
+    -1.440338060259819,
+    -1.4403380751609802,
+    -1.4403380751609802
+   ],
+   "p1": "Germany",
+   "p1_margin": 1.4901161193847656e-08
+  },
+  {
+   "city": "Avignon",
+   "country": "France",
+   "continent": "Europe",
+   "split": "test",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.8456993103027344,
+    -3.5956993103027344,
+    -1.7206993103027344,
+    -2.4706993103027344,
+    -0.5956993699073792
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 1.1249999403953552,
+   "top_token": "The",
+   "free1": "France",
+   "cands": [
+    "France",
+    "Germany",
+    "Netherlands",
+    "Switzerland"
+   ],
+   "p1_scores": [
+    -1.4753959774971008,
+    -1.3503959774971008,
+    -1.4753959774971008,
+    -1.3503959774971008
+   ],
+   "p1": "Germany",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Besancon",
+   "country": "France",
+   "continent": "Europe",
+   "split": "test",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.6312921047210693,
+    -0.5062921047210693,
+    -2.7562921047210693,
+    -5.631292343139648,
+    -2.0062921047210693
+   ],
+   "cont_pred": "Asia",
+   "acc2": false,
+   "cont_margin": 1.125,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Germany",
+    "Switzerland",
+    "Netherlands",
+    "France"
+   ],
+   "p1_scores": [
+    -1.4208475649356842,
+    -1.4208475649356842,
+    -1.4208475649356842,
+    -1.4833475649356842
+   ],
+   "p1": "Germany",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Bordeaux",
+   "country": "France",
+   "continent": "Europe",
+   "split": "test",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.2474820613861084,
+    -2.7474820613861084,
+    -1.7474820613861084,
+    -2.2474820613861084,
+    -0.9974820613861084
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.25,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Switzerland",
+    "France",
+    "Netherlands",
+    "Belgium"
+   ],
+   "p1_scores": [
+    -1.3849410712718964,
+    -1.4474410712718964,
+    -1.3849410712718964,
+    -1.4474410712718964
+   ],
+   "p1": "Switzerland",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Caen",
+   "country": "France",
+   "continent": "Europe",
+   "split": "test",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.0456188917160034,
+    -2.295619010925293,
+    -1.5456188917160034,
+    -1.6706188917160034,
+    -1.9206188917160034
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 0.5,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Netherlands",
+    "Switzerland",
+    "France",
+    "Germany"
+   ],
+   "p1_scores": [
+    -1.3776547312736511,
+    -1.5026547312736511,
+    -1.3776547312736511,
+    -1.3776547312736511
+   ],
+   "p1": "Netherlands",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Calais",
+   "country": "France",
+   "continent": "Europe",
+   "split": "test",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -0.9044316411018372,
+    -2.0294315814971924,
+    -2.1544315814971924,
+    -2.2794315814971924,
+    -1.4044315814971924
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 0.4999999403953552,
+   "top_token": "The",
+   "free1": "France",
+   "cands": [
+    "France",
+    "Switzerland",
+    "Germany",
+    "Netherlands"
+   ],
+   "p1_scores": [
+    -1.4064181745052338,
+    -1.4064181745052338,
+    -1.4689181745052338,
+    -1.4064181745052338
+   ],
+   "p1": "France",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Cannes",
+   "country": "France",
+   "continent": "Europe",
+   "split": "train",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.4123985767364502,
+    -2.03739857673645,
+    -1.4123985767364502,
+    -2.66239857673645,
+    -1.1623985767364502
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.25,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Netherlands",
+    "Belgium",
+    "France",
+    "Germany"
+   ],
+   "p1_scores": [
+    -1.4266977608203888,
+    -1.4266977608203888,
+    -1.4266977608203888,
+    -1.3641977608203888
+   ],
+   "p1": "Germany",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Clermont-Ferrand",
+   "country": "France",
+   "continent": "Europe",
+   "split": "test",
+   "n": 6,
+   "ok": false
+  },
+  {
+   "city": "Dijon",
+   "country": "France",
+   "continent": "Europe",
+   "split": "pilot",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -0.9164450168609619,
+    -2.166445016860962,
+    -1.666445016860962,
+    -2.041445016860962,
+    -1.791445016860962
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 0.75,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "France",
+    "Belgium",
+    "Germany",
+    "Netherlands"
+   ],
+   "p1_scores": [
+    -1.4688920974731445,
+    -1.4063920974731445,
+    -1.4688920974731445,
+    -1.4063920974731445
+   ],
+   "p1": "Belgium",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Grenoble",
+   "country": "France",
+   "continent": "Europe",
+   "split": "train",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -0.6828896999359131,
+    -3.432889699935913,
+    -2.182889699935913,
+    -1.807889699935913,
+    -1.682889699935913
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 1.0,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Netherlands",
+    "Belgium",
+    "Switzerland",
+    "France"
+   ],
+   "p1_scores": [
+    -1.4035055041313171,
+    -1.4660055041313171,
+    -1.4660055041313171,
+    -1.4035055041313171
+   ],
+   "p1": "Netherlands",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Le Havre",
+   "country": "France",
+   "continent": "Europe",
+   "split": "train",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -0.9978455901145935,
+    -3.6228456497192383,
+    -0.9978455901145935,
+    -2.4978456497192383,
+    -1.8728456497192383
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 0.0,
+   "top_token": "Le",
+   "free1": null,
+   "cands": [
+    "Germany",
+    "Netherlands",
+    "France",
+    "Switzerland"
+   ],
+   "p1_scores": [
+    -1.520789086818695,
+    -1.395789086818695,
+    -1.458289086818695,
+    -1.333289086818695
+   ],
+   "p1": "Switzerland",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Lille",
+   "country": "France",
+   "continent": "Europe",
+   "split": "pilot",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -0.6367517113685608,
+    -2.886751651763916,
+    -1.886751651763916,
+    -2.386751651763916,
+    -1.761751651763916
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 1.1249999403953552,
+   "top_token": "The",
+   "free1": "France",
+   "cands": [
+    "Netherlands",
+    "France",
+    "Germany",
+    "Belgium"
+   ],
+   "p1_scores": [
+    -1.4580630958080292,
+    -1.4580630958080292,
+    -1.3955630958080292,
+    -1.3955630958080292
+   ],
+   "p1": "Germany",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Limoges",
+   "country": "France",
+   "continent": "Europe",
+   "split": "test",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.3414652347564697,
+    -0.8414652347564697,
+    -1.9664652347564697,
+    -3.5914652347564697,
+    -1.9664652347564697
+   ],
+   "cont_pred": "Asia",
+   "acc2": false,
+   "cont_margin": 0.5,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "France",
+    "Germany",
+    "Switzerland",
+    "Belgium"
+   ],
+   "p1_scores": [
+    -1.426886647939682,
+    -1.426886647939682,
+    -1.489386647939682,
+    -1.426886647939682
+   ],
+   "p1": "France",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Augsburg",
+   "country": "Germany",
+   "continent": "Europe",
+   "split": "test",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -3.0184359550476074,
+    -0.26843589544296265,
+    -3.1434359550476074,
+    -3.6434359550476074,
+    -2.1434359550476074
+   ],
+   "cont_pred": "Asia",
+   "acc2": false,
+   "cont_margin": 1.8750000596046448,
+   "top_token": "The",
+   "free1": "Germany",
+   "cands": [
+    "Germany",
+    "Switzerland",
+    "France",
+    "Netherlands"
+   ],
+   "p1_scores": [
+    -1.405882179737091,
+    -1.343382179737091,
+    -1.405882179737091,
+    -1.468382179737091
+   ],
+   "p1": "Switzerland",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Bielefeld",
+   "country": "Germany",
+   "continent": "Europe",
+   "split": "train",
+   "n": 4,
+   "ok": true,
+   "cont_lp": [
+    -1.409450650215149,
+    -2.0344505310058594,
+    -2.5344505310058594,
+    -1.659450650215149,
+    -1.034450650215149
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.375,
+   "top_token": "The",
+   "free1": "Germany",
+   "cands": [
+    "France",
+    "Switzerland",
+    "Germany",
+    "Netherlands"
+   ],
+   "p1_scores": [
+    -1.4026159346103668,
+    -1.4651159346103668,
+    -1.4026159346103668,
+    -1.4026159346103668
+   ],
+   "p1": "France",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Bochum",
+   "country": "Germany",
+   "continent": "Europe",
+   "split": "train",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -2.1432125568389893,
+    -2.3932125568389893,
+    -2.0182125568389893,
+    -2.0182125568389893,
+    -0.6432125568389893
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 1.375,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Switzerland",
+    "Netherlands",
+    "Germany",
+    "Belgium"
+   ],
+   "p1_scores": [
+    -1.4129323363304138,
+    -1.3504323363304138,
+    -1.4129323363304138,
+    -1.4754323363304138
+   ],
+   "p1": "Netherlands",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Bonn",
+   "country": "Germany",
+   "continent": "Europe",
+   "split": "train",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -2.874037742614746,
+    -5.624037742614746,
+    -0.7490378022193909,
+    -0.8740378022193909,
+    -2.999037742614746
+   ],
+   "cont_pred": "Africa",
+   "acc2": false,
+   "cont_margin": 0.125,
+   "top_token": "The",
+   "free1": "United States",
+   "cands": [
+    "Belgium",
+    "Switzerland",
+    "France",
+    "Germany"
+   ],
+   "p1_scores": [
+    -1.4402036368846893,
+    -1.4402036368846893,
+    -1.4402036368846893,
+    -1.4402036368846893
+   ],
+   "p1": "Belgium",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Bremen",
+   "country": "Germany",
+   "continent": "Europe",
+   "split": "pilot",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.8140729665756226,
+    -2.189073085784912,
+    -2.814073085784912,
+    -1.8140729665756226,
+    -0.6890729665756226
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 1.125,
+   "top_token": "The",
+   "free1": "Germany",
+   "cands": [
+    "Germany",
+    "France",
+    "Switzerland",
+    "Belgium"
+   ],
+   "p1_scores": [
+    -1.427015244960785,
+    -1.427015244960785,
+    -1.427015244960785,
+    -1.427015244960785
+   ],
+   "p1": "Germany",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Cologne",
+   "country": "Germany",
+   "continent": "Europe",
+   "split": "train",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -1.0125287771224976,
+    -5.887528896331787,
+    -3.387528896331787,
+    -0.6375287771224976,
+    -2.637528896331787
+   ],
+   "cont_pred": "North America",
+   "acc2": false,
+   "cont_margin": 0.375,
+   "top_token": "The",
+   "free1": "Germany",
+   "cands": [
+    "Belgium",
+    "Netherlands",
+    "France",
+    "Germany"
+   ],
+   "p1_scores": [
+    -1.450267881155014,
+    -1.5127678513526917,
+    -1.4502678513526917,
+    -1.3877678513526917
+   ],
+   "p1": "Germany",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Dortmund",
+   "country": "Germany",
+   "continent": "Europe",
+   "split": "train",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.3152377605438232,
+    -3.0652377605438232,
+    -2.3152377605438232,
+    -1.9402377605438232,
+    -0.8152377009391785
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.5000000596046448,
+   "top_token": "The",
+   "free1": "Germany",
+   "cands": [
+    "Netherlands",
+    "Switzerland",
+    "Belgium",
+    "Germany"
+   ],
+   "p1_scores": [
+    -1.3978105783462524,
+    -1.4603105783462524,
+    -1.4603105783462524,
+    -1.4603105783462524
+   ],
+   "p1": "Netherlands",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Dresden",
+   "country": "Germany",
+   "continent": "Europe",
+   "split": "train",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -0.07461199909448624,
+    -5.824612140655518,
+    -6.449612140655518,
+    -4.199612140655518,
+    -2.9496119022369385
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 2.8749999031424522,
+   "top_token": "The",
+   "free1": "Germany",
+   "cands": [
+    "Netherlands",
+    "Germany",
+    "Switzerland",
+    "France"
+   ],
+   "p1_scores": [
+    -1.4532755017280579,
+    -1.3907754719257355,
+    -1.4532754719257355,
+    -1.4532755017280579
+   ],
+   "p1": "Germany",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Duisburg",
+   "country": "Germany",
+   "continent": "Europe",
+   "split": "pilot",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -0.9273927807807922,
+    -2.9273927211761475,
+    -2.5523927211761475,
+    -1.8023927211761475,
+    -1.1773927211761475
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 0.24999994039535522,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Germany",
+    "Netherlands",
+    "Switzerland",
+    "Belgium"
+   ],
+   "p1_scores": [
+    -1.4943918585777283,
+    -1.3693918585777283,
+    -1.4943918585777283,
+    -1.4318918585777283
+   ],
+   "p1": "Netherlands",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Dusseldorf",
+   "country": "Germany",
+   "continent": "Europe",
+   "split": "pilot",
+   "n": 4,
+   "ok": true,
+   "cont_lp": [
+    -1.252164602279663,
+    -2.127164602279663,
+    -2.377164602279663,
+    -2.002164602279663,
+    -1.002164602279663
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.25,
+   "top_token": "The",
+   "free1": "Netherlands",
+   "cands": [
+    "Germany",
+    "Switzerland",
+    "Netherlands",
+    "France"
+   ],
+   "p1_scores": [
+    -1.404843956232071,
+    -1.467343956232071,
+    -1.467343956232071,
+    -1.4048439413309097
+   ],
+   "p1": "France",
+   "p1_margin": 1.4901161193847656e-08
+  },
+  {
+   "city": "Erfurt",
+   "country": "Germany",
+   "continent": "Europe",
+   "split": "test",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -0.24811673164367676,
+    -2.4981167316436768,
+    -3.7481167316436768,
+    -2.9981167316436768,
+    -2.7481167316436768
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 2.25,
+   "top_token": "Er",
+   "free1": "Germany",
+   "cands": [
+    "France",
+    "Netherlands",
+    "Germany",
+    "Switzerland"
+   ],
+   "p1_scores": [
+    -1.38887158036232,
+    -1.38887158036232,
+    -1.51387158036232,
+    -1.45137158036232
+   ],
+   "p1": "France",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Essen",
+   "country": "Germany",
+   "continent": "Europe",
+   "split": "train",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -0.9318392276763916,
+    -1.6818392276763916,
+    -2.1818392276763916,
+    -3.3068392276763916,
+    -1.3068392276763916
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 0.375,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Germany",
+    "Belgium",
+    "Switzerland",
+    "France"
+   ],
+   "p1_scores": [
+    -1.3678408563137054,
+    -1.4303408563137054,
+    -1.4303408563137054,
+    -1.4303408563137054
+   ],
+   "p1": "Germany",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Frankfurt",
+   "country": "Germany",
+   "continent": "Europe",
+   "split": "train",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -0.12186753749847412,
+    -5.496867656707764,
+    -2.7468676567077637,
+    -4.121867656707764,
+    -3.4968676567077637
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 2.6250001192092896,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Belgium",
+    "France",
+    "Netherlands",
+    "Germany"
+   ],
+   "p1_scores": [
+    -1.4540269672870636,
+    -1.4540269672870636,
+    -1.3290269523859024,
+    -1.5165269672870636
+   ],
+   "p1": "Netherlands",
+   "p1_margin": 0.1250000149011612
+  },
+  {
+   "city": "Freiburg",
+   "country": "Germany",
+   "continent": "Europe",
+   "split": "test",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -0.43740323185920715,
+    -2.0624032020568848,
+    -2.3124032020568848,
+    -2.8124032020568848,
+    -2.6874032020568848
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 1.6249999701976776,
+   "top_token": "The",
+   "free1": "Germany",
+   "cands": [
+    "Belgium",
+    "Germany",
+    "Netherlands",
+    "France"
+   ],
+   "p1_scores": [
+    -1.3693837821483612,
+    -1.4318837821483612,
+    -1.4318837821483612,
+    -1.4318837821483612
+   ],
+   "p1": "Belgium",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Bari",
+   "country": "Italy",
+   "continent": "Europe",
+   "split": "train",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -2.6533703804016113,
+    -1.5283703804016113,
+    -1.6533703804016113,
+    -2.1533703804016113,
+    -0.9033703207969666
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.6250000596046448,
+   "top_token": "The",
+   "free1": "Morocco",
+   "cands": [
+    "Spain",
+    "Portugal",
+    "Greece",
+    "Italy"
+   ],
+   "p1_scores": [
+    -1.4164776802062988,
+    -1.4789776802062988,
+    -1.3539776802062988,
+    -1.3539776802062988
+   ],
+   "p1": "Greece",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Bergamo",
+   "country": "Italy",
+   "continent": "Europe",
+   "split": "train",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -0.5252557396888733,
+    -3.2752556800842285,
+    -2.7752556800842285,
+    -1.6502556800842285,
+    -2.1502556800842285
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 1.1249999403953552,
+   "top_token": "The",
+   "free1": "Italy",
+   "cands": [
+    "Spain",
+    "Portugal",
+    "Italy",
+    "Greece"
+   ],
+   "p1_scores": [
+    -1.4236927330493927,
+    -1.4236927330493927,
+    -1.3611927330493927,
+    -1.4236927330493927
+   ],
+   "p1": "Italy",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Bologna",
+   "country": "Italy",
+   "continent": "Europe",
+   "split": "test",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -0.5800896883010864,
+    -4.455089569091797,
+    -3.705089569091797,
+    -0.9550896883010864,
+    -3.955089569091797
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 0.375,
+   "top_token": "The",
+   "free1": "Italy",
+   "cands": [
+    "Portugal",
+    "Spain",
+    "Italy",
+    "Greece"
+   ],
+   "p1_scores": [
+    -1.3802514523267746,
+    -1.3802514672279358,
+    -1.5052514672279358,
+    -1.5052514672279358
+   ],
+   "p1": "Portugal",
+   "p1_margin": 1.4901161193847656e-08
+  },
+  {
+   "city": "Brescia",
+   "country": "Italy",
+   "continent": "Europe",
+   "split": "test",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.5342861413955688,
+    -1.9092861413955688,
+    -2.4092860221862793,
+    -2.4092860221862793,
+    -0.7842861413955688
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.75,
+   "top_token": "The",
+   "free1": "Italy",
+   "cands": [
+    "Italy",
+    "Greece",
+    "Portugal",
+    "Spain"
+   ],
+   "p1_scores": [
+    -1.4777528941631317,
+    -1.4152528941631317,
+    -1.3527528941631317,
+    -1.3527528941631317
+   ],
+   "p1": "Portugal",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Cagliari",
+   "country": "Italy",
+   "continent": "Europe",
+   "split": "train",
+   "n": 4,
+   "ok": true,
+   "cont_lp": [
+    -1.4905335903167725,
+    -1.8655335903167725,
+    -1.7405335903167725,
+    -2.6155335903167725,
+    -0.9905335903167725
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.5,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Spain",
+    "Portugal",
+    "Greece",
+    "Italy"
+   ],
+   "p1_scores": [
+    -1.3647846579551697,
+    -1.4272846579551697,
+    -1.3647846579551697,
+    -1.4272846579551697
+   ],
+   "p1": "Spain",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Catania",
+   "country": "Italy",
+   "continent": "Europe",
+   "split": "train",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.7637624740600586,
+    -1.6387624740600586,
+    -1.6387624740600586,
+    -1.5137624740600586,
+    -1.5137624740600586
+   ],
+   "cont_pred": "North America",
+   "acc2": false,
+   "cont_margin": 0.0,
+   "top_token": "The",
+   "free1": "Italy",
+   "cands": [
+    "Greece",
+    "Spain",
+    "Portugal",
+    "Italy"
+   ],
+   "p1_scores": [
+    -1.4491945505142212,
+    -1.3866945505142212,
+    -1.3866945505142212,
+    -1.3866945505142212
+   ],
+   "p1": "Spain",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Florence",
+   "country": "Italy",
+   "continent": "Europe",
+   "split": "test",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -0.3837944269180298,
+    -3.8837943077087402,
+    -2.6337943077087402,
+    -2.0087943077087402,
+    -2.3837943077087402
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 1.6249998807907104,
+   "top_token": "The",
+   "free1": "Italy",
+   "cands": [
+    "Italy",
+    "Spain",
+    "Greece",
+    "Portugal"
+   ],
+   "p1_scores": [
+    -1.43096262216568,
+    -1.43096262216568,
+    -1.43096262216568,
+    -1.43096262216568
+   ],
+   "p1": "Italy",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Genoa",
+   "country": "Italy",
+   "continent": "Europe",
+   "split": "test",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.301905632019043,
+    -1.926905632019043,
+    -0.6769055724143982,
+    -3.176905632019043,
+    -3.426905632019043
+   ],
+   "cont_pred": "Africa",
+   "acc2": false,
+   "cont_margin": 0.6250000596046448,
+   "top_token": "Gen",
+   "free1": "Italy",
+   "cands": [
+    "Spain",
+    "Italy",
+    "Greece",
+    "Portugal"
+   ],
+   "p1_scores": [
+    -1.3985417485237122,
+    -1.3985417485237122,
+    -1.4610417485237122,
+    -1.3985417485237122
+   ],
+   "p1": "Spain",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Messina",
+   "country": "Italy",
+   "continent": "Europe",
+   "split": "test",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.3615317344665527,
+    -1.8615317344665527,
+    -0.9865317940711975,
+    -3.2365317344665527,
+    -1.7365317344665527
+   ],
+   "cont_pred": "Africa",
+   "acc2": false,
+   "cont_margin": 0.3749999403953552,
+   "top_token": "The",
+   "free1": "Italy",
+   "cands": [
+    "Greece",
+    "Italy",
+    "Portugal",
+    "Spain"
+   ],
+   "p1_scores": [
+    -1.4253400564193726,
+    -1.4253400564193726,
+    -1.4253400564193726,
+    -1.4253400564193726
+   ],
+   "p1": "Greece",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Milan",
+   "country": "Italy",
+   "continent": "Europe",
+   "split": "test",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -0.1424398124217987,
+    -3.392439842224121,
+    -2.892439842224121,
+    -3.517439842224121,
+    -4.267439842224121
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 2.7500000298023224,
+   "top_token": "The",
+   "free1": "United Kingdom",
+   "cands": [
+    "United Kingdom",
+    "Greece",
+    "Spain",
+    "Italy"
+   ],
+   "p1_scores": [
+    -1.499384343624115,
+    -1.3118843585252762,
+    -1.499384343624115,
+    -1.436884343624115
+   ],
+   "p1": "Greece",
+   "p1_margin": 0.1249999850988388
+  },
+  {
+   "city": "Modena",
+   "country": "Italy",
+   "continent": "Europe",
+   "split": "test",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.581423282623291,
+    -2.081423282623291,
+    -1.956423282623291,
+    -1.331423282623291,
+    -1.331423282623291
+   ],
+   "cont_pred": "North America",
+   "acc2": false,
+   "cont_margin": 0.0,
+   "top_token": "The",
+   "free1": "Italy",
+   "cands": [
+    "Spain",
+    "Portugal",
+    "Italy",
+    "Greece"
+   ],
+   "p1_scores": [
+    -1.3986406326293945,
+    -1.3986406326293945,
+    -1.4611406326293945,
+    -1.4611406326293945
+   ],
+   "p1": "Spain",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Naples",
+   "country": "Italy",
+   "continent": "Europe",
+   "split": "train",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -3.3072423934936523,
+    -5.557242393493652,
+    -2.8072423934936523,
+    -0.6822422742843628,
+    -0.9322422742843628
+   ],
+   "cont_pred": "North America",
+   "acc2": false,
+   "cont_margin": 0.25,
+   "top_token": "The",
+   "free1": "United States",
+   "cands": [
+    "Portugal",
+    "Greece",
+    "Italy",
+    "Spain"
+   ],
+   "p1_scores": [
+    -1.424715295433998,
+    -1.487215280532837,
+    -1.362215280532837,
+    -1.424715280532837
+   ],
+   "p1": "Italy",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Padua",
+   "country": "Italy",
+   "continent": "Europe",
+   "split": "train",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.3083463907241821,
+    -1.5583463907241821,
+    -2.6833462715148926,
+    -1.9333463907241821,
+    -1.1833463907241821
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.125,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Italy",
+    "Portugal",
+    "Spain",
+    "Greece"
+   ],
+   "p1_scores": [
+    -1.4542842507362366,
+    -1.4542842507362366,
+    -1.3292842507362366,
+    -1.4542842507362366
+   ],
+   "p1": "Spain",
+   "p1_margin": 0.125
+  },
+  {
+   "city": "Palermo",
+   "country": "Italy",
+   "continent": "Europe",
+   "split": "pilot",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -0.9259214997291565,
+    -1.8009214401245117,
+    -2.4259214401245117,
+    -2.5509214401245117,
+    -1.3009214401245117
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 0.3749999403953552,
+   "top_token": "The",
+   "free1": "Italy",
+   "cands": [
+    "Portugal",
+    "Greece",
+    "Italy",
+    "Spain"
+   ],
+   "p1_scores": [
+    -1.413447618484497,
+    -1.413447618484497,
+    -1.413447618484497,
+    -1.413447618484497
+   ],
+   "p1": "Portugal",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Alicante",
+   "country": "Spain",
+   "continent": "Europe",
+   "split": "test",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.5666559934616089,
+    -1.9416559934616089,
+    -1.3166559934616089,
+    -2.1916561126708984,
+    -1.3166559934616089
+   ],
+   "cont_pred": "Africa",
+   "acc2": false,
+   "cont_margin": 0.0,
+   "top_token": "The",
+   "free1": "Spain",
+   "cands": [
+    "Italy",
+    "Portugal",
+    "Greece",
+    "Spain"
+   ],
+   "p1_scores": [
+    -1.4387401640415192,
+    -1.5012401640415192,
+    -1.3762401640415192,
+    -1.3762401640415192
+   ],
+   "p1": "Greece",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Almeria",
+   "country": "Spain",
+   "continent": "Europe",
+   "split": "test",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.460892677307129,
+    -2.710892677307129,
+    -1.835892677307129,
+    -1.835892677307129,
+    -0.9608926177024841
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.5000000596046448,
+   "top_token": "Al",
+   "free1": "Spain",
+   "cands": [
+    "Greece",
+    "Portugal",
+    "Italy",
+    "Spain"
+   ],
+   "p1_scores": [
+    -1.4094723165035248,
+    -1.4094723165035248,
+    -1.4094723165035248,
+    -1.4719723165035248
+   ],
+   "p1": "Greece",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Barcelona",
+   "country": "Spain",
+   "continent": "Europe",
+   "split": "test",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -0.3307178020477295,
+    -3.2057178020477295,
+    -3.4557178020477295,
+    -1.7057178020477295,
+    -3.5807178020477295
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 1.375,
+   "top_token": "The",
+   "free1": "Spain",
+   "cands": [
+    "Greece",
+    "Portugal",
+    "Italy",
+    "Spain"
+   ],
+   "p1_scores": [
+    -1.4619519114494324,
+    -1.3994519114494324,
+    -1.3994519114494324,
+    -1.3994519114494324
+   ],
+   "p1": "Portugal",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Bilbao",
+   "country": "Spain",
+   "continent": "Europe",
+   "split": "train",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -0.4110211730003357,
+    -1.9110212326049805,
+    -2.2860212326049805,
+    -3.4110212326049805,
+    -2.9110212326049805
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 1.5000000596046448,
+   "top_token": "The",
+   "free1": "Bulgaria",
+   "cands": [
+    "Bulgaria",
+    "Spain",
+    "Portugal",
+    "Greece"
+   ],
+   "p1_scores": [
+    -1.377450555562973,
+    -1.502450555562973,
+    -1.439950555562973,
+    -1.377450555562973
+   ],
+   "p1": "Bulgaria",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Burgos",
+   "country": "Spain",
+   "continent": "Europe",
+   "split": "test",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.44169282913208,
+    -3.44169282913208,
+    -3.81669282913208,
+    -0.6916927695274353,
+    -1.56669282913208
+   ],
+   "cont_pred": "North America",
+   "acc2": false,
+   "cont_margin": 0.7500000596046448,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Portugal",
+    "Greece",
+    "Spain",
+    "Italy"
+   ],
+   "p1_scores": [
+    -1.4689181745052338,
+    -1.4064181745052338,
+    -1.4064181745052338,
+    -1.4064181745052338
+   ],
+   "p1": "Greece",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Cadiz",
+   "country": "Spain",
+   "continent": "Europe",
+   "split": "pilot",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -2.0624327659606934,
+    -3.4374327659606934,
+    -1.9374327659606934,
+    -1.1874327659606934,
+    -0.9374327063560486
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.2500000596046448,
+   "top_token": "The",
+   "free1": "Spain",
+   "cands": [
+    "Greece",
+    "Portugal",
+    "Spain",
+    "Italy"
+   ],
+   "p1_scores": [
+    -1.3831470906734467,
+    -1.3831470906734467,
+    -1.4456470906734467,
+    -1.4456470906734467
+   ],
+   "p1": "Greece",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Gijon",
+   "country": "Spain",
+   "continent": "Europe",
+   "split": "pilot",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.4676886796951294,
+    -1.8426886796951294,
+    -1.4676886796951294,
+    -2.46768856048584,
+    -1.2176886796951294
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.25,
+   "top_token": "The",
+   "free1": "United Kingdom",
+   "cands": [
+    "United Kingdom",
+    "Italy",
+    "Greece",
+    "Spain"
+   ],
+   "p1_scores": [
+    -1.4630577266216278,
+    -1.3380577266216278,
+    -1.4005577266216278,
+    -1.4630577266216278
+   ],
+   "p1": "Italy",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Girona",
+   "country": "Spain",
+   "continent": "Europe",
+   "split": "train",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -0.9347169399261475,
+    -2.3097169399261475,
+    -1.5597169399261475,
+    -2.4347169399261475,
+    -1.5597169399261475
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 0.625,
+   "top_token": "The",
+   "free1": "Spain",
+   "cands": [
+    "Italy",
+    "Portugal",
+    "Spain",
+    "Greece"
+   ],
+   "p1_scores": [
+    -1.3570091724395752,
+    -1.4820091724395752,
+    -1.4195091724395752,
+    -1.4195091724395752
+   ],
+   "p1": "Italy",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Ibiza",
+   "country": "Spain",
+   "continent": "Europe",
+   "split": "train",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.674235224723816,
+    -2.2992351055145264,
+    -0.42423519492149353,
+    -3.6742351055145264,
+    -3.4242351055145264
+   ],
+   "cont_pred": "Africa",
+   "acc2": false,
+   "cont_margin": 1.2500000298023224,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Greece",
+    "Italy",
+    "Portugal",
+    "Spain"
+   ],
+   "p1_scores": [
+    -1.4481539726257324,
+    -1.4481539726257324,
+    -1.4481539726257324,
+    -1.4481539726257324
+   ],
+   "p1": "Greece",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Malaga",
+   "country": "Spain",
+   "continent": "Europe",
+   "split": "train",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.437443494796753,
+    -2.687443494796753,
+    -1.812443494796753,
+    -2.437443494796753,
+    -0.8124434947967529
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.625,
+   "top_token": "Mal",
+   "free1": "Spain",
+   "cands": [
+    "Italy",
+    "Spain",
+    "Greece",
+    "Portugal"
+   ],
+   "p1_scores": [
+    -1.4085621535778046,
+    -1.4710621535778046,
+    -1.4085621535778046,
+    -1.4085621535778046
+   ],
+   "p1": "Italy",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Marbella",
+   "country": "Spain",
+   "continent": "Europe",
+   "split": "test",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.978102207183838,
+    -1.853102207183838,
+    -1.853102207183838,
+    -2.103102207183838,
+    -0.8531022071838379
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 1.0,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Italy",
+    "Greece",
+    "Spain",
+    "Portugal"
+   ],
+   "p1_scores": [
+    -1.4270929396152496,
+    -1.4270929396152496,
+    -1.3645929396152496,
+    -1.4270929396152496
+   ],
+   "p1": "Spain",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Murcia",
+   "country": "Spain",
+   "continent": "Europe",
+   "split": "test",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.687545657157898,
+    -2.5625457763671875,
+    -2.4375457763671875,
+    -1.187545657157898,
+    -1.062545657157898
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.125,
+   "top_token": "Mur",
+   "free1": "Spain",
+   "cands": [
+    "Italy",
+    "Spain",
+    "Portugal",
+    "Greece"
+   ],
+   "p1_scores": [
+    -1.34544038772583,
+    -1.40794038772583,
+    -1.47044038772583,
+    -1.40794038772583
+   ],
+   "p1": "Italy",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Pamplona",
+   "country": "Spain",
+   "continent": "Europe",
+   "split": "train",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.0856306552886963,
+    -2.0856306552886963,
+    -2.3356306552886963,
+    -2.8356306552886963,
+    -0.9606305956840515
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.12500005960464478,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Portugal",
+    "Italy",
+    "Greece",
+    "Spain"
+   ],
+   "p1_scores": [
+    -1.4249175190925598,
+    -1.4249175190925598,
+    -1.4249175190925598,
+    -1.3624175190925598
+   ],
+   "p1": "Spain",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "San Sebastian",
+   "country": "Spain",
+   "continent": "Europe",
+   "split": "train",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.5066583156585693,
+    -2.3816583156585693,
+    -3.0066583156585693,
+    -3.3816583156585693,
+    -0.5066583156585693
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 1.0,
+   "top_token": "San",
+   "free1": null,
+   "cands": [
+    "Spain",
+    "Greece",
+    "Italy",
+    "Portugal"
+   ],
+   "p1_scores": [
+    -1.4396503269672394,
+    -1.4396503269672394,
+    -1.3771503269672394,
+    -1.4396503269672394
+   ],
+   "p1": "Italy",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Bialystok",
+   "country": "Poland",
+   "continent": "Europe",
+   "split": "test",
+   "n": 4,
+   "ok": true,
+   "cont_lp": [
+    -2.1846821308135986,
+    -1.6846821308135986,
+    -2.1846821308135986,
+    -1.9346821308135986,
+    -0.8096821308135986
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.875,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Austria",
+    "Poland",
+    "Hungary",
+    "Slovakia"
+   ],
+   "p1_scores": [
+    -1.3962039947509766,
+    -1.3962039947509766,
+    -1.4587039947509766,
+    -1.3962039947509766
+   ],
+   "p1": "Austria",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Bydgoszcz",
+   "country": "Poland",
+   "continent": "Europe",
+   "split": "train",
+   "n": 6,
+   "ok": false
+  },
+  {
+   "city": "Gdansk",
+   "country": "Poland",
+   "continent": "Europe",
+   "split": "test",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.028434157371521,
+    -2.1534342765808105,
+    -2.0284342765808105,
+    -1.903434157371521,
+    -1.403434157371521
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 0.375,
+   "top_token": "The",
+   "free1": "Poland",
+   "cands": [
+    "Poland",
+    "Hungary",
+    "Czech Republic",
+    "Austria"
+   ],
+   "p1_scores": [
+    -1.3135628402233124,
+    -1.5010628402233124,
+    -1.4385628402233124,
+    -1.3760628402233124
+   ],
+   "p1": "Poland",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Gdynia",
+   "country": "Poland",
+   "continent": "Europe",
+   "split": "test",
+   "n": 4,
+   "ok": true,
+   "cont_lp": [
+    -1.2918223142623901,
+    -1.9168223142623901,
+    -1.6668223142623901,
+    -2.1668224334716797,
+    -1.2918223142623901
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 0.0,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Slovakia",
+    "Poland",
+    "Austria",
+    "Czech Republic"
+   ],
+   "p1_scores": [
+    -1.40794038772583,
+    -1.28294038772583,
+    -1.53294038772583,
+    -1.40794038772583
+   ],
+   "p1": "Poland",
+   "p1_margin": 0.125
+  },
+  {
+   "city": "Katowice",
+   "country": "Poland",
+   "continent": "Europe",
+   "split": "train",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -2.9199717044830322,
+    -3.1699717044830322,
+    -2.2949717044830322,
+    -0.7949717044830322,
+    -1.0449717044830322
+   ],
+   "cont_pred": "North America",
+   "acc2": false,
+   "cont_margin": 0.25,
+   "top_token": "The",
+   "free1": "Poland",
+   "cands": [
+    "Slovakia",
+    "Hungary",
+    "Austria",
+    "Poland"
+   ],
+   "p1_scores": [
+    -1.4311807751655579,
+    -1.4311807751655579,
+    -1.3686807751655579,
+    -1.3686807751655579
+   ],
+   "p1": "Austria",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Krakow",
+   "country": "Poland",
+   "continent": "Europe",
+   "split": "pilot",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -2.080752372741699,
+    -3.080752372741699,
+    -1.8307523727416992,
+    -1.4557523727416992,
+    -0.830752432346344
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.6249999403953552,
+   "top_token": "The",
+   "free1": "Poland",
+   "cands": [
+    "Hungary",
+    "Poland",
+    "Austria",
+    "Czech Republic"
+   ],
+   "p1_scores": [
+    -1.421669602394104,
+    -1.421669602394104,
+    -1.421669602394104,
+    -1.359169602394104
+   ],
+   "p1": "Czech Republic",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Lodz",
+   "country": "Poland",
+   "continent": "Europe",
+   "split": "test",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.2696211338043213,
+    -3.3946211338043213,
+    -1.1446211338043213,
+    -1.1446211338043213,
+    -3.0196211338043213
+   ],
+   "cont_pred": "Africa",
+   "acc2": false,
+   "cont_margin": 0.0,
+   "top_token": "The",
+   "free1": "Poland",
+   "cands": [
+    "Poland",
+    "Austria",
+    "Slovakia",
+    "Czech Republic"
+   ],
+   "p1_scores": [
+    -1.4632647037506104,
+    -1.4007647037506104,
+    -1.4007647037506104,
+    -1.4007647037506104
+   ],
+   "p1": "Austria",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Lublin",
+   "country": "Poland",
+   "continent": "Europe",
+   "split": "train",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -2.138763904571533,
+    -3.013763904571533,
+    -1.3887640237808228,
+    -0.7637640237808228,
+    -2.138763904571533
+   ],
+   "cont_pred": "North America",
+   "acc2": false,
+   "cont_margin": 0.625,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Poland",
+    "Hungary",
+    "Slovakia",
+    "Austria"
+   ],
+   "p1_scores": [
+    -1.4085621535778046,
+    -1.4710621535778046,
+    -1.4085621535778046,
+    -1.4085621535778046
+   ],
+   "p1": "Poland",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Opole",
+   "country": "Poland",
+   "continent": "Europe",
+   "split": "train",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.229702115058899,
+    -2.3547019958496094,
+    -1.354702115058899,
+    -1.729702115058899,
+    -1.729702115058899
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 0.125,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Poland",
+    "Slovakia",
+    "Austria",
+    "Czech Republic"
+   ],
+   "p1_scores": [
+    -1.3898223638534546,
+    -1.3898223638534546,
+    -1.5148223638534546,
+    -1.3273223638534546
+   ],
+   "p1": "Czech Republic",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Poznan",
+   "country": "Poland",
+   "continent": "Europe",
+   "split": "pilot",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.0282528400421143,
+    -2.2782528400421143,
+    -1.6532528400421143,
+    -2.0282528400421143,
+    -1.5282528400421143
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 0.5,
+   "top_token": "The",
+   "free1": "Poland",
+   "cands": [
+    "Czech Republic",
+    "Hungary",
+    "Poland",
+    "Slovakia"
+   ],
+   "p1_scores": [
+    -1.352691650390625,
+    -1.477691650390625,
+    -1.352691650390625,
+    -1.477691650390625
+   ],
+   "p1": "Czech Republic",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Rzeszow",
+   "country": "Poland",
+   "continent": "Europe",
+   "split": "pilot",
+   "n": 4,
+   "ok": true,
+   "cont_lp": [
+    -1.3684585094451904,
+    -2.8684585094451904,
+    -1.6184585094451904,
+    -2.1184585094451904,
+    -0.9934585094451904
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.375,
+   "top_token": "The",
+   "free1": "Poland",
+   "cands": [
+    "Czech Republic",
+    "Poland",
+    "Slovakia",
+    "Hungary"
+   ],
+   "p1_scores": [
+    -1.3831492066383362,
+    -1.4456492066383362,
+    -1.3831492066383362,
+    -1.4456492066383362
+   ],
+   "p1": "Czech Republic",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Szczecin",
+   "country": "Poland",
+   "continent": "Europe",
+   "split": "train",
+   "n": 4,
+   "ok": true,
+   "cont_lp": [
+    -0.7236958146095276,
+    -2.973695755004883,
+    -2.348695755004883,
+    -3.348695755004883,
+    -1.0986957550048828
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 0.3749999403953552,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Poland",
+    "Slovakia",
+    "Czech Republic",
+    "Austria"
+   ],
+   "p1_scores": [
+    -1.381813257932663,
+    -1.381813257932663,
+    -1.444313257932663,
+    -1.444313257932663
+   ],
+   "p1": "Poland",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Torun",
+   "country": "Poland",
+   "continent": "Europe",
+   "split": "test",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.936523199081421,
+    -2.686523199081421,
+    -3.436523199081421,
+    -0.5615231990814209,
+    -1.686523199081421
+   ],
+   "cont_pred": "North America",
+   "acc2": false,
+   "cont_margin": 1.125,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Austria",
+    "Poland",
+    "Hungary",
+    "Czech Republic"
+   ],
+   "p1_scores": [
+    -1.3789905309677124,
+    -1.3164905309677124,
+    -1.5039905309677124,
+    -1.4414905309677124
+   ],
+   "p1": "Poland",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Wroclaw",
+   "country": "Poland",
+   "continent": "Europe",
+   "split": "train",
+   "n": 4,
+   "ok": true,
+   "cont_lp": [
+    -1.0774489641189575,
+    -2.202448844909668,
+    -1.9524489641189575,
+    -1.9524489641189575,
+    -1.3274489641189575
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 0.25,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Czech Republic",
+    "Poland",
+    "Austria",
+    "Slovakia"
+   ],
+   "p1_scores": [
+    -1.4119452238082886,
+    -1.3494452238082886,
+    -1.4744452238082886,
+    -1.4119452238082886
+   ],
+   "p1": "Poland",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Almere",
+   "country": "Netherlands",
+   "continent": "Europe",
+   "split": "test",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.5005531311035156,
+    -2.5005531311035156,
+    -1.6255531311035156,
+    -1.7505531311035156,
+    -1.1255531311035156
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.375,
+   "top_token": "Al",
+   "free1": null,
+   "cands": [
+    "Switzerland",
+    "Netherlands",
+    "Belgium",
+    "France"
+   ],
+   "p1_scores": [
+    -1.3811551630496979,
+    -1.4436551630496979,
+    -1.4436551630496979,
+    -1.4436551630496979
+   ],
+   "p1": "Switzerland",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Arnhem",
+   "country": "Netherlands",
+   "continent": "Europe",
+   "split": "train",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.594802975654602,
+    -1.594802975654602,
+    -2.3448028564453125,
+    -1.594802975654602,
+    -1.219802975654602
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.375,
+   "top_token": "The",
+   "free1": "Netherlands",
+   "cands": [
+    "Netherlands",
+    "Switzerland",
+    "Germany",
+    "France"
+   ],
+   "p1_scores": [
+    -1.3544835150241852,
+    -1.4794835150241852,
+    -1.4169835150241852,
+    -1.4169835150241852
+   ],
+   "p1": "Netherlands",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Breda",
+   "country": "Netherlands",
+   "continent": "Europe",
+   "split": "train",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -2.145289659500122,
+    -2.395289659500122,
+    -1.895289659500122,
+    -2.145289659500122,
+    -0.6452895998954773
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 1.2500000596046448,
+   "top_token": "The",
+   "free1": "Netherlands",
+   "cands": [
+    "Netherlands",
+    "Belgium",
+    "Germany",
+    "France"
+   ],
+   "p1_scores": [
+    -1.359008014202118,
+    -1.421508014202118,
+    -1.484008014202118,
+    -1.421508014202118
+   ],
+   "p1": "Netherlands",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Delft",
+   "country": "Netherlands",
+   "continent": "Europe",
+   "split": "test",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -2.2986690998077393,
+    -2.4236690998077393,
+    -2.5486690998077393,
+    -2.5486690998077393,
+    -0.4236691892147064
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 1.8749999105930328,
+   "top_token": "The",
+   "free1": "Netherlands",
+   "cands": [
+    "Belgium",
+    "Switzerland",
+    "Netherlands",
+    "Germany"
+   ],
+   "p1_scores": [
+    -1.4630818665027618,
+    -1.4005818516016006,
+    -1.4630818665027618,
+    -1.4630818217992783
+   ],
+   "p1": "Switzerland",
+   "p1_margin": 0.06249997019767761
+  },
+  {
+   "city": "Eindhoven",
+   "country": "Netherlands",
+   "continent": "Europe",
+   "split": "pilot",
+   "n": 4,
+   "ok": true,
+   "cont_lp": [
+    -1.4471617937088013,
+    -2.1971616744995117,
+    -1.8221617937088013,
+    -2.9471616744995117,
+    -0.8221617937088013
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.625,
+   "top_token": "The",
+   "free1": "Netherlands",
+   "cands": [
+    "Belgium",
+    "Netherlands",
+    "Switzerland",
+    "France"
+   ],
+   "p1_scores": [
+    -1.4197161495685577,
+    -1.4822161495685577,
+    -1.3572161495685577,
+    -1.4197161495685577
+   ],
+   "p1": "Switzerland",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Groningen",
+   "country": "Netherlands",
+   "continent": "Europe",
+   "split": "train",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.9586262702941895,
+    -2.2086262702941895,
+    -1.8336262702941895,
+    -2.3336262702941895,
+    -0.7086262702941895
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 1.125,
+   "top_token": "The",
+   "free1": "Netherlands",
+   "cands": [
+    "Switzerland",
+    "Netherlands",
+    "Belgium",
+    "Germany"
+   ],
+   "p1_scores": [
+    -1.3298375606536865,
+    -1.4548375606536865,
+    -1.4548375606536865,
+    -1.5173375606536865
+   ],
+   "p1": "Switzerland",
+   "p1_margin": 0.125
+  },
+  {
+   "city": "Haarlem",
+   "country": "Netherlands",
+   "continent": "Europe",
+   "split": "test",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.4207772016525269,
+    -1.2957772016525269,
+    -1.0457772016525269,
+    -3.4207773208618164,
+    -2.2957773208618164
+   ],
+   "cont_pred": "Africa",
+   "acc2": false,
+   "cont_margin": 0.25,
+   "top_token": "The",
+   "free1": "Netherlands",
+   "cands": [
+    "Belgium",
+    "Netherlands",
+    "Germany",
+    "Switzerland"
+   ],
+   "p1_scores": [
+    -1.4140858352184296,
+    -1.4140858352184296,
+    -1.4140858352184296,
+    -1.4140858352184296
+   ],
+   "p1": "Belgium",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Leiden",
+   "country": "Netherlands",
+   "continent": "Europe",
+   "split": "test",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -1.6557791233062744,
+    -4.4057793617248535,
+    -4.0307793617248535,
+    -1.6557791233062744,
+    -0.5307791829109192
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 1.1249999403953552,
+   "top_token": "The",
+   "free1": "Netherlands",
+   "cands": [
+    "Belgium",
+    "Netherlands",
+    "France",
+    "Germany"
+   ],
+   "p1_scores": [
+    -1.4579401016235352,
+    -1.4579401016235352,
+    -1.4579401016235352,
+    -1.4579401016235352
+   ],
+   "p1": "Belgium",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Maastricht",
+   "country": "Netherlands",
+   "continent": "Europe",
+   "split": "train",
+   "n": 4,
+   "ok": true,
+   "cont_lp": [
+    -1.097674012184143,
+    -1.972674012184143,
+    -1.597674012184143,
+    -2.3476738929748535,
+    -1.472674012184143
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 0.375,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Netherlands",
+    "Belgium",
+    "Switzerland",
+    "France"
+   ],
+   "p1_scores": [
+    -1.3386135399341583,
+    -1.4011135399341583,
+    -1.4011135399341583,
+    -1.5261135399341583
+   ],
+   "p1": "Netherlands",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Nijmegen",
+   "country": "Netherlands",
+   "continent": "Europe",
+   "split": "pilot",
+   "n": 4,
+   "ok": true,
+   "cont_lp": [
+    -1.724180817604065,
+    -2.2241806983947754,
+    -1.599180817604065,
+    -1.724180817604065,
+    -1.099180817604065
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.5,
+   "top_token": "The",
+   "free1": "Netherlands",
+   "cands": [
+    "Netherlands",
+    "Belgium",
+    "France",
+    "Germany"
+   ],
+   "p1_scores": [
+    -1.4341430962085724,
+    -1.4341430962085724,
+    -1.4341430962085724,
+    -1.3716430962085724
+   ],
+   "p1": "Germany",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Rotterdam",
+   "country": "Netherlands",
+   "continent": "Europe",
+   "split": "test",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -2.56986141204834,
+    -2.19486141204834,
+    -3.56986141204834,
+    -1.9448614120483398,
+    -0.44486144185066223
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 1.4999999701976776,
+   "top_token": "The",
+   "free1": "Netherlands",
+   "cands": [
+    "Switzerland",
+    "Germany",
+    "Netherlands",
+    "Belgium"
+   ],
+   "p1_scores": [
+    -1.3829696476459503,
+    -1.4454696476459503,
+    -1.4454696476459503,
+    -1.4454696476459503
+   ],
+   "p1": "Switzerland",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "The Hague",
+   "country": "Netherlands",
+   "continent": "Europe",
+   "split": "test",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.8068705797195435,
+    -1.1818705797195435,
+    -1.9318705797195435,
+    -2.556870460510254,
+    -1.1818705797195435
+   ],
+   "cont_pred": "Asia",
+   "acc2": false,
+   "cont_margin": 0.0,
+   "top_token": "The",
+   "free1": "Netherlands",
+   "cands": [
+    "Netherlands",
+    "Switzerland",
+    "France",
+    "Germany"
+   ],
+   "p1_scores": [
+    -1.415260374546051,
+    -1.477760374546051,
+    -1.477760374546051,
+    -1.352760374546051
+   ],
+   "p1": "Germany",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Tilburg",
+   "country": "Netherlands",
+   "continent": "Europe",
+   "split": "train",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.9094793796539307,
+    -2.1594793796539307,
+    -2.4094793796539307,
+    -1.6594793796539307,
+    -0.7844793796539307
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.875,
+   "top_token": "The",
+   "free1": "Netherlands",
+   "cands": [
+    "France",
+    "Germany",
+    "Belgium",
+    "Netherlands"
+   ],
+   "p1_scores": [
+    -1.438641518354416,
+    -1.438641518354416,
+    -1.438641518354416,
+    -1.438641518354416
+   ],
+   "p1": "France",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Utrecht",
+   "country": "Netherlands",
+   "continent": "Europe",
+   "split": "train",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -2.315338373184204,
+    -2.315338373184204,
+    -0.9403383731842041,
+    -1.940338373184204,
+    -1.315338373184204
+   ],
+   "cont_pred": "Africa",
+   "acc2": false,
+   "cont_margin": 0.375,
+   "top_token": "The",
+   "free1": "Netherlands",
+   "cands": [
+    "Netherlands",
+    "Germany",
+    "Belgium",
+    "France"
+   ],
+   "p1_scores": [
+    -1.3360680639743805,
+    -1.4610680639743805,
+    -1.4610680639743805,
+    -1.4610680639743805
+   ],
+   "p1": "Netherlands",
+   "p1_margin": 0.125
+  },
+  {
+   "city": "Aberdeen",
+   "country": "United Kingdom",
+   "continent": "Europe",
+   "split": "test",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -3.211050510406494,
+    -3.961050510406494,
+    -2.461050510406494,
+    -0.3360506296157837,
+    -1.9610506296157837
+   ],
+   "cont_pred": "North America",
+   "acc2": false,
+   "cont_margin": 1.625,
+   "top_token": "The",
+   "free1": "United Kingdom",
+   "cands": [
+    "Czech Republic",
+    "United Kingdom",
+    "Poland",
+    "Ireland"
+   ],
+   "p1_scores": [
+    -1.465275228023529,
+    -1.402775228023529,
+    -1.277775228023529,
+    -1.527775228023529
+   ],
+   "p1": "Poland",
+   "p1_margin": 0.125
+  },
+  {
+   "city": "Belfast",
+   "country": "United Kingdom",
+   "continent": "Europe",
+   "split": "test",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -2.859360933303833,
+    -4.734361171722412,
+    -4.109361171722412,
+    -0.1093609482049942,
+    -3.859360933303833
+   ],
+   "cont_pred": "North America",
+   "acc2": false,
+   "cont_margin": 2.749999985098839,
+   "top_token": "The",
+   "free1": "United Kingdom",
+   "cands": [
+    "United Kingdom",
+    "Iceland",
+    "Ireland",
+    "Italy"
+   ],
+   "p1_scores": [
+    -1.5143887102603912,
+    -1.3268887102603912,
+    -1.3893887102603912,
+    -1.5143887102603912
+   ],
+   "p1": "Iceland",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Birmingham",
+   "country": "United Kingdom",
+   "continent": "Europe",
+   "split": "train",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -1.4241060018539429,
+    -3.5491061210632324,
+    -2.7991061210632324,
+    -1.2991060018539429,
+    -0.9241060018539429
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.375,
+   "top_token": "The",
+   "free1": "United Kingdom",
+   "cands": [
+    "Greece",
+    "United Kingdom",
+    "Ireland",
+    "Sweden"
+   ],
+   "p1_scores": [
+    -1.489605188369751,
+    -1.427105188369751,
+    -1.3021052032709122,
+    -1.552105188369751
+   ],
+   "p1": "Ireland",
+   "p1_margin": 0.1249999850988388
+  },
+  {
+   "city": "Brighton",
+   "country": "United Kingdom",
+   "continent": "Europe",
+   "split": "pilot",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -2.1526150703430176,
+    -2.7776150703430176,
+    -1.4026150703430176,
+    -0.7776151299476624,
+    -2.1526150703430176
+   ],
+   "cont_pred": "North America",
+   "acc2": false,
+   "cont_margin": 0.6249999403953552,
+   "top_token": "The",
+   "free1": "United Kingdom",
+   "cands": [
+    "Ireland",
+    "North Macedonia",
+    "United Kingdom",
+    "Estonia"
+   ],
+   "p1_scores": [
+    -1.4280815422534943,
+    -1.4280815422534943,
+    -1.4280815422534943,
+    -1.3655815422534943
+   ],
+   "p1": "Estonia",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Bristol",
+   "country": "United Kingdom",
+   "continent": "Europe",
+   "split": "pilot",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -1.630570888519287,
+    -3.255570888519287,
+    -3.130570888519287,
+    -2.130570888519287,
+    -0.5055709481239319
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 1.1249999403953552,
+   "top_token": "The",
+   "free1": "United Kingdom",
+   "cands": [
+    "United Kingdom",
+    "Ukraine",
+    "Ireland",
+    "Norway"
+   ],
+   "p1_scores": [
+    -1.4565122723579407,
+    -1.3315122574567795,
+    -1.5190122723579407,
+    -1.4565122723579407
+   ],
+   "p1": "Ukraine",
+   "p1_margin": 0.1250000149011612
+  },
+  {
+   "city": "Cardiff",
+   "country": "United Kingdom",
+   "continent": "Europe",
+   "split": "train",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -1.3773932456970215,
+    -3.1273932456970215,
+    -3.6273932456970215,
+    -2.6273932456970215,
+    -0.5023931860923767
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.8750000596046448,
+   "top_token": "The",
+   "free1": "United Kingdom",
+   "cands": [
+    "Moldova",
+    "Finland",
+    "Ireland",
+    "United Kingdom"
+   ],
+   "p1_scores": [
+    -1.2567680776119232,
+    -1.5067680776119232,
+    -1.4442680776119232,
+    -1.5067680776119232
+   ],
+   "p1": "Moldova",
+   "p1_margin": 0.1875
+  },
+  {
+   "city": "Coventry",
+   "country": "United Kingdom",
+   "continent": "Europe",
+   "split": "train",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.4242053031921387,
+    -3.2992053031921387,
+    -3.6742053031921387,
+    -1.6742053031921387,
+    -0.6742053031921387
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.75,
+   "top_token": "The",
+   "free1": "United Kingdom",
+   "cands": [
+    "Ireland",
+    "United Kingdom",
+    "Albania",
+    "Austria"
+   ],
+   "p1_scores": [
+    -1.389229267835617,
+    -1.451729267835617,
+    -1.3892292827367783,
+    -1.451729267835617
+   ],
+   "p1": "Ireland",
+   "p1_margin": 1.4901161193847656e-08
+  },
+  {
+   "city": "Dundee",
+   "country": "United Kingdom",
+   "continent": "Europe",
+   "split": "test",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.960806131362915,
+    -4.210806369781494,
+    -2.085806131362915,
+    -0.9608061909675598,
+    -1.085806131362915
+   ],
+   "cont_pred": "North America",
+   "acc2": false,
+   "cont_margin": 0.12499994039535522,
+   "top_token": "The",
+   "free1": "United Kingdom",
+   "cands": [
+    "Ireland",
+    "Belgium",
+    "Austria",
+    "United Kingdom"
+   ],
+   "p1_scores": [
+    -1.3341900408267975,
+    -1.5216900408267975,
+    -1.5216900408267975,
+    -1.3341900408267975
+   ],
+   "p1": "Ireland",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Edinburgh",
+   "country": "United Kingdom",
+   "continent": "Europe",
+   "split": "test",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -0.31628915667533875,
+    -5.441288948059082,
+    -4.066288948059082,
+    -1.8162891864776611,
+    -2.441289186477661
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 1.5000000298023224,
+   "top_token": "The",
+   "free1": "United Kingdom",
+   "cands": [
+    "Ireland",
+    "Montenegro",
+    "Latvia",
+    "United Kingdom"
+   ],
+   "p1_scores": [
+    -1.3486555069684982,
+    -1.4736555218696594,
+    -1.4736555218696594,
+    -1.4111555218696594
+   ],
+   "p1": "Ireland",
+   "p1_margin": 0.0625000149011612
+  },
+  {
+   "city": "Exeter",
+   "country": "United Kingdom",
+   "continent": "Europe",
+   "split": "pilot",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -0.9847443699836731,
+    -6.484744548797607,
+    -6.359744548797607,
+    -0.8597443699836731,
+    -1.6097443103790283
+   ],
+   "cont_pred": "North America",
+   "acc2": false,
+   "cont_margin": 0.125,
+   "top_token": "The",
+   "free1": "United Kingdom",
+   "cands": [
+    "Portugal",
+    "Ireland",
+    "Switzerland",
+    "United Kingdom"
+   ],
+   "p1_scores": [
+    -1.349809005856514,
+    -1.4123090207576752,
+    -1.4748090207576752,
+    -1.4748090207576752
+   ],
+   "p1": "Portugal",
+   "p1_margin": 0.0625000149011612
+  },
+  {
+   "city": "Glasgow",
+   "country": "United Kingdom",
+   "continent": "Europe",
+   "split": "train",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -1.3272228240966797,
+    -3.0772228240966797,
+    -1.8272228240966797,
+    -1.9522228240966797,
+    -0.9522228837013245
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.3749999403953552,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Slovakia",
+    "Denmark",
+    "Ireland",
+    "United Kingdom"
+   ],
+   "p1_scores": [
+    -1.2824876308441162,
+    -1.4699876308441162,
+    -1.4699876308441162,
+    -1.4699876308441162
+   ],
+   "p1": "Slovakia",
+   "p1_margin": 0.1875
+  },
+  {
+   "city": "Inverness",
+   "country": "United Kingdom",
+   "continent": "Europe",
+   "split": "test",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -2.439006805419922,
+    -3.064006805419922,
+    -2.814006805419922,
+    -1.4390068054199219,
+    -0.5640068054199219
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.875,
+   "top_token": "In",
+   "free1": "United Kingdom",
+   "cands": [
+    "Serbia",
+    "Ireland",
+    "United Kingdom",
+    "Slovakia"
+   ],
+   "p1_scores": [
+    -1.4648047387599945,
+    -1.4023047387599945,
+    -1.5273047387599945,
+    -1.3398047387599945
+   ],
+   "p1": "Slovakia",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Leeds",
+   "country": "United Kingdom",
+   "continent": "Europe",
+   "split": "test",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -0.5737410187721252,
+    -4.0737409591674805,
+    -6.3237409591674805,
+    -1.6987409591674805,
+    -1.4487409591674805
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 0.8749999403953552,
+   "top_token": "The",
+   "free1": "United Kingdom",
+   "cands": [
+    "United Kingdom",
+    "Ireland",
+    "Sweden",
+    "Spain"
+   ],
+   "p1_scores": [
+    -1.4271171987056732,
+    -1.3646172136068344,
+    -1.552117183804512,
+    -1.5521172285079956
+   ],
+   "p1": "Ireland",
+   "p1_margin": 0.062499985098838806
+  },
+  {
+   "city": "Leicester",
+   "country": "United Kingdom",
+   "continent": "Europe",
+   "split": "test",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -0.6014389395713806,
+    -5.226438999176025,
+    -4.101438999176025,
+    -1.6014389991760254,
+    -1.4764389991760254
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 0.8750000596046448,
+   "top_token": "The",
+   "free1": "United Kingdom",
+   "cands": [
+    "Spain",
+    "Ireland",
+    "Switzerland",
+    "United Kingdom"
+   ],
+   "p1_scores": [
+    -1.313377469778061,
+    -1.438377469778061,
+    -1.625877469778061,
+    -1.375877469778061
+   ],
+   "p1": "Spain",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Gothenburg",
+   "country": "Sweden",
+   "continent": "Europe",
+   "split": "test",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.8984482288360596,
+    -2.6484482288360596,
+    -2.8984482288360596,
+    -0.8984482288360596,
+    -1.1484482288360596
+   ],
+   "cont_pred": "North America",
+   "acc2": false,
+   "cont_margin": 0.25,
+   "top_token": "The",
+   "free1": "Sweden",
+   "cands": [
+    "Norway",
+    "Denmark",
+    "Finland",
+    "Sweden"
+   ],
+   "p1_scores": [
+    -1.4996246695518494,
+    -1.3746246695518494,
+    -1.3746246695518494,
+    -1.4371246695518494
+   ],
+   "p1": "Denmark",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Helsingborg",
+   "country": "Sweden",
+   "continent": "Europe",
+   "split": "pilot",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -0.278093159198761,
+    -2.153093099594116,
+    -5.528093338012695,
+    -5.028093338012695,
+    -2.153093099594116
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 1.8749999403953552,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Iceland",
+    "Sweden",
+    "Denmark",
+    "Norway"
+   ],
+   "p1_scores": [
+    -1.3955604135990143,
+    -1.5205604135990143,
+    -1.4580604135990143,
+    -1.3955604135990143
+   ],
+   "p1": "Iceland",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Jonkoping",
+   "country": "Sweden",
+   "continent": "Europe",
+   "split": "test",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.3097418546676636,
+    -3.184741973876953,
+    -1.9347418546676636,
+    -0.8097418546676636,
+    -2.309741973876953
+   ],
+   "cont_pred": "North America",
+   "acc2": false,
+   "cont_margin": 0.5,
+   "top_token": "Jon",
+   "free1": "Sweden",
+   "cands": [
+    "Finland",
+    "Sweden",
+    "Denmark",
+    "Iceland"
+   ],
+   "p1_scores": [
+    -1.516314297914505,
+    -1.453814297914505,
+    -1.328814297914505,
+    -1.453814297914505
+   ],
+   "p1": "Denmark",
+   "p1_margin": 0.125
+  },
+  {
+   "city": "Kiruna",
+   "country": "Sweden",
+   "continent": "Europe",
+   "split": "train",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -2.1084237098693848,
+    -2.1084237098693848,
+    -1.6084235906600952,
+    -1.4834235906600952,
+    -1.1084235906600952
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.375,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Denmark",
+    "Sweden",
+    "Iceland",
+    "Finland"
+   ],
+   "p1_scores": [
+    -1.5436046719551086,
+    -1.4186046719551086,
+    -1.4811046570539474,
+    -1.4186046719551086
+   ],
+   "p1": "Sweden",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Linkoping",
+   "country": "Sweden",
+   "continent": "Europe",
+   "split": "test",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -0.2999962568283081,
+    -2.0499963760375977,
+    -3.9249963760375977,
+    -3.1749963760375977,
+    -2.6749963760375977
+   ],
+   "cont_pred": "Europe",
+   "acc2": true,
+   "cont_margin": 1.7500001192092896,
+   "top_token": "The",
+   "free1": "Sweden",
+   "cands": [
+    "Sweden",
+    "Iceland",
+    "Norway",
+    "Denmark"
+   ],
+   "p1_scores": [
+    -1.4323370158672333,
+    -1.3698370158672333,
+    -1.4948370158672333,
+    -1.4323370158672333
+   ],
+   "p1": "Iceland",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Lund",
+   "country": "Sweden",
+   "continent": "Europe",
+   "split": "test",
+   "n": 1,
+   "ok": true,
+   "cont_lp": [
+    -1.1934814453125,
+    -5.5684814453125,
+    -2.6934814453125,
+    -1.4434814453125,
+    -0.9434813857078552
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.2500000596046448,
+   "top_token": "The",
+   "free1": "Sweden",
+   "cands": [
+    "Sweden",
+    "Norway",
+    "Denmark",
+    "Finland"
+   ],
+   "p1_scores": [
+    -1.5112922489643097,
+    -1.4487922489643097,
+    -1.3862922489643097,
+    -1.4487922489643097
+   ],
+   "p1": "Denmark",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Malmo",
+   "country": "Sweden",
+   "continent": "Europe",
+   "split": "test",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.978240728378296,
+    -2.603240728378296,
+    -2.478240728378296,
+    -2.478240728378296,
+    -0.4782406687736511
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 1.5000000596046448,
+   "top_token": "Mal",
+   "free1": "Sweden",
+   "cands": [
+    "Sweden",
+    "Norway",
+    "Denmark",
+    "Finland"
+   ],
+   "p1_scores": [
+    -1.4996219873428345,
+    -1.3746219873428345,
+    -1.4371219873428345,
+    -1.4371219873428345
+   ],
+   "p1": "Norway",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Norrkoping",
+   "country": "Sweden",
+   "continent": "Europe",
+   "split": "train",
+   "n": 4,
+   "ok": true,
+   "cont_lp": [
+    -3.7724316120147705,
+    -4.522431373596191,
+    -4.272431373596191,
+    -0.3974316120147705,
+    -1.2724316120147705
+   ],
+   "cont_pred": "North America",
+   "acc2": false,
+   "cont_margin": 0.875,
+   "top_token": "Nor",
+   "free1": "Sweden",
+   "cands": [
+    "Iceland",
+    "Norway",
+    "Finland",
+    "Sweden"
+   ],
+   "p1_scores": [
+    -1.415260374546051,
+    -1.477760374546051,
+    -1.415260374546051,
+    -1.415260374546051
+   ],
+   "p1": "Iceland",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Orebro",
+   "country": "Sweden",
+   "continent": "Europe",
+   "split": "train",
+   "n": 2,
+   "ok": true,
+   "cont_lp": [
+    -1.0055960416793823,
+    -2.380596160888672,
+    -2.755596160888672,
+    -0.8805960416793823,
+    -2.755596160888672
+   ],
+   "cont_pred": "North America",
+   "acc2": false,
+   "cont_margin": 0.125,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Iceland",
+    "Denmark",
+    "Finland",
+    "Sweden"
+   ],
+   "p1_scores": [
+    -1.3587546944618225,
+    -1.4837546944618225,
+    -1.3587546944618225,
+    -1.4837546944618225
+   ],
+   "p1": "Iceland",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Umea",
+   "country": "Sweden",
+   "continent": "Europe",
+   "split": "pilot",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.5729587078094482,
+    -1.5729587078094482,
+    -2.9479587078094482,
+    -1.3229587078094482,
+    -1.3229587078094482
+   ],
+   "cont_pred": "North America",
+   "acc2": false,
+   "cont_margin": 0.0,
+   "top_token": "The",
+   "free1": "United States",
+   "cands": [
+    "Denmark",
+    "Sweden",
+    "Finland",
+    "Norway"
+   ],
+   "p1_scores": [
+    -1.3988452851772308,
+    -1.3988452851772308,
+    -1.4613452851772308,
+    -1.4613452851772308
+   ],
+   "p1": "Denmark",
+   "p1_margin": 0.0
+  },
+  {
+   "city": "Uppsala",
+   "country": "Sweden",
+   "continent": "Europe",
+   "split": "train",
+   "n": 4,
+   "ok": true,
+   "cont_lp": [
+    -1.5318377017974854,
+    -2.1568377017974854,
+    -2.5318377017974854,
+    -2.0318377017974854,
+    -0.7818377017974854
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 0.75,
+   "top_token": "The",
+   "free1": "United States",
+   "cands": [
+    "Denmark",
+    "Sweden",
+    "Finland",
+    "Iceland"
+   ],
+   "p1_scores": [
+    -1.4381479322910309,
+    -1.3756479322910309,
+    -1.4381479322910309,
+    -1.4381479322910309
+   ],
+   "p1": "Sweden",
+   "p1_margin": 0.0625
+  },
+  {
+   "city": "Vasteras",
+   "country": "Sweden",
+   "continent": "Europe",
+   "split": "train",
+   "n": 3,
+   "ok": true,
+   "cont_lp": [
+    -1.875178575515747,
+    -2.125178575515747,
+    -1.875178575515747,
+    -3.250178575515747,
+    -0.6251785159111023
+   ],
+   "cont_pred": "South America",
+   "acc2": false,
+   "cont_margin": 1.2500000596046448,
+   "top_token": "The",
+   "free1": null,
+   "cands": [
+    "Iceland",
+    "Denmark",
+    "Sweden",
+    "Finland"
+   ],
+   "p1_scores": [
+    -1.434343010187149,
+    -1.496843010187149,
+    -1.371843010187149,
+    -1.434343010187149
+   ],
+   "p1": "Sweden",
+   "p1_margin": 0.0625
+  }
+ ],
+ "minutes": 1.0382428725560506
+}

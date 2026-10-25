@@ -1,0 +1,12 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/311 [00:00<00:07, 41.65it/s]Loading weights:  11%|█▏        | 35/311 [00:00<00:01, 177.93it/s]Loading weights:  17%|█▋        | 54/311 [00:00<00:02, 122.44it/s]Loading weights:  22%|██▏       | 69/311 [00:00<00:02, 111.70it/s]Loading weights:  26%|██▋       | 82/311 [00:00<00:02, 98.23it/s] Loading weights:  31%|███       | 96/311 [00:00<00:02, 95.42it/s]Loading weights:  34%|███▍      | 107/311 [00:01<00:02, 98.24it/s]Loading weights:  38%|███▊      | 118/311 [00:01<00:02, 86.96it/s]Loading weights:  43%|████▎     | 133/311 [00:01<00:02, 87.22it/s]Loading weights:  46%|████▌     | 143/311 [00:01<00:01, 85.90it/s]Loading weights:  49%|████▉     | 152/311 [00:01<00:02, 55.04it/s]Loading weights:  51%|█████     | 159/311 [00:02<00:03, 47.59it/s]Loading weights:  55%|█████▍    | 170/311 [00:02<00:02, 52.00it/s]Loading weights:  60%|██████    | 187/311 [00:02<00:01, 71.80it/s]Loading weights: 100%|██████████| 311/311 [00:02<00:00, 132.91it/s]
+== D1: letter mass and top tokens
+fresh 1-hop: ([('B', 1.0), ('b', 0.0), ('C', 0.0), ('A', 0.0), ('D', 0.0)], 1.0)
+report city ([('B', 1.0), ('b', 0.0), ('D', 0.0), (' B', 0.0), ('A', 0.0)], 1.0)
+report R ([('B', 1.0), ('C', 0.0), ('D', 0.0), ('A', 0.0), ('b', 0.0)], 1.0)
+readout-q city ([('B', 1.0), ('b', 0.0), ('D', 0.0), (' B', 0.0), ('A', 0.0)], 1.0)
+readout-q R ([('B', 1.0), ('D', 0.0), ('C', 0.0), ('A', 0.0), ('b', 0.0)], 1.0)
+== D2: calibration on 12 known pilot cities
+city    letters 12/12   names 11/12
+prior   letters 3/12   names 4/12
+R       letters 3/12   names 4/12
+R+city  letters 12/12   names 11/12

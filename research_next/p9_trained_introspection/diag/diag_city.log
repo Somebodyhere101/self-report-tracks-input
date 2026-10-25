@@ -1,0 +1,14 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   3%|▎         | 9/311 [00:00<00:04, 72.92it/s]Loading weights:   8%|▊         | 24/311 [00:00<00:02, 101.76it/s]Loading weights:  14%|█▎        | 42/311 [00:00<00:02, 113.73it/s]Loading weights:  17%|█▋        | 54/311 [00:00<00:02, 87.34it/s] Loading weights:  21%|██        | 64/311 [00:00<00:03, 75.38it/s]Loading weights:  23%|██▎       | 72/311 [00:00<00:03, 68.45it/s]Loading weights:  26%|██▌       | 80/311 [00:01<00:03, 70.46it/s]Loading weights:  30%|██▉       | 93/311 [00:01<00:03, 69.91it/s]Loading weights:  32%|███▏      | 101/311 [00:01<00:02, 71.38it/s]Loading weights:  35%|███▌      | 109/311 [00:01<00:02, 67.56it/s]Loading weights:  37%|███▋      | 116/311 [00:01<00:03, 54.88it/s]Loading weights:  39%|███▉      | 122/311 [00:01<00:03, 52.70it/s]Loading weights:  41%|████      | 128/311 [00:01<00:03, 53.74it/s]Loading weights:  43%|████▎     | 134/311 [00:02<00:03, 45.24it/s]Loading weights:  47%|████▋     | 146/311 [00:02<00:02, 57.92it/s]Loading weights:  49%|████▉     | 153/311 [00:02<00:02, 60.45it/s]Loading weights:  55%|█████▍    | 171/311 [00:02<00:01, 85.87it/s]Loading weights: 100%|██████████| 311/311 [00:02<00:00, 124.99it/s]
+== A: readout calibration, copy city+R at layers >= l (12 known pilot cities)
+l= 0 readout = gazetteer 12/12
+l= 4 readout = gazetteer 12/12
+l= 8 readout = gazetteer 12/12
+l=12 readout = gazetteer 4/12
+l=16 readout = gazetteer 3/12
+l=20 readout = gazetteer 3/12
+== B/C: city+R swaps from a different-country donor (same token count and continent)
+l= 4 untrained report: recipient 0/12 donor 12/12; readout of swapped row = donor 12/12
+l= 8 untrained report: recipient 0/12 donor 11/12; readout of swapped row = donor 11/12
+l=12 untrained report: recipient 12/12 donor 0/12; readout of swapped row = donor 4/12
+l=16 untrained report: recipient 12/12 donor 0/12; readout of swapped row = donor 3/12
+l=20 untrained report: recipient 12/12 donor 0/12; readout of swapped row = donor 2/12

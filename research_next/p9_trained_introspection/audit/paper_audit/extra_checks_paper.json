@@ -1,0 +1,47 @@
+{
+ "kappa": {
+  "observed": 0.9645,
+  "pe_role_mean": 0.8629900000000001,
+  "kappa_role": 0.7408948251952411,
+  "pe_option_mean": 0.254115,
+  "kappa_option": 0.9524055316838387,
+  "same_cands_report_readout": true
+ },
+ "tokens": {
+  "imm_len": 27,
+  "del_len": 45,
+  "im_end_nl_len": 2,
+  "imm_tokens": [
+   "\n\n",
+   "How",
+   " sure",
+   " am",
+   " I",
+   " of",
+   " the",
+   " second",
+   " digit",
+   " of",
+   " this",
+   " answer",
+   "?\n",
+   "A",
+   ")",
+   " Very",
+   " sure",
+   "\n",
+   "B",
+   ")",
+   " Less",
+   " sure",
+   "\n",
+   "The",
+   " answer",
+   " is",
+   " ("
+  ],
+  "tailpos_tokens_match": true
+ },
+ "stage0a_tail_is_v4_two_option": true,
+ "stage0a_swap_is_v3_unit_swap": true
+}

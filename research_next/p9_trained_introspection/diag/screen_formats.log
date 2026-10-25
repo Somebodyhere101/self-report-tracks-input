@@ -1,0 +1,9 @@
+# RERUN 2026-10-22 11:53:39 of screen_formats.py (CPU, 4 threads); the original run printed to the console only
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   2%|▏         | 7/311 [00:00<00:04, 68.73it/s]Loading weights:   5%|▍         | 14/311 [00:00<00:08, 33.22it/s]Loading weights:   6%|▋         | 20/311 [00:00<00:07, 40.61it/s]Loading weights:   8%|▊         | 26/311 [00:00<00:06, 45.33it/s]Loading weights:  12%|█▏        | 36/311 [00:00<00:04, 57.84it/s]Loading weights:  14%|█▍        | 43/311 [00:00<00:04, 57.17it/s]Loading weights:  16%|█▌        | 50/311 [00:00<00:04, 56.53it/s]Loading weights:  18%|█▊        | 56/311 [00:01<00:04, 56.51it/s]Loading weights:  20%|█▉        | 62/311 [00:01<00:05, 44.52it/s]Loading weights:  22%|██▏       | 67/311 [00:01<00:07, 32.48it/s]Loading weights:  23%|██▎       | 71/311 [00:01<00:07, 31.57it/s]Loading weights:  24%|██▍       | 75/311 [00:01<00:07, 30.64it/s]Loading weights:  26%|██▋       | 82/311 [00:01<00:06, 37.58it/s]Loading weights:  28%|██▊       | 87/311 [00:02<00:06, 34.87it/s]Loading weights:  32%|███▏      | 98/311 [00:02<00:04, 50.56it/s]Loading weights:  34%|███▍      | 105/311 [00:02<00:04, 49.93it/s]Loading weights: 100%|██████████| 311/311 [00:02<00:00, 127.13it/s]
+F0_sum           0/24   e.g. (49, 26) -> '49 + 26 ='
+F3_first_digit   0/24   e.g. (49, 26) -> "Let's compute the sum:\n\n$$"
+F4_last_digit    0/24   e.g. (49, 26) -> 'We are given the problem:\n\n$$'
+F5_above50       3/24   e.g. (49, 26) -> '55\n\nThe result of 4'
+F7_round10       0/21   e.g. (49, 26) -> "First, let's compute the sum:"
+F8_tens          0/24   e.g. (49, 26) -> "Let's compute:\n\n**49 +"
+# exit 0 at 2026-10-22 11:54:40

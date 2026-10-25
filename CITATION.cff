@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "Self-Report Positions in Qwen3-1.7B Track the Input, Not the Swapped-In Computation: code, preregistrations and results"
+authors:
+  - family-names: Ramdan
+    given-names: Sam
+    orcid: "https://orcid.org/0009-0004-7723-4240"
+license: MIT
+repository-code: "https://github.com/Somebodyhere101/self-report-tracks-input"
+version: "v1"
+date-released: "2026-10-25"
+# After the Zenodo record is published, add its DOI here, for example:
+# doi: "10.5281/zenodo.NNNNNNNN"
+# identifiers:
+#   - type: doi
+#     value: "10.5281/zenodo.NNNNNNNN"
+#     description: "This version (v1) on Zenodo: the paper, its source, and the code and data"
+preferred-citation:
+  type: article
+  title: "Self-Report Positions in Qwen3-1.7B Track the Input, Not the Swapped-In Computation: Answer-Fixed Swaps, Probes and Null Training Results"
+  authors:
+    - family-names: Ramdan
+      given-names: Sam
+      orcid: "https://orcid.org/0009-0004-7723-4240"
+  year: 2026
+  month: 10
+  publisher:
+    name: Zenodo
+references:
+  - type: article
+    title: "Where a Logit-Lens Settling Profile Is Carried, and Whether Qwen3-1.7B Reports It: Answer-Fixed Interchange in Two Small Language Models"
+    authors:
+      - family-names: Ramdan
+        given-names: Sam
+    year: 2026
+    doi: 10.5281/zenodo.23532061

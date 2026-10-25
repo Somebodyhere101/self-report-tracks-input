@@ -1,0 +1,34 @@
+{
+ "checks": {
+  "PG1_task": {
+   "acc2_all": 0.2962962962962963,
+   "n_test_usable": 14,
+   "pass": false
+  },
+  "PG2_readout": {
+   "calibration_known": 0.5,
+   "reliability": 0.5263157894736842,
+   "pass": false
+  },
+  "PG3_manipulation": {
+   "l1": 0,
+   "transfer": 0.0,
+   "pass": false
+  },
+  "PG5_selftest": {
+   "pass": true
+  },
+  "PG4_training_info": {
+   "n_train": 16,
+   "n_test": 8,
+   "0.0001": {
+    "acc_diff": 0.0,
+    "acc_same": NaN,
+    "acc_natural_cb": 0.5,
+    "loss_first": 1.4413102865219116,
+    "loss_last": 1.6386573314666748
+   }
+  }
+ },
+ "all_pass": false
+}

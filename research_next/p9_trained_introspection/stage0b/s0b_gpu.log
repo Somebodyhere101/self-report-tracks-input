@@ -1,0 +1,116 @@
+12:54:57 pilot items 590 pairs 474 2-bin-different 256
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   3%|▎         | 10/311 [00:00<00:03, 94.15it/s]Loading weights:   6%|▋         | 20/311 [00:00<00:04, 66.70it/s]Loading weights:  10%|▉         | 31/311 [00:00<00:03, 72.79it/s]Loading weights:  14%|█▍        | 45/311 [00:00<00:02, 91.86it/s]Loading weights:  18%|█▊        | 55/311 [00:00<00:03, 77.68it/s]Loading weights:  21%|██        | 64/311 [00:01<00:05, 47.66it/s]Loading weights:  23%|██▎       | 71/311 [00:01<00:04, 49.47it/s]Loading weights:  25%|██▌       | 78/311 [00:01<00:04, 52.40it/s]Loading weights:  27%|██▋       | 85/311 [00:01<00:04, 48.35it/s]Loading weights:  29%|██▉       | 91/311 [00:01<00:05, 40.94it/s]Loading weights:  33%|███▎      | 102/311 [00:01<00:03, 54.42it/s]Loading weights:  36%|███▌      | 111/311 [00:01<00:03, 60.00it/s]Loading weights:  38%|███▊      | 118/311 [00:02<00:03, 52.58it/s]Loading weights:  43%|████▎     | 133/311 [00:02<00:02, 73.39it/s]Loading weights:  77%|███████▋  | 239/311 [00:02<00:00, 305.82it/s]Loading weights: 100%|██████████| 311/311 [00:02<00:00, 135.67it/s]
+12:55:29 done 1064 rows in 0.5 min
+END s0b_extract.py rc 0
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   3%|▎         | 10/311 [00:00<00:03, 92.40it/s]Loading weights:   6%|▋         | 20/311 [00:00<00:03, 88.22it/s]Loading weights:  14%|█▎        | 42/311 [00:00<00:02, 125.43it/s]Loading weights:  18%|█▊        | 55/311 [00:00<00:02, 86.17it/s] Loading weights:  23%|██▎       | 70/311 [00:00<00:02, 99.82it/s]Loading weights:  26%|██▋       | 82/311 [00:00<00:02, 99.81it/s]Loading weights:  31%|███       | 95/311 [00:00<00:02, 102.29it/s]Loading weights:  34%|███▍      | 106/311 [00:01<00:03, 59.12it/s]Loading weights:  37%|███▋      | 115/311 [00:01<00:03, 57.59it/s]Loading weights:  40%|███▉      | 123/311 [00:01<00:03, 51.38it/s]Loading weights:  42%|████▏     | 130/311 [00:01<00:04, 42.14it/s]Loading weights:  44%|████▎     | 136/311 [00:02<00:03, 44.03it/s]Loading weights:  62%|██████▏   | 194/311 [00:02<00:00, 143.55it/s]Loading weights: 100%|██████████| 311/311 [00:02<00:00, 141.00it/s]
+12:55:54 setup {'n_A1': 190, 'n_A2': 124, 'swap_carries_donor_bin_diff': 1.0, 'digits_kept': 1.0, 'Pstar_A2_acc': {'para': 0.8709677419354839, 'recal_para': 0.8951612903225806, 'majority': 0.5725806451612904, 'learned': 0.8951612903225806}} N {'imm': {'acc_diff': 0.625, 'acc_same': 0.3870967741935484, 'acc_swap_balanced': 0.5060483870967742, 'diff_names_recipient_bin': 0.375, 'acc_nat': 0.3467741935483871, 'frac_pick0_nat': 0.532258064516129, 'frac_pick0_swap': 0.6395348837209303, 'n_diff': 24, 'n_same': 62, 'n_nat': 124}, 'del': {'acc_diff': 0.6666666666666666, 'acc_same': 0.3064516129032258, 'acc_swap_balanced': 0.48655913978494625, 'diff_names_recipient_bin': 0.3333333333333333, 'acc_nat': 0.41935483870967744, 'frac_pick0_nat': 0.9596774193548387, 'frac_pick0_swap': 0.9651162790697675, 'n_diff': 24, 'n_same': 62, 'n_nat': 124}}
+12:55:56 I seed 0 r8 lr 0.001 step 0 loss 0.8137 (0.0 min)
+12:56:14 I seed 0 r8 lr 0.001 step 50 loss 1.1179 (0.3 min)
+12:56:32 I seed 0 r8 lr 0.001 step 100 loss 0.8412 (0.6 min)
+12:56:50 I seed 0 r8 lr 0.001 step 149 loss 0.6647 (0.9 min)
+12:56:54 imm_I_r8_1e-3 150 {'acc_diff': 0.375, 'acc_same': 0.645, 'acc_swap_balanced': 0.51, 'diff_names_recipient_bin': 0.625, 'acc_nat': 0.556, 'frac_pick0_nat': 0.032, 'frac_pick0_swap': 0.035, 'n_diff': 24, 'n_same': 62, 'n_nat': 124, 'minutes': 0.994} last loss 0.6646823883056641
+12:56:54 I seed 0: resumed at step 150 from C:\Users\<user>\AppData\Local\Temp\p9\s0b_ckpt\imm_I_r8_1e-3.pt
+12:56:55 I seed 0 r8 lr 0.001 step 150 loss 0.6182 (0.0 min)
+12:57:14 I seed 0 r8 lr 0.001 step 200 loss 0.7201 (0.3 min)
+12:57:32 I seed 0 r8 lr 0.001 step 250 loss 0.7335 (0.6 min)
+12:57:51 I seed 0 r8 lr 0.001 step 299 loss 0.7075 (0.9 min)
+12:57:54 imm_I_r8_1e-3 300 {'acc_diff': 0.583, 'acc_same': 0.419, 'acc_swap_balanced': 0.501, 'diff_names_recipient_bin': 0.417, 'acc_nat': 0.452, 'frac_pick0_nat': 0.927, 'frac_pick0_swap': 0.93, 'n_diff': 24, 'n_same': 62, 'n_nat': 124, 'minutes': 1.003} last loss 0.7074897885322571
+12:57:55 I seed 0 r8 lr 0.0001 step 0 loss 0.8137 (0.0 min)
+12:58:13 I seed 0 r8 lr 0.0001 step 50 loss 0.8827 (0.3 min)
+12:58:32 I seed 0 r8 lr 0.0001 step 100 loss 0.7468 (0.6 min)
+12:58:50 I seed 0 r8 lr 0.0001 step 149 loss 0.6228 (0.9 min)
+12:58:54 imm_I_r8_1e-4 150 {'acc_diff': 0.375, 'acc_same': 0.661, 'acc_swap_balanced': 0.518, 'diff_names_recipient_bin': 0.625, 'acc_nat': 0.573, 'frac_pick0_nat': 0.0, 'frac_pick0_swap': 0.0, 'n_diff': 24, 'n_same': 62, 'n_nat': 124, 'minutes': 0.991} last loss 0.6228473782539368
+12:58:54 I seed 0: resumed at step 150 from C:\Users\<user>\AppData\Local\Temp\p9\s0b_ckpt\imm_I_r8_1e-4.pt
+12:58:55 I seed 0 r8 lr 0.0001 step 150 loss 0.5626 (0.0 min)
+12:59:14 I seed 0 r8 lr 0.0001 step 200 loss 0.6991 (0.3 min)
+12:59:33 I seed 0 r8 lr 0.0001 step 250 loss 0.6976 (0.6 min)
+12:59:51 I seed 0 r8 lr 0.0001 step 299 loss 0.6989 (0.9 min)
+12:59:54 imm_I_r8_1e-4 300 {'acc_diff': 0.625, 'acc_same': 0.323, 'acc_swap_balanced': 0.474, 'diff_names_recipient_bin': 0.375, 'acc_nat': 0.427, 'frac_pick0_nat': 0.968, 'frac_pick0_swap': 0.988, 'n_diff': 24, 'n_same': 62, 'n_nat': 124, 'minutes': 1.008} last loss 0.6989264488220215
+12:59:55 I seed 0 r8 lr 0.001 step 0 loss 4.3563 (0.0 min)
+13:00:14 I seed 0 r8 lr 0.001 step 50 loss 0.9449 (0.3 min)
+13:00:33 I seed 0 r8 lr 0.001 step 100 loss 0.8930 (0.6 min)
+13:00:51 I seed 0 r8 lr 0.001 step 149 loss 0.6832 (0.9 min)
+13:00:55 del_I_r8_1e-3 150 {'acc_diff': 0.458, 'acc_same': 0.468, 'acc_swap_balanced': 0.463, 'diff_names_recipient_bin': 0.542, 'acc_nat': 0.532, 'frac_pick0_nat': 0.427, 'frac_pick0_swap': 0.465, 'n_diff': 24, 'n_same': 62, 'n_nat': 124, 'minutes': 1.018} last loss 0.6832355260848999
+13:00:56 I seed 0: resumed at step 150 from C:\Users\<user>\AppData\Local\Temp\p9\s0b_ckpt\del_I_r8_1e-3.pt
+13:00:56 I seed 0 r8 lr 0.001 step 150 loss 0.6155 (0.0 min)
+13:01:15 I seed 0 r8 lr 0.001 step 200 loss 0.6742 (0.3 min)
+13:01:33 I seed 0 r8 lr 0.001 step 250 loss 0.7004 (0.6 min)
+13:01:50 I seed 0 r8 lr 0.001 step 299 loss 0.7808 (0.9 min)
+13:01:55 del_I_r8_1e-3 300 {'acc_diff': 0.625, 'acc_same': 0.371, 'acc_swap_balanced': 0.498, 'diff_names_recipient_bin': 0.375, 'acc_nat': 0.435, 'frac_pick0_nat': 0.879, 'frac_pick0_swap': 0.814, 'n_diff': 24, 'n_same': 62, 'n_nat': 124, 'minutes': 0.989} last loss 0.7807735204696655
+13:01:55 I seed 0 r8 lr 0.0001 step 0 loss 4.3563 (0.0 min)
+13:02:14 I seed 0 r8 lr 0.0001 step 50 loss 0.8265 (0.3 min)
+13:02:32 I seed 0 r8 lr 0.0001 step 100 loss 0.7513 (0.6 min)
+13:02:50 I seed 0 r8 lr 0.0001 step 149 loss 0.6488 (0.9 min)
+13:02:55 del_I_r8_1e-4 150 {'acc_diff': 0.375, 'acc_same': 0.661, 'acc_swap_balanced': 0.518, 'diff_names_recipient_bin': 0.625, 'acc_nat': 0.573, 'frac_pick0_nat': 0.0, 'frac_pick0_swap': 0.0, 'n_diff': 24, 'n_same': 62, 'n_nat': 124, 'minutes': 1.0} last loss 0.6488445997238159
+13:02:55 I seed 0: resumed at step 150 from C:\Users\<user>\AppData\Local\Temp\p9\s0b_ckpt\del_I_r8_1e-4.pt
+13:02:56 I seed 0 r8 lr 0.0001 step 150 loss 0.5943 (0.0 min)
+13:03:14 I seed 0 r8 lr 0.0001 step 200 loss 0.6915 (0.3 min)
+13:03:32 I seed 0 r8 lr 0.0001 step 250 loss 0.7072 (0.6 min)
+13:03:50 I seed 0 r8 lr 0.0001 step 299 loss 0.6967 (0.9 min)
+13:03:54 del_I_r8_1e-4 300 {'acc_diff': 0.625, 'acc_same': 0.339, 'acc_swap_balanced': 0.482, 'diff_names_recipient_bin': 0.375, 'acc_nat': 0.427, 'frac_pick0_nat': 1.0, 'frac_pick0_swap': 1.0, 'n_diff': 24, 'n_same': 62, 'n_nat': 124, 'minutes': 0.99} last loss 0.6967307329177856
+13:03:55 O seed 0 r8 lr 0.001 step 0 loss 0.9224 (0.0 min)
+13:04:12 O seed 0 r8 lr 0.001 step 50 loss 0.6763 (0.3 min)
+13:04:30 O seed 0 r8 lr 0.001 step 100 loss 0.7088 (0.6 min)
+13:04:47 O seed 0 r8 lr 0.001 step 149 loss 0.5797 (0.9 min)
+13:04:51 imm_O_r8_1e-3 150 {'acc_diff': 0.375, 'acc_same': 0.548, 'acc_swap_balanced': 0.462, 'diff_names_recipient_bin': 0.625, 'acc_nat': 0.516, 'frac_pick0_nat': 0.315, 'frac_pick0_swap': 0.267, 'n_diff': 24, 'n_same': 62, 'n_nat': 124, 'minutes': 0.937} last loss 0.579696774482727
+13:04:51 O seed 0: resumed at step 150 from C:\Users\<user>\AppData\Local\Temp\p9\s0b_ckpt\imm_O_r8_1e-3.pt
+13:04:51 O seed 0 r8 lr 0.001 step 150 loss 0.8635 (0.0 min)
+13:05:09 O seed 0 r8 lr 0.001 step 200 loss 0.7211 (0.3 min)
+13:05:26 O seed 0 r8 lr 0.001 step 250 loss 0.7634 (0.6 min)
+13:05:43 O seed 0 r8 lr 0.001 step 299 loss 0.7346 (0.9 min)
+13:05:47 imm_O_r8_1e-3 300 {'acc_diff': 0.375, 'acc_same': 0.661, 'acc_swap_balanced': 0.518, 'diff_names_recipient_bin': 0.625, 'acc_nat': 0.573, 'frac_pick0_nat': 0.0, 'frac_pick0_swap': 0.0, 'n_diff': 24, 'n_same': 62, 'n_nat': 124, 'minutes': 0.93} last loss 0.7345900535583496
+13:05:47 I seed 0 r32 lr 0.0003 step 0 loss 0.8137 (0.0 min)
+13:06:05 I seed 0 r32 lr 0.0003 step 50 loss 0.8119 (0.3 min)
+13:06:23 I seed 0 r32 lr 0.0003 step 100 loss 0.7330 (0.6 min)
+13:06:41 I seed 0 r32 lr 0.0003 step 150 loss 0.6004 (0.9 min)
+13:07:00 I seed 0 r32 lr 0.0003 step 200 loss 0.6581 (1.2 min)
+13:07:19 I seed 0 r32 lr 0.0003 step 250 loss 0.6973 (1.5 min)
+13:07:35 I seed 0 r32 lr 0.0003 step 299 loss 0.7636 (1.8 min)
+13:07:39 imm_I_r32_3e-4 300 {'acc_diff': 0.583, 'acc_same': 0.419, 'acc_swap_balanced': 0.501, 'diff_names_recipient_bin': 0.417, 'acc_nat': 0.46, 'frac_pick0_nat': 0.903, 'frac_pick0_swap': 0.93, 'n_diff': 24, 'n_same': 62, 'n_nat': 124, 'minutes': 1.877} last loss 0.7636278867721558
+13:07:40 I seed 0: resumed at step 300 from C:\Users\<user>\AppData\Local\Temp\p9\s0b_ckpt\imm_I_r32_3e-4.pt
+13:07:40 I seed 0 r32 lr 0.0003 step 300 loss 0.6701 (0.0 min)
+13:07:57 I seed 0 r32 lr 0.0003 step 350 loss 0.6744 (0.3 min)
+13:08:15 I seed 0 r32 lr 0.0003 step 400 loss 0.8572 (0.6 min)
+13:08:32 I seed 0 r32 lr 0.0003 step 450 loss 0.6968 (0.9 min)
+13:08:49 I seed 0 r32 lr 0.0003 step 500 loss 0.7264 (1.2 min)
+13:09:07 I seed 0 r32 lr 0.0003 step 550 loss 0.6870 (1.4 min)
+13:09:24 I seed 0 r32 lr 0.0003 step 599 loss 0.7231 (1.7 min)
+13:09:27 imm_I_r32_3e-4 600 {'acc_diff': 0.542, 'acc_same': 0.435, 'acc_swap_balanced': 0.489, 'diff_names_recipient_bin': 0.458, 'acc_nat': 0.452, 'frac_pick0_nat': 0.669, 'frac_pick0_swap': 0.674, 'n_diff': 24, 'n_same': 62, 'n_nat': 124, 'minutes': 1.8} last loss 0.7230557203292847
+13:09:28 I seed 0: resumed at step 600 from C:\Users\<user>\AppData\Local\Temp\p9\s0b_ckpt\imm_I_r32_3e-4.pt
+13:09:28 I seed 0 r32 lr 0.0003 step 600 loss 0.6936 (0.0 min)
+13:09:47 I seed 0 r32 lr 0.0003 step 650 loss 0.6192 (0.3 min)
+13:10:05 I seed 0 r32 lr 0.0003 step 700 loss 0.5649 (0.6 min)
+13:10:23 I seed 0 r32 lr 0.0003 step 750 loss 0.8208 (0.9 min)
+13:10:42 I seed 0 r32 lr 0.0003 step 800 loss 0.6966 (1.2 min)
+13:11:00 I seed 0 r32 lr 0.0003 step 850 loss 0.6798 (1.5 min)
+13:11:17 I seed 0 r32 lr 0.0003 step 899 loss 0.6695 (1.8 min)
+13:11:20 imm_I_r32_3e-4 900 {'acc_diff': 0.583, 'acc_same': 0.355, 'acc_swap_balanced': 0.469, 'diff_names_recipient_bin': 0.417, 'acc_nat': 0.419, 'frac_pick0_nat': 0.992, 'frac_pick0_swap': 0.953, 'n_diff': 24, 'n_same': 62, 'n_nat': 124, 'minutes': 1.881} last loss 0.669469952583313
+13:11:21 O seed 0 r32 lr 0.0003 step 0 loss 0.9224 (0.0 min)
+13:11:38 O seed 0 r32 lr 0.0003 step 50 loss 0.6886 (0.3 min)
+13:11:56 O seed 0 r32 lr 0.0003 step 100 loss 0.6758 (0.6 min)
+13:12:14 O seed 0 r32 lr 0.0003 step 150 loss 0.7018 (0.9 min)
+13:12:31 O seed 0 r32 lr 0.0003 step 200 loss 0.7106 (1.2 min)
+13:12:49 O seed 0 r32 lr 0.0003 step 250 loss 0.6876 (1.5 min)
+13:13:06 O seed 0 r32 lr 0.0003 step 299 loss 0.7397 (1.8 min)
+13:13:10 imm_O_r32_3e-4 300 {'acc_diff': 0.375, 'acc_same': 0.661, 'acc_swap_balanced': 0.518, 'diff_names_recipient_bin': 0.625, 'acc_nat': 0.573, 'frac_pick0_nat': 0.0, 'frac_pick0_swap': 0.0, 'n_diff': 24, 'n_same': 62, 'n_nat': 124, 'minutes': 1.826} last loss 0.7396866679191589
+13:13:11 O seed 0: resumed at step 300 from C:\Users\<user>\AppData\Local\Temp\p9\s0b_ckpt\imm_O_r32_3e-4.pt
+13:13:11 O seed 0 r32 lr 0.0003 step 300 loss 0.7304 (0.0 min)
+13:13:28 O seed 0 r32 lr 0.0003 step 350 loss 0.8164 (0.3 min)
+13:13:44 O seed 0 r32 lr 0.0003 step 400 loss 0.6531 (0.6 min)
+13:14:00 O seed 0 r32 lr 0.0003 step 450 loss 0.6636 (0.8 min)
+13:14:16 O seed 0 r32 lr 0.0003 step 500 loss 0.7251 (1.1 min)
+13:14:33 O seed 0 r32 lr 0.0003 step 550 loss 0.7522 (1.4 min)
+13:14:49 O seed 0 r32 lr 0.0003 step 599 loss 0.6935 (1.6 min)
+13:14:53 imm_O_r32_3e-4 600 {'acc_diff': 0.375, 'acc_same': 0.661, 'acc_swap_balanced': 0.518, 'diff_names_recipient_bin': 0.625, 'acc_nat': 0.573, 'frac_pick0_nat': 0.0, 'frac_pick0_swap': 0.0, 'n_diff': 24, 'n_same': 62, 'n_nat': 124, 'minutes': 1.706} last loss 0.6935464143753052
+13:14:53 O seed 0: resumed at step 600 from C:\Users\<user>\AppData\Local\Temp\p9\s0b_ckpt\imm_O_r32_3e-4.pt
+13:14:53 O seed 0 r32 lr 0.0003 step 600 loss 0.6574 (0.0 min)
+13:15:10 O seed 0 r32 lr 0.0003 step 650 loss 0.6667 (0.3 min)
+13:15:26 O seed 0 r32 lr 0.0003 step 700 loss 0.7937 (0.5 min)
+13:15:42 O seed 0 r32 lr 0.0003 step 750 loss 0.7489 (0.8 min)
+13:15:59 O seed 0 r32 lr 0.0003 step 800 loss 0.6037 (1.1 min)
+13:16:15 O seed 0 r32 lr 0.0003 step 850 loss 0.8004 (1.4 min)
+13:16:31 O seed 0 r32 lr 0.0003 step 899 loss 0.6995 (1.6 min)
+13:16:34 imm_O_r32_3e-4 900 {'acc_diff': 0.5, 'acc_same': 0.452, 'acc_swap_balanced': 0.476, 'diff_names_recipient_bin': 0.5, 'acc_nat': 0.5, 'frac_pick0_nat': 0.573, 'frac_pick0_swap': 0.535, 'n_diff': 24, 'n_same': 62, 'n_nat': 124, 'minutes': 1.695} last loss 0.6995041370391846
+13:16:34 Stage 0b-train done
+END s0b_train.py rc 0
+lock exit 0

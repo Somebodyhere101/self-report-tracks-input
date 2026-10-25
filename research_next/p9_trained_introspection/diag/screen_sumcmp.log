@@ -1,0 +1,9 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   8%|▊         | 25/311 [00:00<00:01, 182.31it/s]Loading weights:  14%|█▍        | 44/311 [00:00<00:01, 137.89it/s]Loading weights:  19%|█▉        | 59/311 [00:00<00:02, 108.20it/s]Loading weights:  23%|██▎       | 71/311 [00:00<00:03, 76.31it/s] Loading weights:  26%|██▋       | 82/311 [00:00<00:02, 77.99it/s]Loading weights:  29%|██▉       | 91/311 [00:01<00:03, 60.23it/s]Loading weights:  32%|███▏      | 101/311 [00:01<00:03, 62.87it/s]Loading weights:  35%|███▌      | 110/311 [00:01<00:03, 66.65it/s]Loading weights:  38%|███▊      | 118/311 [00:01<00:03, 62.52it/s]Loading weights:  41%|████      | 126/311 [00:01<00:02, 63.80it/s]Loading weights:  43%|████▎     | 133/311 [00:01<00:02, 62.06it/s]Loading weights:  47%|████▋     | 145/311 [00:01<00:02, 71.48it/s]Loading weights:  49%|████▉     | 153/311 [00:02<00:02, 72.09it/s]Loading weights: 100%|██████████| 311/311 [00:02<00:00, 152.09it/s]
+0 38+45=83 vs 97: Yes; donor 17+35=52; report under swap -> 83
+1 39+38=77 vs 83: Yes; donor 15+40=55; report under swap -> 83
+2 47+22=69 vs 59: Yes; donor 27+48=75; report under swap -> 62
+3 42+40=82 vs 92: Yes; donor 29+19=48; report under swap -> 82
+4 49+21=70 vs 58: Yes; donor 22+46=68; report under swap -> 84
+5 38+29=67 vs 56: Yes; donor 29+40=69; report under swap -> 58
+6 15+44=59 vs 74: Yes; donor 35+13=48; report under swap -> 59
+7 12+48=60 vs 57: Yes; donor 48+30=78; report under swap -> 60

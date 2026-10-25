@@ -1,0 +1,325 @@
+{
+ "seeds": [
+  0
+ ],
+ "gates": {
+  "G1": true,
+  "G2": true,
+  "G3": false,
+  "G4": false,
+  "G5": false
+ },
+ "gate_values": {
+  "G1": {
+   "acc2_test": 0.9463414634146341,
+   "n_test_usable": 40
+  },
+  "G2": {
+   "answer_kept_T1": 1.0
+  },
+  "G3": {
+   "reliability_natural": 0.3,
+   "calibration_known": 0.11428571428571428,
+   "n_known_like": 35
+  },
+  "G4": {
+   "T1_diff_cb_equals_donor": 0.0,
+   "n": 1,
+   "T1_same_cb_equals_donor": null
+  },
+  "G5": {
+   "best_baseline": "gaz",
+   "n_T3": 12,
+   "n_divergent": 7,
+   "div_rate": 0.5833333333333334,
+   "power_strong_reader": 0.7885,
+   "n_div_vs_1hop": 7
+  }
+ },
+ "T3_baselines": {
+  "gaz": 0.4166666666666667,
+  "1hop": 0.4166666666666667,
+  "learned": 0.4166666666666667,
+  "external_X": 0.4166666666666667
+ },
+ "T3_learned_weights": {
+  "w": [
+   0.41416046353287667,
+   0.47588009441653173,
+   -0.07404657453697504,
+   -0.06386149000602935
+  ],
+  "max_abs_grad": 4.1662617935775935e-08,
+  "n_train_items": 23
+ },
+ "T3": {
+  "N": {
+   "acc_per_seed": [
+    0.4166666666666667
+   ],
+   "delta_vs_best_baseline": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "divergent_names_cb": 0.0,
+   "divergent_names_baseline": 1.0
+  },
+  "O": {
+   "acc_per_seed": [
+    0.4166666666666667
+   ],
+   "delta_vs_best_baseline": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "divergent_names_cb": 0.0,
+   "divergent_names_baseline": 0.8571428571428571
+  },
+  "I": {
+   "acc_per_seed": [
+    0.4166666666666667
+   ],
+   "delta_vs_best_baseline": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "divergent_names_cb": 0.0,
+   "divergent_names_baseline": 0.8571428571428571
+  },
+  "J": {
+   "acc_per_seed": [
+    0.4166666666666667
+   ],
+   "delta_vs_best_baseline": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "divergent_names_cb": 0.0,
+   "divergent_names_baseline": 0.8571428571428571
+  },
+  "X": {
+   "acc": 0.4166666666666667
+  }
+ },
+ "T1": {
+  "N": {
+   "acc_diff": 0.0,
+   "acc_same": null,
+   "names_input_country_diff": 0.75,
+   "ci_diff": [
+    0.0,
+    0.0
+   ]
+  },
+  "O": {
+   "acc_diff": 0.0,
+   "acc_same": null,
+   "names_input_country_diff": 0.625,
+   "ci_diff": [
+    0.0,
+    0.0
+   ]
+  },
+  "I": {
+   "acc_diff": 0.0,
+   "acc_same": null,
+   "names_input_country_diff": 0.625,
+   "ci_diff": [
+    0.0,
+    0.0
+   ]
+  },
+  "J": {
+   "acc_diff": 0.0,
+   "acc_same": null,
+   "names_input_country_diff": 0.75,
+   "ci_diff": [
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "T2": {
+  "N": {
+   "n_changed": {
+    "T2a": 0,
+    "T2c": 8
+   },
+   "acc": {
+    "T2a": null,
+    "T2c": 0.0
+   },
+   "pooled_acc": 0.0,
+   "pooled_ci": [
+    0.0,
+    0.0
+   ],
+   "evaluable_families": []
+  },
+  "O": {
+   "n_changed": {
+    "T2a": 0,
+    "T2c": 8
+   },
+   "acc": {
+    "T2a": null,
+    "T2c": 0.0
+   },
+   "pooled_acc": 0.0,
+   "pooled_ci": [
+    0.0,
+    0.0
+   ],
+   "evaluable_families": []
+  },
+  "I": {
+   "n_changed": {
+    "T2a": 0,
+    "T2c": 8
+   },
+   "acc": {
+    "T2a": null,
+    "T2c": 0.0
+   },
+   "pooled_acc": 0.0,
+   "pooled_ci": [
+    0.0,
+    0.0
+   ],
+   "evaluable_families": []
+  },
+  "J": {
+   "n_changed": {
+    "T2a": 0,
+    "T2c": 8
+   },
+   "acc": {
+    "T2a": null,
+    "T2c": 0.0
+   },
+   "pooled_acc": 0.0,
+   "pooled_ci": [
+    0.0,
+    0.0
+   ],
+   "evaluable_families": []
+  }
+ },
+ "T4": {
+  "N": {
+   "kl": {
+    "n": 9,
+    "switch_increase": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "cb_changed_rate": 0.0
+   },
+   "norm": {
+    "n": 8,
+    "switch_increase": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "cb_changed_rate": 0.0
+   }
+  },
+  "O": {
+   "kl": {
+    "n": 9,
+    "switch_increase": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "cb_changed_rate": 0.0
+   },
+   "norm": {
+    "n": 8,
+    "switch_increase": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "cb_changed_rate": 0.0
+   }
+  },
+  "I": {
+   "kl": {
+    "n": 9,
+    "switch_increase": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "cb_changed_rate": 0.0
+   },
+   "norm": {
+    "n": 8,
+    "switch_increase": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "cb_changed_rate": 0.0
+   }
+  },
+  "J": {
+   "kl": {
+    "n": 9,
+    "switch_increase": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "cb_changed_rate": 0.0
+   },
+   "norm": {
+    "n": 8,
+    "switch_increase": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "cb_changed_rate": 0.0
+   }
+  }
+ },
+ "T5": {
+  "N": {
+   "mc_acc_gated": 0.8333333333333334,
+   "acc2_ungated": 1.0,
+   "acc1_ungated": 1.0
+  },
+  "O": {
+   "mc_acc_gated": 0.8541666666666666,
+   "acc2_ungated": 1.0,
+   "acc1_ungated": 1.0,
+   "drift_flag": false
+  },
+  "I": {
+   "mc_acc_gated": 0.8541666666666666,
+   "acc2_ungated": 1.0,
+   "acc1_ungated": 1.0,
+   "drift_flag": false
+  },
+  "J": {
+   "mc_acc_gated": 0.875,
+   "acc2_ungated": 1.0,
+   "acc1_ungated": 1.0,
+   "drift_flag": false
+  }
+ },
+ "verdict": "UNINFORMATIVE",
+ "reasons": [
+  "gate G3 failed",
+  "gate G4 failed",
+  "gate G5 failed"
+ ]
+}

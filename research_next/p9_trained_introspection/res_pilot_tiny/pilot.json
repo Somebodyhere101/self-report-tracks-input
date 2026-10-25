@@ -1,0 +1,226 @@
+{
+ "n_pilot_usable": 19,
+ "P1": {
+  "reliability": 0.5263157894736842,
+  "cb_eq_gaz_among_reliable": 0.3,
+  "cb_eq_p1_among_reliable": 0.7,
+  "calibration_known_cb_eq_gaz": 0.5,
+  "n_known_like": 2,
+  "n_divergent_from_p1": 3,
+  "n_divergent_from_gaz": 7,
+  "margins_reliable": [
+   0.0,
+   0.0,
+   0.0,
+   0.031,
+   0.062,
+   0.062,
+   0.062,
+   0.062,
+   0.094,
+   0.125
+  ],
+  "per_item": {
+   "Amiens": {
+    "cb_country": "France",
+    "cb_capital": "France",
+    "reliable": true,
+    "margin": 0.0937500074505806
+   },
+   "Bremen": {
+    "cb_country": "Switzerland",
+    "cb_capital": "Switzerland",
+    "reliable": true,
+    "margin": 0.0625
+   },
+   "Brighton": {
+    "cb_country": "Estonia",
+    "cb_capital": "Estonia",
+    "reliable": true,
+    "margin": 0.0625
+   },
+   "Bristol": {
+    "cb_country": "Ukraine",
+    "cb_capital": "United Kingdom",
+    "reliable": false,
+    "margin": 0.03125
+   },
+   "Cadiz": {
+    "cb_country": "Italy",
+    "cb_capital": "Greece",
+    "reliable": false,
+    "margin": 0.0
+   },
+   "Dijon": {
+    "cb_country": "France",
+    "cb_capital": "France",
+    "reliable": true,
+    "margin": 0.0
+   },
+   "Duisburg": {
+    "cb_country": "Germany",
+    "cb_capital": "Switzerland",
+    "reliable": false,
+    "margin": 0.03125
+   },
+   "Dusseldorf": {
+    "cb_country": "Switzerland",
+    "cb_capital": "France",
+    "reliable": false,
+    "margin": 0.0
+   },
+   "Eindhoven": {
+    "cb_country": "Switzerland",
+    "cb_capital": "Switzerland",
+    "reliable": true,
+    "margin": 0.0
+   },
+   "Exeter": {
+    "cb_country": "Portugal",
+    "cb_capital": "Portugal",
+    "reliable": true,
+    "margin": 0.0625
+   },
+   "Gijon": {
+    "cb_country": "Italy",
+    "cb_capital": "Italy",
+    "reliable": true,
+    "margin": 0.03125
+   },
+   "Helsingborg": {
+    "cb_country": "Norway",
+    "cb_capital": "Iceland",
+    "reliable": false,
+    "margin": 0.0
+   },
+   "Krakow": {
+    "cb_country": "Czech Republic",
+    "cb_capital": "Czech Republic",
+    "reliable": true,
+    "margin": 0.1249999925494194
+   },
+   "Lille": {
+    "cb_country": "Belgium",
+    "cb_capital": "France",
+    "reliable": false,
+    "margin": 7.450580596923828e-09
+   },
+   "Nijmegen": {
+    "cb_country": "Netherlands",
+    "cb_capital": "Netherlands",
+    "reliable": true,
+    "margin": 0.0
+   },
+   "Palermo": {
+    "cb_country": "Italy",
+    "cb_capital": "Spain",
+    "reliable": false,
+    "margin": 0.0
+   },
+   "Poznan": {
+    "cb_country": "Czech Republic",
+    "cb_capital": "Hungary",
+    "reliable": false,
+    "margin": 0.0
+   },
+   "Rzeszow": {
+    "cb_country": "Czech Republic",
+    "cb_capital": "Poland",
+    "reliable": false,
+    "margin": 0.0312500074505806
+   },
+   "Umea": {
+    "cb_country": "Denmark",
+    "cb_capital": "Denmark",
+    "reliable": true,
+    "margin": 0.0625
+   }
+  }
+ },
+ "P2": {
+  "from0": {
+   "reliability": 0.5,
+   "transfer_to_donor": 0.0,
+   "stay_recipient": 0.5,
+   "n_reliable": 2
+  },
+  "from12": {
+   "reliability": 0.0,
+   "transfer_to_donor": NaN,
+   "stay_recipient": NaN,
+   "n_reliable": 0
+  },
+  "single10": {
+   "reliability": 0.25,
+   "transfer_to_donor": 0.0,
+   "stay_recipient": 0.0,
+   "n_reliable": 1
+  },
+  "N_report_from0": {
+   "names_donor": 0.0,
+   "names_recipient": 0.0
+  },
+  "N_report_from12": {
+   "names_donor": 0.0,
+   "names_recipient": 0.75
+  }
+ },
+ "P3": {
+  "base_norm": {
+   "14": 5.780300140380859
+  },
+  "n_jvec": {
+   "14": 7
+  },
+  "L14_s1": {
+   "n": 4,
+   "reliability": 0.25,
+   "change_to_injected": 0.0,
+   "retention": 1.0,
+   "kl_median": 0.07841648533940315
+  }
+ },
+ "P4": {
+  "swap_kl_median": 7.045164108276367,
+  "swap_retention": 0.25,
+  "random": {
+   "0.5": {
+    "kl_median": 0.040328267961740494,
+    "retention": 1.0
+   },
+   "1": {
+    "kl_median": 0.1038246676325798,
+    "retention": 1.0
+   }
+  },
+  "s_kl": 1.0
+ },
+ "P5": {
+  "n_train": 16,
+  "n_test": 8,
+  "0.0001": {
+   "acc_diff": 0.0,
+   "acc_same": NaN,
+   "acc_natural_cb": 0.5,
+   "loss_first": 1.4413102865219116,
+   "loss_last": 1.6386573314666748
+  }
+ },
+ "chosen": {
+  "l1": 0,
+  "ls": 10,
+  "la": 14,
+  "s_add": 1,
+  "s_kl": 1.0,
+  "lr": 0.0001,
+  "base_norm_pilot": 5.780300140380859,
+  "rules": {
+   "l1": "largest B in 0..16 (step 4) with swap-from-B transfer >= 0.90",
+   "ls": "single layer with the largest transfer (ties: earlier)",
+   "la,s_add": "largest change-to-injected rate with answer retention >= 0.90 (ties: first in grid)",
+   "s_kl": "random-direction scale (x base_norm) whose median R-KL equals the training swap's (log-log interpolation)",
+   "lr": "higher acc_diff + acc_same on pilot half B (ties: lower lr)"
+  }
+ },
+ "minutes": 1.2623749335606893
+}

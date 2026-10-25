@@ -1,0 +1,20 @@
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   1%|          | 2/311 [00:00<00:15, 19.93it/s]Loading weights:   5%|▍         | 15/311 [00:00<00:04, 69.25it/s]Loading weights:  11%|█▏        | 35/311 [00:00<00:02, 97.90it/s]Loading weights:  14%|█▍        | 45/311 [00:00<00:04, 63.18it/s]Loading weights:  17%|█▋        | 52/311 [00:00<00:05, 49.67it/s]Loading weights:  19%|█▊        | 58/311 [00:01<00:05, 49.86it/s]Loading weights:  21%|██        | 64/311 [00:01<00:05, 49.06it/s]Loading weights:  23%|██▎       | 73/311 [00:01<00:04, 51.83it/s]Loading weights:  28%|██▊       | 87/311 [00:01<00:03, 70.60it/s]Loading weights:  31%|███       | 95/311 [00:01<00:03, 68.67it/s]Loading weights:  39%|███▊      | 120/311 [00:01<00:01, 107.75it/s]Loading weights:  42%|████▏     | 132/311 [00:01<00:01, 91.36it/s] Loading weights:  46%|████▌     | 143/311 [00:01<00:01, 89.14it/s]Loading weights: 100%|██████████| 311/311 [00:01<00:00, 156.72it/s]
+0 6 3 9 Even | R-swap report: 7 (donor 7 )
+1 7 1 8 Even | R-swap report: 8 (donor 12 )
+2 2 9 11 Even | R-swap report: 9 (donor 5 )
+3 2 6 8 Even | R-swap report: 8 (donor 16 )
+4 1 9 10 Even | R-swap report: 6 (donor 6 )
+5 4 1 5 Even | R-swap report: 5 (donor 13 )
+6 2 7 9 Even | R-swap report: 9 (donor 11 )
+7 7 2 9 Even | R-swap report: 9 (donor 11 )
+8 4 2 6 Even | R-swap report: 4 (donor 12 )
+9 9 7 16 Even | R-swap report: 8 (donor 14 )
+10 1 2 3 Even | R-swap report: 3 (donor 7 )
+11 4 1 5 Even | R-swap report: 9 (donor 13 )
+12 7 1 8 Even | R-swap report: 8 (donor 10 )
+13 4 1 5 Even | R-swap report: 5 (donor 11 )
+14 9 3 12 Even | R-swap report: 6 (donor 14 )
+15 5 7 12 Even | R-swap report: 10 (donor 10 )
+parity answers correct 8/16
+readout of the sum: {'prior': '1/16', 'R': '5/16', 'ops+R': '6/16'}
+untrained report under an R-only swap: {'recipient': '8/16', 'donor': '3/16'}

@@ -1,0 +1,329 @@
+{
+ "seeds": [
+  0
+ ],
+ "gates": {
+  "G1": false,
+  "G2": true,
+  "G3": true,
+  "G4": true,
+  "G5": false
+ },
+ "gate_values": {
+  "G1": {
+   "accuracy_test": 0.8638360175695461,
+   "n_test_usable": 40
+  },
+  "G2": {
+   "answer_kept_T1": 1.0
+  },
+  "G3": {
+   "bin_prob_vs_entropy_agreement": 1.0
+  },
+  "G4": {
+   "T1_diff_bin_equals_donor": 1.0,
+   "n": 20
+  },
+  "G5": {
+   "best_baseline": "para",
+   "n_T3": 40,
+   "n_divergent": 9,
+   "div_rate": 0.225,
+   "power_strong_reader": 0.5765
+  }
+ },
+ "T3_baselines": {
+  "para": 0.775,
+  "majority": 0.25,
+  "learned": 0.5,
+  "external_X": 0.2
+ },
+ "T3_learned": {
+  "w": [
+   -1.5406518912149356,
+   -2.562000383099743,
+   0.06285093069688888,
+   -1.0941460907020353,
+   -1.5168163981850078,
+   0.4087204187446052,
+   0.581456600626534,
+   -1.6481899193250384
+  ],
+  "max_abs_grad": 8.373411189068034e-06,
+  "n_train_items": 32,
+  "majority_bin": 1
+ },
+ "T3": {
+  "N": {
+   "acc_per_seed": [
+    0.25
+   ],
+   "delta_vs_best_baseline": -0.525,
+   "ci": [
+    -0.7,
+    -0.32500000000000007
+   ],
+   "divergent_names_cb": 0.2222222222222222,
+   "divergent_names_baseline": 0.1111111111111111
+  },
+  "O": {
+   "acc_per_seed": [
+    0.3
+   ],
+   "delta_vs_best_baseline": -0.47500000000000003,
+   "ci": [
+    -0.6749999999999999,
+    -0.275
+   ],
+   "divergent_names_cb": 0.3333333333333333,
+   "divergent_names_baseline": 0.1111111111111111
+  },
+  "I": {
+   "acc_per_seed": [
+    0.25
+   ],
+   "delta_vs_best_baseline": -0.525,
+   "ci": [
+    -0.7,
+    -0.32500000000000007
+   ],
+   "divergent_names_cb": 0.2222222222222222,
+   "divergent_names_baseline": 0.1111111111111111
+  },
+  "J": {
+   "acc_per_seed": [
+    0.25
+   ],
+   "delta_vs_best_baseline": -0.525,
+   "ci": [
+    -0.7,
+    -0.32500000000000007
+   ],
+   "divergent_names_cb": 0.2222222222222222,
+   "divergent_names_baseline": 0.1111111111111111
+  },
+  "X": {
+   "acc": 0.2
+  }
+ },
+ "T1": {
+  "N": {
+   "acc_diff": 0.25,
+   "acc_same": 0.2727272727272727,
+   "names_input_bin_diff": 0.25,
+   "ci_diff": [
+    0.1,
+    0.45
+   ]
+  },
+  "O": {
+   "acc_diff": 0.25,
+   "acc_same": 0.2727272727272727,
+   "names_input_bin_diff": 0.3,
+   "ci_diff": [
+    0.1,
+    0.45
+   ]
+  },
+  "I": {
+   "acc_diff": 0.25,
+   "acc_same": 0.2727272727272727,
+   "names_input_bin_diff": 0.3,
+   "ci_diff": [
+    0.1,
+    0.45
+   ]
+  },
+  "J": {
+   "acc_diff": 0.25,
+   "acc_same": 0.2727272727272727,
+   "names_input_bin_diff": 0.25,
+   "ci_diff": [
+    0.1,
+    0.45
+   ]
+  }
+ },
+ "T2": {
+  "N": {
+   "n_changed": {
+    "T2a": 18,
+    "T2c": 33
+   },
+   "acc": {
+    "T2a": 0.3333333333333333,
+    "T2c": 0.15151515151515152
+   },
+   "pooled_acc": 0.21568627450980393,
+   "pooled_ci": [
+    0.11320754716981132,
+    0.3333333333333333
+   ],
+   "evaluable_families": [
+    "T2c"
+   ]
+  },
+  "O": {
+   "n_changed": {
+    "T2a": 18,
+    "T2c": 33
+   },
+   "acc": {
+    "T2a": 0.3333333333333333,
+    "T2c": 0.15151515151515152
+   },
+   "pooled_acc": 0.21568627450980393,
+   "pooled_ci": [
+    0.11320754716981132,
+    0.3333333333333333
+   ],
+   "evaluable_families": [
+    "T2c"
+   ]
+  },
+  "I": {
+   "n_changed": {
+    "T2a": 18,
+    "T2c": 33
+   },
+   "acc": {
+    "T2a": 0.2777777777777778,
+    "T2c": 0.15151515151515152
+   },
+   "pooled_acc": 0.19607843137254902,
+   "pooled_ci": [
+    0.09615384615384616,
+    0.3125
+   ],
+   "evaluable_families": [
+    "T2c"
+   ]
+  },
+  "J": {
+   "n_changed": {
+    "T2a": 18,
+    "T2c": 33
+   },
+   "acc": {
+    "T2a": 0.3333333333333333,
+    "T2c": 0.15151515151515152
+   },
+   "pooled_acc": 0.21568627450980393,
+   "pooled_ci": [
+    0.11320754716981132,
+    0.3333333333333333
+   ],
+   "evaluable_families": [
+    "T2c"
+   ]
+  }
+ },
+ "T4": {
+  "N": {
+   "kl": {
+    "n": 40,
+    "switch_increase": 0.0,
+    "ci": [
+     -0.15,
+     0.15
+    ],
+    "bin_changed_rate": 0.5
+   },
+   "norm": {
+    "n": 40,
+    "switch_increase": -0.05,
+    "ci": [
+     -0.225,
+     0.125
+    ],
+    "bin_changed_rate": 0.575
+   }
+  },
+  "O": {
+   "kl": {
+    "n": 40,
+    "switch_increase": 0.025,
+    "ci": [
+     -0.15,
+     0.175
+    ],
+    "bin_changed_rate": 0.5
+   },
+   "norm": {
+    "n": 40,
+    "switch_increase": 0.0,
+    "ci": [
+     -0.2,
+     0.175
+    ],
+    "bin_changed_rate": 0.575
+   }
+  },
+  "I": {
+   "kl": {
+    "n": 40,
+    "switch_increase": -0.025,
+    "ci": [
+     -0.2,
+     0.125
+    ],
+    "bin_changed_rate": 0.5
+   },
+   "norm": {
+    "n": 40,
+    "switch_increase": -0.075,
+    "ci": [
+     -0.275,
+     0.125
+    ],
+    "bin_changed_rate": 0.575
+   }
+  },
+  "J": {
+   "kl": {
+    "n": 40,
+    "switch_increase": 0.0,
+    "ci": [
+     -0.15,
+     0.15
+    ],
+    "bin_changed_rate": 0.5
+   },
+   "norm": {
+    "n": 40,
+    "switch_increase": -0.05,
+    "ci": [
+     -0.225,
+     0.125
+    ],
+    "bin_changed_rate": 0.575
+   }
+  }
+ },
+ "T5": {
+  "N": {
+   "mc_acc_gated": 0.875,
+   "mult_acc_ungated": 1.0
+  },
+  "O": {
+   "mc_acc_gated": 0.875,
+   "mult_acc_ungated": 1.0,
+   "drift_flag": false
+  },
+  "I": {
+   "mc_acc_gated": 0.875,
+   "mult_acc_ungated": 1.0,
+   "drift_flag": false
+  },
+  "J": {
+   "mc_acc_gated": 0.875,
+   "mult_acc_ungated": 1.0,
+   "drift_flag": false
+  }
+ },
+ "verdict": "UNINFORMATIVE",
+ "reasons": [
+  "gate G1 failed",
+  "gate G5 failed"
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "n_train": 2400,
+ "steps": 300,
+ "bs": 8,
+ "seeds": [
+  0,
+  1
+ ],
+ "jvec_min_items": 3,
+ "lora_rank": 8,
+ "lora_alpha": 16
+}

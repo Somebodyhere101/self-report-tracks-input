@@ -1,0 +1,251 @@
+{
+ "n_test": 363,
+ "n_known": 306,
+ "n_pairs": 200,
+ "A": {
+  "prior": {
+   "calibration": 0.3137254901960784,
+   "ci": [
+    0.26143790849673204,
+    0.3660130718954248
+   ]
+  },
+  "R": {
+   "calibration": 0.35294117647058826,
+   "ci": [
+    0.3006535947712418,
+    0.4084967320261438
+   ]
+  },
+  "city+R": {
+   "calibration": 0.9607843137254902,
+   "ci": [
+    0.9379084967320261,
+    0.9803921568627451
+   ]
+  },
+  "cityR_minus_R": {
+   "diff": 0.6078431372549019,
+   "ci": [
+    0.5490196078431373,
+    0.6602124183006524
+   ]
+  },
+  "R_minus_prior": {
+   "diff": 0.0392156862745098,
+   "ci": [
+    -0.006535947712418301,
+    0.08496732026143791
+   ]
+  },
+  "R_equals_prior_pick": 0.6862745098039216
+ },
+ "B": {
+  "report": {
+   "4": {
+    "donor": 0.965,
+    "donor_ci": [
+     0.935,
+     0.99
+    ],
+    "recipient": 0.005,
+    "n": 200
+   },
+   "6": {
+    "donor": 0.96,
+    "donor_ci": [
+     0.93,
+     0.985
+    ],
+    "recipient": 0.005,
+    "n": 200
+   },
+   "8": {
+    "donor": 0.935,
+    "donor_ci": [
+     0.9,
+     0.965
+    ],
+    "recipient": 0.005,
+    "n": 200
+   },
+   "9": {
+    "donor": 0.935,
+    "donor_ci": [
+     0.9,
+     0.965
+    ],
+    "recipient": 0.005,
+    "n": 200
+   },
+   "10": {
+    "donor": 0.905,
+    "donor_ci": [
+     0.8648750000000001,
+     0.945
+    ],
+    "recipient": 0.02,
+    "n": 200
+   },
+   "11": {
+    "donor": 0.84,
+    "donor_ci": [
+     0.79,
+     0.89
+    ],
+    "recipient": 0.065,
+    "n": 200
+   },
+   "12": {
+    "donor": 0.025,
+    "donor_ci": [
+     0.005,
+     0.05
+    ],
+    "recipient": 0.935,
+    "n": 200
+   },
+   "14": {
+    "donor": 0.015,
+    "donor_ci": [
+     0.0,
+     0.035
+    ],
+    "recipient": 0.95,
+    "n": 200
+   },
+   "16": {
+    "donor": 0.015,
+    "donor_ci": [
+     0.0,
+     0.035
+    ],
+    "recipient": 0.95,
+    "n": 200
+   },
+   "20": {
+    "donor": 0.015,
+    "donor_ci": [
+     0.0,
+     0.035
+    ],
+    "recipient": 0.95,
+    "n": 200
+   }
+  },
+  "readout": {
+   "4": {
+    "donor": 0.965,
+    "donor_ci": [
+     0.935,
+     0.99
+    ],
+    "recipient": 0.005,
+    "n": 200
+   },
+   "6": {
+    "donor": 0.955,
+    "donor_ci": [
+     0.925,
+     0.98
+    ],
+    "recipient": 0.005,
+    "n": 200
+   },
+   "8": {
+    "donor": 0.91,
+    "donor_ci": [
+     0.87,
+     0.945
+    ],
+    "recipient": 0.025,
+    "n": 200
+   },
+   "9": {
+    "donor": 0.9,
+    "donor_ci": [
+     0.855,
+     0.94
+    ],
+    "recipient": 0.025,
+    "n": 200
+   },
+   "10": {
+    "donor": 0.89,
+    "donor_ci": [
+     0.845,
+     0.93
+    ],
+    "recipient": 0.035,
+    "n": 200
+   },
+   "11": {
+    "donor": 0.795,
+    "donor_ci": [
+     0.74,
+     0.85
+    ],
+    "recipient": 0.125,
+    "n": 200
+   },
+   "12": {
+    "donor": 0.025,
+    "donor_ci": [
+     0.005,
+     0.05
+    ],
+    "recipient": 0.945,
+    "n": 200
+   },
+   "14": {
+    "donor": 0.02,
+    "donor_ci": [
+     0.005,
+     0.04
+    ],
+    "recipient": 0.945,
+    "n": 200
+   },
+   "16": {
+    "donor": 0.02,
+    "donor_ci": [
+     0.005,
+     0.04
+    ],
+    "recipient": 0.945,
+    "n": 200
+   },
+   "20": {
+    "donor": 0.02,
+    "donor_ci": [
+     0.005,
+     0.04
+    ],
+    "recipient": 0.945,
+    "n": 200
+   }
+  }
+ },
+ "B_agreement": {
+  "mean": 0.9645,
+  "ci": [
+   0.956,
+   0.9725
+  ]
+ },
+ "transition": {
+  "report": 12,
+  "readout": 12
+ },
+ "C": {
+  "report_names_donor": 0.02,
+  "report_names_recipient": 0.945,
+  "n": 200
+ },
+ "H": {
+  "H1_bridge_held_at_city_tokens": true,
+  "H2_report_and_readout_read_same_window": true,
+  "H3_R_swap_invisible_to_report": true
+ },
+ "verdict": "SAME WINDOW: this bed cannot separate reading the computation from reconstructing from the input"
+}

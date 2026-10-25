@@ -1,0 +1,16 @@
+{
+ "l1": 0,
+ "ls": 10,
+ "la": 14,
+ "s_add": 1,
+ "s_kl": 1.0,
+ "lr": 0.0001,
+ "base_norm_pilot": 5.780300140380859,
+ "rules": {
+  "l1": "largest B in 0..16 (step 4) with swap-from-B transfer >= 0.90",
+  "ls": "single layer with the largest transfer (ties: earlier)",
+  "la,s_add": "largest change-to-injected rate with answer retention >= 0.90 (ties: first in grid)",
+  "s_kl": "random-direction scale (x base_norm) whose median R-KL equals the training swap's (log-log interpolation)",
+  "lr": "higher acc_diff + acc_same on pilot half B (ties: lower lr)"
+ }
+}

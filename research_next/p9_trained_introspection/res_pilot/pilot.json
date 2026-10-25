@@ -1,0 +1,1457 @@
+{
+ "n_pilot_usable": 194,
+ "P1": {
+  "reliability": 0.30927835051546393,
+  "cb_eq_gaz_among_reliable": 0.4,
+  "cb_eq_p1_among_reliable": 0.4,
+  "calibration_known_cb_eq_gaz": 0.11585365853658537,
+  "n_known_like": 164,
+  "n_divergent_from_p1": 36,
+  "n_divergent_from_gaz": 36,
+  "margins_reliable": [
+   1.625,
+   1.844,
+   2.281,
+   2.344,
+   2.469,
+   2.469,
+   2.5,
+   3.312,
+   3.406,
+   3.844,
+   4.125,
+   4.406,
+   4.437,
+   4.531,
+   4.594,
+   4.594,
+   4.656,
+   4.813,
+   4.844,
+   4.969,
+   5.344,
+   5.344,
+   5.531,
+   5.813,
+   6.219,
+   6.312,
+   6.625,
+   6.813,
+   7.656,
+   7.844,
+   8.438,
+   8.594,
+   8.687,
+   8.75,
+   8.844,
+   8.875,
+   8.906,
+   8.969,
+   8.969,
+   9.094,
+   9.312,
+   9.75,
+   9.844,
+   10.219,
+   10.687,
+   10.781,
+   11.156,
+   11.562,
+   11.875,
+   12.062,
+   12.156,
+   12.156,
+   12.406,
+   13.062,
+   13.781,
+   13.906,
+   14.312,
+   14.938,
+   15.734,
+   17.062
+  ],
+  "per_item": {
+   "Agra": {
+    "cb_country": "India",
+    "cb_capital": "India",
+    "reliable": true,
+    "margin": 14.93750003936293
+   },
+   "Aguascalientes": {
+    "cb_country": "Mexico",
+    "cb_capital": "Canada",
+    "reliable": false,
+    "margin": 3.375000070001704
+   },
+   "Ahvaz": {
+    "cb_country": "Iraq",
+    "cb_capital": "Jordan",
+    "reliable": false,
+    "margin": 1.8437501381613401
+   },
+   "Ajman": {
+    "cb_country": "Yemen",
+    "cb_capital": "Yemen",
+    "reliable": true,
+    "margin": 11.15625000546288
+   },
+   "Alesund": {
+    "cb_country": "Denmark",
+    "cb_capital": "Iceland",
+    "reliable": false,
+    "margin": 7.749999959509296
+   },
+   "Alexandria": {
+    "cb_country": "Libya",
+    "cb_capital": "Algeria",
+    "reliable": false,
+    "margin": 8.999999978739652
+   },
+   "Amiens": {
+    "cb_country": "Belgium",
+    "cb_capital": "Belgium",
+    "reliable": true,
+    "margin": 2.281249976928848
+   },
+   "Antofagasta": {
+    "cb_country": "Paraguay",
+    "cb_capital": "Paraguay",
+    "reliable": true,
+    "margin": 9.093750053872753
+   },
+   "Antsirabe": {
+    "cb_country": "Madagascar",
+    "cb_capital": "Namibia",
+    "reliable": false,
+    "margin": 0.28124991496771745
+   },
+   "Antwerp": {
+    "cb_country": "France",
+    "cb_capital": "Belgium",
+    "reliable": false,
+    "margin": 0.06250014032934814
+   },
+   "Atbara": {
+    "cb_country": "Sudan",
+    "cb_capital": "Nigeria",
+    "reliable": false,
+    "margin": 2.0625000210063433
+   },
+   "Bamenda": {
+    "cb_country": "Cameroon",
+    "cb_capital": "Ivory Coast",
+    "reliable": false,
+    "margin": 0.9999998707041904
+   },
+   "Banfora": {
+    "cb_country": "Cameroon",
+    "cb_capital": "Ivory Coast",
+    "reliable": false,
+    "margin": 0.9687498928896758
+   },
+   "Barisal": {
+    "cb_country": "India",
+    "cb_capital": "India",
+    "reliable": true,
+    "margin": 8.593749964931362
+   },
+   "Basel": {
+    "cb_country": "Switzerland",
+    "cb_capital": "Switzerland",
+    "reliable": true,
+    "margin": 4.843750044885454
+   },
+   "Bitola": {
+    "cb_country": "North Macedonia",
+    "cb_capital": "Albania",
+    "reliable": false,
+    "margin": 1.5000000112702319
+   },
+   "Blantyre": {
+    "cb_country": "Democratic Republic of the Congo",
+    "cb_capital": "Malawi",
+    "reliable": false,
+    "margin": 0.6875000747677404
+   },
+   "Boise": {
+    "cb_country": "Mexico",
+    "cb_capital": "Mexico",
+    "reliable": true,
+    "margin": 8.968749921001745
+   },
+   "Bremen": {
+    "cb_country": "France",
+    "cb_capital": "Belgium",
+    "reliable": false,
+    "margin": 0.28124997433042154
+   },
+   "Brighton": {
+    "cb_country": "North Macedonia",
+    "cb_capital": "North Macedonia",
+    "reliable": true,
+    "margin": 10.781250154519512
+   },
+   "Bristol": {
+    "cb_country": "United Kingdom",
+    "cb_capital": "Norway",
+    "reliable": false,
+    "margin": 1.281250173684068
+   },
+   "Brno": {
+    "cb_country": "Hungary",
+    "cb_capital": "Austria",
+    "reliable": false,
+    "margin": 0.8124999139749889
+   },
+   "Butwal": {
+    "cb_country": "India",
+    "cb_capital": "India",
+    "reliable": true,
+    "margin": 14.312499940673888
+   },
+   "Cabinda": {
+    "cb_country": "Democratic Republic of the Congo",
+    "cb_capital": "Mozambique",
+    "reliable": false,
+    "margin": 0.8125000764368977
+   },
+   "Cadiz": {
+    "cb_country": "Spain",
+    "cb_capital": "Spain",
+    "reliable": true,
+    "margin": 3.312499891140849
+   },
+   "Cagayan de Oro": {
+    "cb_country": "Myanmar",
+    "cb_capital": "Cambodia",
+    "reliable": false,
+    "margin": 4.468749944271551
+   },
+   "Campinas": {
+    "cb_country": "Guyana",
+    "cb_capital": "Suriname",
+    "reliable": false,
+    "margin": 5.968750089849667
+   },
+   "Cape Coast": {
+    "cb_country": "Nigeria",
+    "cb_capital": "Nigeria",
+    "reliable": true,
+    "margin": 4.812500082470699
+   },
+   "Charlotte": {
+    "cb_country": "United States",
+    "cb_capital": "United States",
+    "reliable": true,
+    "margin": 6.218750013038516
+   },
+   "Chiang Mai": {
+    "cb_country": "Indonesia",
+    "cb_capital": "Laos",
+    "reliable": false,
+    "margin": 2.343749988757736
+   },
+   "Chillan": {
+    "cb_country": "Ecuador",
+    "cb_capital": "Ecuador",
+    "reliable": true,
+    "margin": 6.624999977576422
+   },
+   "Ciudad del Este": {
+    "cb_country": "Paraguay",
+    "cb_capital": "Paraguay",
+    "reliable": true,
+    "margin": 1.625000005337057
+   },
+   "Cleveland": {
+    "cb_country": "United States",
+    "cb_capital": "Canada",
+    "reliable": false,
+    "margin": 6.499999707834803
+   },
+   "Cluj-Napoca": {
+    "cb_country": "Ukraine",
+    "cb_capital": "Bulgaria",
+    "reliable": false,
+    "margin": 1.4375000122683161
+   },
+   "Cuiaba": {
+    "cb_country": "Paraguay",
+    "cb_capital": "Paraguay",
+    "reliable": true,
+    "margin": 12.156249970445067
+   },
+   "Debrecen": {
+    "cb_country": "Poland",
+    "cb_capital": "Austria",
+    "reliable": false,
+    "margin": 1.9687499960218702
+   },
+   "Denpasar": {
+    "cb_country": "Indonesia",
+    "cb_capital": "Myanmar",
+    "reliable": false,
+    "margin": 3.187499989630851
+   },
+   "Dijon": {
+    "cb_country": "Netherlands",
+    "cb_capital": "Belgium",
+    "reliable": false,
+    "margin": 2.468749991934601
+   },
+   "Duisburg": {
+    "cb_country": "Netherlands",
+    "cb_capital": "Switzerland",
+    "reliable": false,
+    "margin": 0.06249981326982379
+   },
+   "Dusseldorf": {
+    "cb_country": "France",
+    "cb_capital": "Switzerland",
+    "reliable": false,
+    "margin": 2.343749930199465
+   },
+   "Eindhoven": {
+    "cb_country": "Netherlands",
+    "cb_capital": "Switzerland",
+    "reliable": false,
+    "margin": 1.6249999625470082
+   },
+   "Essaouira": {
+    "cb_country": "Tunisia",
+    "cb_capital": "Sudan",
+    "reliable": false,
+    "margin": 0.3749999703685205
+   },
+   "Exeter": {
+    "cb_country": "United Kingdom",
+    "cb_capital": "Switzerland",
+    "reliable": false,
+    "margin": 0.6249999776504254
+   },
+   "Funchal": {
+    "cb_country": "Spain",
+    "cb_capital": "Italy",
+    "reliable": false,
+    "margin": 2.124999946827316
+   },
+   "Gabes": {
+    "cb_country": "Tunisia",
+    "cb_capital": "Sudan",
+    "reliable": false,
+    "margin": 7.906250004745587
+   },
+   "Galway": {
+    "cb_country": "United Kingdom",
+    "cb_capital": "Ireland",
+    "reliable": false,
+    "margin": 4.312499931327132
+   },
+   "Garissa": {
+    "cb_country": "Kenya",
+    "cb_capital": "Tanzania",
+    "reliable": false,
+    "margin": 8.15624983550521
+   },
+   "Ghent": {
+    "cb_country": "Netherlands",
+    "cb_capital": "Belgium",
+    "reliable": false,
+    "margin": 3.4062500233994797
+   },
+   "Gijon": {
+    "cb_country": "Italy",
+    "cb_capital": "Italy",
+    "reliable": true,
+    "margin": 2.3437499956930594
+   },
+   "Gisenyi": {
+    "cb_country": "Democratic Republic of the Congo",
+    "cb_capital": "Tanzania",
+    "reliable": false,
+    "margin": 0.6874999333689686
+   },
+   "Gondar": {
+    "cb_country": "Kenya",
+    "cb_capital": "Tanzania",
+    "reliable": false,
+    "margin": 7.968749984618854
+   },
+   "Grodno": {
+    "cb_country": "Moldova",
+    "cb_capital": "Belarus",
+    "reliable": false,
+    "margin": 1.7812501506147953
+   },
+   "Haiphong": {
+    "cb_country": "Vietnam",
+    "cb_capital": "Laos",
+    "reliable": false,
+    "margin": 4.374999953492324
+   },
+   "Hangzhou": {
+    "cb_country": "China",
+    "cb_capital": "Mongolia",
+    "reliable": false,
+    "margin": 3.70312493061681
+   },
+   "Harbin": {
+    "cb_country": "China",
+    "cb_capital": "Mongolia",
+    "reliable": false,
+    "margin": 4.07812517598957
+   },
+   "Hefei": {
+    "cb_country": "China",
+    "cb_capital": "Mongolia",
+    "reliable": false,
+    "margin": 3.4062501033772
+   },
+   "Helsingborg": {
+    "cb_country": "Iceland",
+    "cb_capital": "Iceland",
+    "reliable": true,
+    "margin": 9.843750061147219
+   },
+   "Hodeidah": {
+    "cb_country": "Syria",
+    "cb_capital": "Saudi Arabia",
+    "reliable": false,
+    "margin": 0.1406250739820507
+   },
+   "Houston": {
+    "cb_country": "United States",
+    "cb_capital": "Canada",
+    "reliable": false,
+    "margin": 7.343750029798663
+   },
+   "Huancayo": {
+    "cb_country": "Peru",
+    "cb_capital": "Paraguay",
+    "reliable": false,
+    "margin": 3.3124999556457624
+   },
+   "Hurghada": {
+    "cb_country": "Sudan",
+    "cb_capital": "Sudan",
+    "reliable": true,
+    "margin": 2.468750014901161
+   },
+   "Ibadan": {
+    "cb_country": "Niger",
+    "cb_capital": "Nigeria",
+    "reliable": false,
+    "margin": 0.46874999810854945
+   },
+   "Iloilo": {
+    "cb_country": "Indonesia",
+    "cb_capital": "Myanmar",
+    "reliable": false,
+    "margin": 6.156250044682906
+   },
+   "Innsbruck": {
+    "cb_country": "Czech Republic",
+    "cb_capital": "Czech Republic",
+    "reliable": true,
+    "margin": 4.531250021060714
+   },
+   "Ioannina": {
+    "cb_country": "Italy",
+    "cb_capital": "Spain",
+    "reliable": false,
+    "margin": 2.374999968960765
+   },
+   "Ipoh": {
+    "cb_country": "Vietnam",
+    "cb_capital": "Vietnam",
+    "reliable": true,
+    "margin": 3.406249951927748
+   },
+   "Isfahan": {
+    "cb_country": "Syria",
+    "cb_capital": "Saudi Arabia",
+    "reliable": false,
+    "margin": 2.8437501415619977
+   },
+   "Jalalabad": {
+    "cb_country": "India",
+    "cb_capital": "India",
+    "reliable": true,
+    "margin": 8.906249986293531
+   },
+   "Jeddah": {
+    "cb_country": "Syria",
+    "cb_capital": "Yemen",
+    "reliable": false,
+    "margin": 1.0624999455963007
+   },
+   "Jelgava": {
+    "cb_country": "Latvia",
+    "cb_capital": "Poland",
+    "reliable": false,
+    "margin": 3.656249833979147
+   },
+   "Jyvaskyla": {
+    "cb_country": "Sweden",
+    "cb_capital": "Iceland",
+    "reliable": false,
+    "margin": 7.124999976929303
+   },
+   "Kabwe": {
+    "cb_country": "Angola",
+    "cb_capital": "Mozambique",
+    "reliable": false,
+    "margin": 1.562500065690699
+   },
+   "Kaduna": {
+    "cb_country": "Nigeria",
+    "cb_capital": "Nigeria",
+    "reliable": true,
+    "margin": 2.4999999231735615
+   },
+   "Kamloops": {
+    "cb_country": "United States",
+    "cb_capital": "Mexico",
+    "reliable": false,
+    "margin": 6.201604918487647e-08
+   },
+   "Kampot": {
+    "cb_country": "Myanmar",
+    "cb_capital": "Cambodia",
+    "reliable": false,
+    "margin": 3.6875000116893943
+   },
+   "Kandy": {
+    "cb_country": "India",
+    "cb_capital": "Nepal",
+    "reliable": false,
+    "margin": 10.234374901658171
+   },
+   "Kaunas": {
+    "cb_country": "Estonia",
+    "cb_capital": "Lithuania",
+    "reliable": false,
+    "margin": 0.281249946903813
+   },
+   "Khobar": {
+    "cb_country": "Saudi Arabia",
+    "cb_capital": "Saudi Arabia",
+    "reliable": true,
+    "margin": 4.656249959297612
+   },
+   "Kiel": {
+    "cb_country": "France",
+    "cb_capital": "Belgium",
+    "reliable": false,
+    "margin": 0.4062500304637524
+   },
+   "Kisangani": {
+    "cb_country": "Democratic Republic of the Congo",
+    "cb_capital": "Zambia",
+    "reliable": false,
+    "margin": 2.7500000352956704
+   },
+   "Kismayo": {
+    "cb_country": "Kenya",
+    "cb_capital": "Tanzania",
+    "reliable": false,
+    "margin": 8.874999943060743
+   },
+   "Klagenfurt": {
+    "cb_country": "Hungary",
+    "cb_capital": "Austria",
+    "reliable": false,
+    "margin": 1.5937498597104423
+   },
+   "Kolwezi": {
+    "cb_country": "Democratic Republic of the Congo",
+    "cb_capital": "Madagascar",
+    "reliable": false,
+    "margin": 5.5180912283958605e-08
+   },
+   "Korhogo": {
+    "cb_country": "Niger",
+    "cb_capital": "Ivory Coast",
+    "reliable": false,
+    "margin": 1.3437498949153905
+   },
+   "Kosice": {
+    "cb_country": "Poland",
+    "cb_capital": "Poland",
+    "reliable": true,
+    "margin": 6.312499934076186
+   },
+   "Krabi": {
+    "cb_country": "Thailand",
+    "cb_capital": "Laos",
+    "reliable": false,
+    "margin": 0.5312499403481361
+   },
+   "Kragujevac": {
+    "cb_country": "Serbia",
+    "cb_capital": "Serbia",
+    "reliable": true,
+    "margin": 5.343749993860058
+   },
+   "Krakow": {
+    "cb_country": "Poland",
+    "cb_capital": "Poland",
+    "reliable": true,
+    "margin": 6.812500169344503
+   },
+   "Kranj": {
+    "cb_country": "North Macedonia",
+    "cb_capital": "Albania",
+    "reliable": false,
+    "margin": 2.4999999302490323
+   },
+   "Kuching": {
+    "cb_country": "Indonesia",
+    "cb_capital": "Cambodia",
+    "reliable": false,
+    "margin": 4.843750224132577
+   },
+   "Kuopio": {
+    "cb_country": "Iceland",
+    "cb_capital": "Iceland",
+    "reliable": true,
+    "margin": 9.312499941413996
+   },
+   "Las Tunas": {
+    "cb_country": "Dominican Republic",
+    "cb_capital": "Dominican Republic",
+    "reliable": true,
+    "margin": 5.531249998757062
+   },
+   "Les Cayes": {
+    "cb_country": "Haiti",
+    "cb_capital": "Dominican Republic",
+    "reliable": false,
+    "margin": 0.15625006689310084
+   },
+   "Lichinga": {
+    "cb_country": "Zimbabwe",
+    "cb_capital": "Mozambique",
+    "reliable": false,
+    "margin": 0.3749998649103219
+   },
+   "Lille": {
+    "cb_country": "Netherlands",
+    "cb_capital": "France",
+    "reliable": false,
+    "margin": 0.34375001208714195
+   },
+   "Liverpool": {
+    "cb_country": "United Kingdom",
+    "cb_capital": "Serbia",
+    "reliable": false,
+    "margin": 3.687500084619387
+   },
+   "Lucknow": {
+    "cb_country": "India",
+    "cb_capital": "India",
+    "reliable": true,
+    "margin": 15.734374957191136
+   },
+   "Lviv": {
+    "cb_country": "Ukraine",
+    "cb_capital": "Ukraine",
+    "reliable": true,
+    "margin": 8.843749910375067
+   },
+   "Madaba": {
+    "cb_country": "Yemen",
+    "cb_capital": "Yemen",
+    "reliable": true,
+    "margin": 8.43750005939367
+   },
+   "Makassar": {
+    "cb_country": "Indonesia",
+    "cb_capital": "Laos",
+    "reliable": false,
+    "margin": 0.24999997575867283
+   },
+   "Malindi": {
+    "cb_country": "Kenya",
+    "cb_capital": "Tanzania",
+    "reliable": false,
+    "margin": 9.187499930243597
+   },
+   "Manta": {
+    "cb_country": "Peru",
+    "cb_capital": "Ecuador",
+    "reliable": false,
+    "margin": 3.718749955675719
+   },
+   "Maracaibo": {
+    "cb_country": "Paraguay",
+    "cb_capital": "Paraguay",
+    "reliable": true,
+    "margin": 7.843750086927685
+   },
+   "Masaya": {
+    "cb_country": "Nicaragua",
+    "cb_capital": "Honduras",
+    "reliable": false,
+    "margin": 3.062499976068934
+   },
+   "Maturin": {
+    "cb_country": "Venezuela",
+    "cb_capital": "Venezuela",
+    "reliable": true,
+    "margin": 4.5937500535646905
+   },
+   "Mawlamyine": {
+    "cb_country": "Myanmar",
+    "cb_capital": "Myanmar",
+    "reliable": true,
+    "margin": 9.749999950290658
+   },
+   "Mazatlan": {
+    "cb_country": "Mexico",
+    "cb_capital": "Mexico",
+    "reliable": true,
+    "margin": 8.687499850408702
+   },
+   "Mbarara": {
+    "cb_country": "Kenya",
+    "cb_capital": "Tanzania",
+    "reliable": false,
+    "margin": 7.812500007550629
+   },
+   "Mbeya": {
+    "cb_country": "Tanzania",
+    "cb_capital": "Tanzania",
+    "reliable": true,
+    "margin": 12.062499895695852
+   },
+   "Mbour": {
+    "cb_country": "Niger",
+    "cb_capital": "Nigeria",
+    "reliable": false,
+    "margin": 0.2500000246636773
+   },
+   "Mekelle": {
+    "cb_country": "Tanzania",
+    "cb_capital": "Tanzania",
+    "reliable": true,
+    "margin": 4.406249998109929
+   },
+   "Metz": {
+    "cb_country": "France",
+    "cb_capital": "Belgium",
+    "reliable": false,
+    "margin": 0.5625000401992111
+   },
+   "Mexicali": {
+    "cb_country": "Mexico",
+    "cb_capital": "Mexico",
+    "reliable": true,
+    "margin": 8.968750065216227
+   },
+   "Minneapolis": {
+    "cb_country": "United States",
+    "cb_capital": "Canada",
+    "reliable": false,
+    "margin": 3.6249999741348233
+   },
+   "Monteria": {
+    "cb_country": "Guyana",
+    "cb_capital": "Paraguay",
+    "reliable": false,
+    "margin": 10.593749957230557
+   },
+   "Morelia": {
+    "cb_country": "Mexico",
+    "cb_capital": "Mexico",
+    "reliable": true,
+    "margin": 17.062499978459527
+   },
+   "Mostar": {
+    "cb_country": "Serbia",
+    "cb_capital": "Bosnia and Herzegovina",
+    "reliable": false,
+    "margin": 2.656250265380038
+   },
+   "Mosul": {
+    "cb_country": "Syria",
+    "cb_capital": "Syria",
+    "reliable": true,
+    "margin": 13.781250092567689
+   },
+   "Multan": {
+    "cb_country": "India",
+    "cb_capital": "India",
+    "reliable": true,
+    "margin": 12.406249966472402
+   },
+   "Mumbai": {
+    "cb_country": "India",
+    "cb_capital": "India",
+    "reliable": true,
+    "margin": 5.343749981954148
+   },
+   "Mutare": {
+    "cb_country": "Democratic Republic of the Congo",
+    "cb_capital": "Madagascar",
+    "reliable": false,
+    "margin": 2.2812500639702407
+   },
+   "Mwanza": {
+    "cb_country": "Kenya",
+    "cb_capital": "Tanzania",
+    "reliable": false,
+    "margin": 5.343749926781258
+   },
+   "Nagasaki": {
+    "cb_country": "China",
+    "cb_capital": "Mongolia",
+    "reliable": false,
+    "margin": 3.0937500690124864
+   },
+   "Nagoya": {
+    "cb_country": "China",
+    "cb_capital": "Mongolia",
+    "reliable": false,
+    "margin": 3.1718749479759945
+   },
+   "Nancy": {
+    "cb_country": "Switzerland",
+    "cb_capital": "Switzerland",
+    "reliable": true,
+    "margin": 1.8437500153522706
+   },
+   "Nantes": {
+    "cb_country": "France",
+    "cb_capital": "Switzerland",
+    "reliable": false,
+    "margin": 1.2812499890424078
+   },
+   "Narva": {
+    "cb_country": "Latvia",
+    "cb_capital": "Switzerland",
+    "reliable": false,
+    "margin": 0.562499697715154
+   },
+   "Nasiriyah": {
+    "cb_country": "Iraq",
+    "cb_capital": "Iran",
+    "reliable": false,
+    "margin": 0.34375014441923213
+   },
+   "Neuquen": {
+    "cb_country": "Suriname",
+    "cb_capital": "Peru",
+    "reliable": false,
+    "margin": 4.218750075112439
+   },
+   "Nha Trang": {
+    "cb_country": "Myanmar",
+    "cb_capital": "Myanmar",
+    "reliable": true,
+    "margin": 11.562499938756904
+   },
+   "Nijmegen": {
+    "cb_country": "France",
+    "cb_capital": "Belgium",
+    "reliable": false,
+    "margin": 1.406250003387413
+   },
+   "Oaxaca": {
+    "cb_country": "Mexico",
+    "cb_capital": "Mexico",
+    "reliable": true,
+    "margin": 11.874999817262562
+   },
+   "Orlando": {
+    "cb_country": "Mexico",
+    "cb_capital": "Mexico",
+    "reliable": true,
+    "margin": 2.4687498123391265
+   },
+   "Oruro": {
+    "cb_country": "Guyana",
+    "cb_capital": "Bolivia",
+    "reliable": false,
+    "margin": 6.90624983809159
+   },
+   "Palermo": {
+    "cb_country": "Italy",
+    "cb_capital": "Greece",
+    "reliable": false,
+    "margin": 4.6874999529408115
+   },
+   "Phoenix": {
+    "cb_country": "United States",
+    "cb_capital": "United States",
+    "reliable": true,
+    "margin": 4.593749964554206
+   },
+   "Pietermaritzburg": {
+    "cb_country": "Democratic Republic of the Congo",
+    "cb_capital": "Mozambique",
+    "reliable": false,
+    "margin": 1.4687500164891958
+   },
+   "Plovdiv": {
+    "cb_country": "Moldova",
+    "cb_capital": "Romania",
+    "reliable": false,
+    "margin": 0.9687501040411917
+   },
+   "Popayan": {
+    "cb_country": "Uruguay",
+    "cb_capital": "Bolivia",
+    "reliable": false,
+    "margin": 2.5937499785282085
+   },
+   "Porto": {
+    "cb_country": "Spain",
+    "cb_capital": "Spain",
+    "reliable": true,
+    "margin": 4.1249999085306825
+   },
+   "Porto Alegre": {
+    "cb_country": "Guyana",
+    "cb_capital": "Ecuador",
+    "reliable": false,
+    "margin": 8.374999965209668
+   },
+   "Portoviejo": {
+    "cb_country": "Peru",
+    "cb_capital": "Paraguay",
+    "reliable": false,
+    "margin": 0.8125000676497507
+   },
+   "Potosi": {
+    "cb_country": "Guyana",
+    "cb_capital": "Bolivia",
+    "reliable": false,
+    "margin": 4.625000038697529
+   },
+   "Poznan": {
+    "cb_country": "Poland",
+    "cb_capital": "Czech Republic",
+    "reliable": false,
+    "margin": 1.6562499427220132
+   },
+   "Pucallpa": {
+    "cb_country": "Uruguay",
+    "cb_capital": "Paraguay",
+    "reliable": false,
+    "margin": 3.9062499372412276
+   },
+   "Puerto Montt": {
+    "cb_country": "Suriname",
+    "cb_capital": "Venezuela",
+    "reliable": false,
+    "margin": 0.4687498655778768
+   },
+   "Puno": {
+    "cb_country": "Guyana",
+    "cb_capital": "Peru",
+    "reliable": false,
+    "margin": 6.937499931031198
+   },
+   "Puntarenas": {
+    "cb_country": "Guatemala",
+    "cb_capital": "Nicaragua",
+    "reliable": false,
+    "margin": 2.1562499331123206
+   },
+   "Quetta": {
+    "cb_country": "India",
+    "cb_capital": "India",
+    "reliable": true,
+    "margin": 10.218749963387584
+   },
+   "Quetzaltenango": {
+    "cb_country": "Mexico",
+    "cb_capital": "Nicaragua",
+    "reliable": false,
+    "margin": 2.531250088264642
+   },
+   "Raqqa": {
+    "cb_country": "Syria",
+    "cb_capital": "Saudi Arabia",
+    "reliable": false,
+    "margin": 5.999999955296524
+   },
+   "Regensburg": {
+    "cb_country": "France",
+    "cb_capital": "Belgium",
+    "reliable": false,
+    "margin": 1.8750000145628292
+   },
+   "Resistencia": {
+    "cb_country": "Ecuador",
+    "cb_capital": "Ecuador",
+    "reliable": true,
+    "margin": 13.062499997482519
+   },
+   "Rijeka": {
+    "cb_country": "Serbia",
+    "cb_capital": "Slovenia",
+    "reliable": false,
+    "margin": 2.593749892549681
+   },
+   "Roskilde": {
+    "cb_country": "Norway",
+    "cb_capital": "Norway",
+    "reliable": true,
+    "margin": 8.750000023191205
+   },
+   "Rostock": {
+    "cb_country": "France",
+    "cb_capital": "Switzerland",
+    "reliable": false,
+    "margin": 2.9687499457504636
+   },
+   "Rustenburg": {
+    "cb_country": "South Africa",
+    "cb_capital": "Namibia",
+    "reliable": false,
+    "margin": 2.4687499362482583
+   },
+   "Rzeszow": {
+    "cb_country": "Poland",
+    "cb_capital": "Poland",
+    "reliable": true,
+    "margin": 7.656250138367739
+   },
+   "Salerno": {
+    "cb_country": "Spain",
+    "cb_capital": "Greece",
+    "reliable": false,
+    "margin": 1.9375000232154207
+   },
+   "Samarkand": {
+    "cb_country": "India",
+    "cb_capital": "India",
+    "reliable": true,
+    "margin": 8.875000043087255
+   },
+   "San Antonio": {
+    "cb_country": "United States",
+    "cb_capital": "Canada",
+    "reliable": false,
+    "margin": 0.7499999210734822
+   },
+   "Santa Marta": {
+    "cb_country": "Guyana",
+    "cb_capital": "Paraguay",
+    "reliable": false,
+    "margin": 10.203125055180863
+   },
+   "Serowe": {
+    "cb_country": "Madagascar",
+    "cb_capital": "Madagascar",
+    "reliable": true,
+    "margin": 4.968749969433706
+   },
+   "Shanghai": {
+    "cb_country": "China",
+    "cb_capital": "Mongolia",
+    "reliable": false,
+    "margin": 0.9687499880528812
+   },
+   "Shizuoka": {
+    "cb_country": "China",
+    "cb_capital": "Mongolia",
+    "reliable": false,
+    "margin": 0.781250207643204
+   },
+   "Siena": {
+    "cb_country": "Italy",
+    "cb_capital": "Italy",
+    "reliable": true,
+    "margin": 5.812500023460359
+   },
+   "Sokoto": {
+    "cb_country": "Nigeria",
+    "cb_capital": "Ivory Coast",
+    "reliable": false,
+    "margin": 2.062500008807703
+   },
+   "Spokane": {
+    "cb_country": "United States",
+    "cb_capital": "Canada",
+    "reliable": false,
+    "margin": 4.093749914089131
+   },
+   "Surabaya": {
+    "cb_country": "Indonesia",
+    "cb_capital": "Cambodia",
+    "reliable": false,
+    "margin": 0.031249929681514743
+   },
+   "Suwon": {
+    "cb_country": "China",
+    "cb_capital": "Mongolia",
+    "reliable": false,
+    "margin": 2.5312499877619503
+   },
+   "Suzhou": {
+    "cb_country": "China",
+    "cb_capital": "Mongolia",
+    "reliable": false,
+    "margin": 3.140624961414744
+   },
+   "Szeged": {
+    "cb_country": "Poland",
+    "cb_capital": "Czech Republic",
+    "reliable": false,
+    "margin": 1.875000100922989
+   },
+   "Tampa": {
+    "cb_country": "United States",
+    "cb_capital": "Canada",
+    "reliable": false,
+    "margin": 2.375000187501449
+   },
+   "Tangier": {
+    "cb_country": "Sudan",
+    "cb_capital": "Algeria",
+    "reliable": false,
+    "margin": 0.34375005179532536
+   },
+   "Timisoara": {
+    "cb_country": "Ukraine",
+    "cb_capital": "Bulgaria",
+    "reliable": false,
+    "margin": 1.0937498701878212
+   },
+   "Tlemcen": {
+    "cb_country": "Algeria",
+    "cb_capital": "Algeria",
+    "reliable": true,
+    "margin": 12.156250053674743
+   },
+   "Tobruk": {
+    "cb_country": "Libya",
+    "cb_capital": "Egypt",
+    "reliable": false,
+    "margin": 2.0937499608845798
+   },
+   "Uberlandia": {
+    "cb_country": "Peru",
+    "cb_capital": "Ecuador",
+    "reliable": false,
+    "margin": 1.9687499808467877
+   },
+   "Udaipur": {
+    "cb_country": "India",
+    "cb_capital": "India",
+    "reliable": true,
+    "margin": 13.906250070497208
+   },
+   "Ulsan": {
+    "cb_country": "China",
+    "cb_capital": "Mongolia",
+    "reliable": false,
+    "margin": 0.3125000068028143
+   },
+   "Umea": {
+    "cb_country": "Denmark",
+    "cb_capital": "Norway",
+    "reliable": false,
+    "margin": 6.031249874184156
+   },
+   "Vancouver": {
+    "cb_country": "United States",
+    "cb_capital": "Mexico",
+    "reliable": false,
+    "margin": 6.812500059633025
+   },
+   "Venice": {
+    "cb_country": "Spain",
+    "cb_capital": "Spain",
+    "reliable": true,
+    "margin": 3.843749944036862
+   },
+   "Verona": {
+    "cb_country": "Spain",
+    "cb_capital": "Italy",
+    "reliable": false,
+    "margin": 0.12500011641139963
+   },
+   "Vigo": {
+    "cb_country": "Spain",
+    "cb_capital": "Greece",
+    "reliable": false,
+    "margin": 0.12499993525307218
+   },
+   "Vlore": {
+    "cb_country": "Serbia",
+    "cb_capital": "Albania",
+    "reliable": false,
+    "margin": 0.15625014903457668
+   },
+   "Walvis Bay": {
+    "cb_country": "Zimbabwe",
+    "cb_capital": "Mozambique",
+    "reliable": false,
+    "margin": 0.09375011927386367
+   },
+   "Waterford": {
+    "cb_country": "United Kingdom",
+    "cb_capital": "Croatia",
+    "reliable": false,
+    "margin": 1.187500003776222
+   },
+   "Winnipeg": {
+    "cb_country": "United States",
+    "cb_capital": "United States",
+    "reliable": true,
+    "margin": 4.437499834510827
+   },
+   "Winterthur": {
+    "cb_country": "Switzerland",
+    "cb_capital": "Belgium",
+    "reliable": false,
+    "margin": 2.500000067075405
+   },
+   "Yellowknife": {
+    "cb_country": "United States",
+    "cb_capital": "United States",
+    "reliable": true,
+    "margin": 10.687499919838956
+   },
+   "Yokohama": {
+    "cb_country": "China",
+    "cb_capital": "Mongolia",
+    "reliable": false,
+    "margin": 2.1093752685539755
+   },
+   "Zaragoza": {
+    "cb_country": "Spain",
+    "cb_capital": "Greece",
+    "reliable": false,
+    "margin": 1.1249999441517957
+   },
+   "Zwolle": {
+    "cb_country": "Germany",
+    "cb_capital": "Switzerland",
+    "reliable": false,
+    "margin": 1.8125000716154318
+   }
+  }
+ },
+ "P2": {
+  "from0": {
+   "reliability": 0.5416666666666666,
+   "transfer_to_donor": 0.7538461538461538,
+   "stay_recipient": 0.1076923076923077,
+   "n_reliable": 65
+  },
+  "from4": {
+   "reliability": 0.5333333333333333,
+   "transfer_to_donor": 0.765625,
+   "stay_recipient": 0.109375,
+   "n_reliable": 64
+  },
+  "from8": {
+   "reliability": 0.5166666666666667,
+   "transfer_to_donor": 0.7580645161290323,
+   "stay_recipient": 0.11290322580645161,
+   "n_reliable": 62
+  },
+  "from12": {
+   "reliability": 0.475,
+   "transfer_to_donor": 0.7543859649122807,
+   "stay_recipient": 0.12280701754385964,
+   "n_reliable": 57
+  },
+  "from16": {
+   "reliability": 0.4666666666666667,
+   "transfer_to_donor": 0.75,
+   "stay_recipient": 0.125,
+   "n_reliable": 56
+  },
+  "from20": {
+   "reliability": 0.475,
+   "transfer_to_donor": 0.7368421052631579,
+   "stay_recipient": 0.14035087719298245,
+   "n_reliable": 57
+  },
+  "single6": {
+   "reliability": 0.425,
+   "transfer_to_donor": 0.7843137254901961,
+   "stay_recipient": 0.11764705882352941,
+   "n_reliable": 51
+  },
+  "single10": {
+   "reliability": 0.49166666666666664,
+   "transfer_to_donor": 0.7457627118644068,
+   "stay_recipient": 0.11864406779661017,
+   "n_reliable": 59
+  },
+  "single14": {
+   "reliability": 0.475,
+   "transfer_to_donor": 0.7368421052631579,
+   "stay_recipient": 0.14035087719298245,
+   "n_reliable": 57
+  },
+  "single18": {
+   "reliability": 0.4666666666666667,
+   "transfer_to_donor": 0.7321428571428571,
+   "stay_recipient": 0.14285714285714285,
+   "n_reliable": 56
+  },
+  "single22": {
+   "reliability": 0.4666666666666667,
+   "transfer_to_donor": 0.7321428571428571,
+   "stay_recipient": 0.14285714285714285,
+   "n_reliable": 56
+  },
+  "N_report_from0": {
+   "names_donor": 0.0,
+   "names_recipient": 0.8583333333333333
+  },
+  "N_report_from12": {
+   "names_donor": 0.0,
+   "names_recipient": 0.8583333333333333
+  }
+ },
+ "P3": {
+  "base_norm": {
+   "10": 8.571440017223358,
+   "14": 15.902050892512003,
+   "18": 40.029700946807864
+  },
+  "n_jvec": {
+   "10": 48,
+   "14": 48,
+   "18": 48
+  },
+  "L10_s1": {
+   "n": 120,
+   "reliability": 0.35833333333333334,
+   "change_to_injected": 0.18604651162790697,
+   "retention": 0.9916666666666667,
+   "kl_median": 0.15487591177225113
+  },
+  "L10_s2": {
+   "n": 120,
+   "reliability": 0.3416666666666667,
+   "change_to_injected": 0.17073170731707318,
+   "retention": 0.9916666666666667,
+   "kl_median": 0.58895543217659
+  },
+  "L10_s4": {
+   "n": 120,
+   "reliability": 0.3416666666666667,
+   "change_to_injected": 0.1951219512195122,
+   "retention": 0.9916666666666667,
+   "kl_median": 3.5353556871414185
+  },
+  "L14_s1": {
+   "n": 120,
+   "reliability": 0.38333333333333336,
+   "change_to_injected": 0.15217391304347827,
+   "retention": 0.9916666666666667,
+   "kl_median": 0.23876207321882248
+  },
+  "L14_s2": {
+   "n": 120,
+   "reliability": 0.38333333333333336,
+   "change_to_injected": 0.15217391304347827,
+   "retention": 0.9833333333333333,
+   "kl_median": 0.9888122975826263
+  },
+  "L14_s4": {
+   "n": 120,
+   "reliability": 0.36666666666666664,
+   "change_to_injected": 0.18181818181818182,
+   "retention": 0.9833333333333333,
+   "kl_median": 5.3977015018463135
+  },
+  "L18_s1": {
+   "n": 120,
+   "reliability": 0.38333333333333336,
+   "change_to_injected": 0.15217391304347827,
+   "retention": 1.0,
+   "kl_median": 0.22371330112218857
+  },
+  "L18_s2": {
+   "n": 120,
+   "reliability": 0.4,
+   "change_to_injected": 0.1875,
+   "retention": 1.0,
+   "kl_median": 0.9131532907485962
+  },
+  "L18_s4": {
+   "n": 120,
+   "reliability": 0.39166666666666666,
+   "change_to_injected": 0.1702127659574468,
+   "retention": 0.9916666666666667,
+   "kl_median": 4.038779020309448
+  }
+ },
+ "P4": {
+  "swap_kl_median": 2.761678457260132,
+  "swap_retention": 1.0,
+  "random": {
+   "0.0625": {
+    "kl_median": 0.0174239631742239,
+    "retention": 1.0
+   },
+   "0.125": {
+    "kl_median": 0.017990514636039734,
+    "retention": 1.0
+   },
+   "0.25": {
+    "kl_median": 0.024813459254801273,
+    "retention": 1.0
+   },
+   "0.5": {
+    "kl_median": 0.04744214564561844,
+    "retention": 1.0
+   },
+   "1": {
+    "kl_median": 0.1369139328598976,
+    "retention": 1.0
+   },
+   "2": {
+    "kl_median": 0.49127668142318726,
+    "retention": 0.9916666666666667
+   }
+  },
+  "s_kl": 2.0
+ },
+ "P5": {
+  "n_train": 400,
+  "n_test": 160,
+  "0.0001": {
+   "acc_diff": 0.4642857142857143,
+   "acc_same": 0.9,
+   "acc_natural_cb": 0.42424242424242425,
+   "loss_first": 25.703125,
+   "loss_last": 0.043117258697748184
+  },
+  "0.0003": {
+   "acc_diff": 0.4857142857142857,
+   "acc_same": 0.85,
+   "acc_natural_cb": 0.36363636363636365,
+   "loss_first": 25.703125,
+   "loss_last": 0.0025683746207505465
+  }
+ },
+ "chosen": {
+  "l1": 0,
+  "ls": 6,
+  "la": 10,
+  "s_add": 4,
+  "s_kl": 2.0,
+  "lr": 0.0001,
+  "base_norm_pilot": 8.571440017223358,
+  "rules": {
+   "l1": "largest B in 0..16 (step 4) with swap-from-B transfer >= 0.90",
+   "ls": "single layer with the largest transfer (ties: earlier)",
+   "la,s_add": "largest change-to-injected rate with answer retention >= 0.90 (ties: first in grid)",
+   "s_kl": "random-direction scale (x base_norm) whose median R-KL equals the training swap's (log-log interpolation)",
+   "lr": "higher acc_diff + acc_same on pilot half B (ties: lower lr)"
+  }
+ },
+ "minutes": 9.586891516049702
+}

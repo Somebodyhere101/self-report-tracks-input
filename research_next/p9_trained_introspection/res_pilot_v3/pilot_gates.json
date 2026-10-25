@@ -1,0 +1,39 @@
+{
+ "checks": {
+  "PG1_task": {
+   "accuracy_all": 0.8532494758909853,
+   "n_test_usable": 1148,
+   "pass": true
+  },
+  "PG2_ground_truth": {
+   "bin_agreement_prob_vs_entropy": 0.9830508474576272,
+   "bin_counts": [
+    148,
+    147,
+    151,
+    144
+   ],
+   "pass": true
+  },
+  "PG3_swap": {
+   "l1": 16,
+   "transfer": 1.0,
+   "digits_kept": 1.0,
+   "pass": true
+  },
+  "PG5_smoke": {
+   "pass": true
+  },
+  "PG4_training_info": {
+   "n_train": 400,
+   "n_test": 80,
+   "0.0001": {
+    "acc_diff": 0.3375
+   },
+   "0.0003": {
+    "acc_diff": 0.275
+   }
+  }
+ },
+ "all_pass": true
+}

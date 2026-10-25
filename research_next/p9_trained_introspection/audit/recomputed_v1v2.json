@@ -1,0 +1,1304 @@
+{
+ "v1": {
+  "PG1": {
+   "n_screened": 1018,
+   "n_ok": 1008,
+   "n_acc2_correct": 962,
+   "acc2_all": 0.9543650793650794,
+   "n_test_usable": 363,
+   "split_counts_all": {
+    "train": 430,
+    "test": 380,
+    "pilot": 208
+   },
+   "pass": true
+  },
+  "PG2": {
+   "n_pilot_usable": 194,
+   "n_known_like": 164,
+   "n_reliable_all": 60,
+   "reliable_flag_equals_country_capital_agreement": true,
+   "reliability_all_usable_pilot": 0.30927835051546393,
+   "reliability_known_like_only": 0.29878048780487804,
+   "calibration_known_frozen_def": 0.11585365853658537,
+   "n_cal_hits": 19,
+   "calibration_known_cb_argmax_ignoring_reliability": 0.35365853658536583,
+   "calibration_known_among_reliable_only": 0.3877551020408163,
+   "n_known_like_reliable": 49,
+   "cb_eq_gaz_among_reliable": 0.4,
+   "cb_eq_p1_among_reliable": 0.4,
+   "n_divergent_from_p1": 36,
+   "n_divergent_from_gaz": 36,
+   "margins_match_stored": true,
+   "pass": false,
+   "pass_under_any_definition": false
+  },
+  "PG3": {
+   "l1_by_rule": 0,
+   "l1_stored": 0,
+   "transfer_at_l1": 0.7538461538461538,
+   "n_reliable": 65,
+   "hits": 49.0,
+   "transfer_min": 0.7321428571428571,
+   "transfer_max": 0.7843137254901961,
+   "pass": false,
+   "n_report_from0": {
+    "names_donor": 0.0,
+    "names_recipient": 0.8583333333333333
+   },
+   "n_report_from12": {
+    "names_donor": 0.0,
+    "names_recipient": 0.8583333333333333
+   }
+  },
+  "pilot_params": {
+   "ls": 6,
+   "la_s_add": [
+    10,
+    4
+   ],
+   "lr": 0.0001,
+   "stored": {
+    "ls": 6,
+    "la": 10,
+    "s_add": 4,
+    "lr": 0.0001,
+    "s_kl": 2.0
+   },
+   "swap_kl_median": 2.761678457260132,
+   "random_kl_median_at_max_scale_2": 0.49127668142318726,
+   "config_pilot_matches_chosen": true
+  },
+  "PG5": {
+   "selftest_analysis_exists": true
+  },
+  "gates_file_matches": {
+   "PG1_acc2": true,
+   "PG1_n": true,
+   "PG2_cal": true,
+   "PG2_rel": true,
+   "PG3": true,
+   "all_pass_false": true
+  },
+  "res_contents": [
+   "screen.json"
+  ],
+  "root_config_json_exists": false,
+  "selftest_city_splits": {
+   "train": 0,
+   "test": 0,
+   "pilot": 133
+  },
+  "selftest_n_cities": 133
+ },
+ "v2": {
+  "items": {
+   "n_test": 363,
+   "n_known": 306,
+   "known_list_identical": true,
+   "n_test_stored": 363,
+   "bounds": [
+    4,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    16,
+    20
+   ]
+  },
+  "A": {
+   "prior": {
+    "calibration": 0.3137254901960784,
+    "hits": 96,
+    "ci": [
+     0.26143790849673204,
+     0.3660130718954248
+    ]
+   },
+   "R": {
+    "calibration": 0.35294117647058826,
+    "hits": 108,
+    "ci": [
+     0.3006535947712418,
+     0.4084967320261438
+    ]
+   },
+   "city+R": {
+    "calibration": 0.9607843137254902,
+    "hits": 294,
+    "ci": [
+     0.9379084967320261,
+     0.9803921568627451
+    ]
+   },
+   "cityR_minus_R": {
+    "diff": 0.6078431372549019,
+    "ci": [
+     0.5522875816993464,
+     0.6633986928104575
+    ]
+   },
+   "R_minus_prior": {
+    "diff": 0.0392156862745098,
+    "ci": [
+     -0.006535947712418301,
+     0.08496732026143791
+    ]
+   },
+   "R_equals_prior_pick": 0.6862745098039216,
+   "R_vs_prior_2x2": {
+    "both_right": 76,
+    "R_only": 32,
+    "prior_only": 20,
+    "both_wrong": 178
+   },
+   "pick_rederivation_mismatches": {
+    "prior": 0,
+    "R": 0,
+    "city+R": 0
+   },
+   "pick_mismatches_under_wrong_rotation_convention": {
+    "prior": 178,
+    "R": 159,
+    "city+R": 154
+   },
+   "gazetteer_in_cands_all": true,
+   "R_minus_prior_ci_other_seeds": [
+    [
+     -0.006535947712418301,
+     0.08496732026143791
+    ],
+    [
+     -0.006535947712418301,
+     0.08496732026143791
+    ],
+    [
+     -0.006535947712418301,
+     0.08496732026143791
+    ],
+    [
+     -0.006535947712418301,
+     0.08496732026143791
+    ],
+    [
+     -0.006535947712418301,
+     0.08496732026143791
+    ]
+   ]
+  },
+  "pairs": {
+   "n_pairs": 200,
+   "distinct_recipients": 200,
+   "distinct_donors": 144,
+   "max_donor_reuse": 5,
+   "x_in_test": true,
+   "y_known_like": true,
+   "same_token_count": true,
+   "same_continent": true,
+   "different_country": true,
+   "x_ne_y": true,
+   "n_recipients_known_like": 177,
+   "row_kinds": {
+    "report": 2000,
+    "readout": 2000,
+    "report_Rswap": 200
+   },
+   "rows_pairs_equal_pairs": true,
+   "cands_identical_across_rows_of_a_pair": true,
+   "cands_contain_both_countries": true,
+   "pick_rederivation_mismatches": 0,
+   "pick_mismatches_under_wrong_rotation_convention": 2056
+  },
+  "B": {
+   "report": {
+    "4": {
+     "donor": 0.965,
+     "donor_ci": [
+      0.935,
+      0.99
+     ],
+     "recipient": 0.005,
+     "other": 0.03000000000000003,
+     "n": 200,
+     "recipient_known_like_x_only": 0.0
+    },
+    "6": {
+     "donor": 0.96,
+     "donor_ci": [
+      0.93,
+      0.985
+     ],
+     "recipient": 0.005,
+     "other": 0.03500000000000004,
+     "n": 200,
+     "recipient_known_like_x_only": 0.0
+    },
+    "8": {
+     "donor": 0.935,
+     "donor_ci": [
+      0.9,
+      0.965
+     ],
+     "recipient": 0.005,
+     "other": 0.05999999999999995,
+     "n": 200,
+     "recipient_known_like_x_only": 0.0
+    },
+    "9": {
+     "donor": 0.935,
+     "donor_ci": [
+      0.9,
+      0.965
+     ],
+     "recipient": 0.005,
+     "other": 0.05999999999999995,
+     "n": 200,
+     "recipient_known_like_x_only": 0.0
+    },
+    "10": {
+     "donor": 0.905,
+     "donor_ci": [
+      0.865,
+      0.945
+     ],
+     "recipient": 0.02,
+     "other": 0.07499999999999997,
+     "n": 200,
+     "recipient_known_like_x_only": 0.01694915254237288
+    },
+    "11": {
+     "donor": 0.84,
+     "donor_ci": [
+      0.79,
+      0.89
+     ],
+     "recipient": 0.065,
+     "other": 0.09500000000000003,
+     "n": 200,
+     "recipient_known_like_x_only": 0.06779661016949153
+    },
+    "12": {
+     "donor": 0.025,
+     "donor_ci": [
+      0.005,
+      0.05
+     ],
+     "recipient": 0.935,
+     "other": 0.039999999999999925,
+     "n": 200,
+     "recipient_known_like_x_only": 0.96045197740113
+    },
+    "14": {
+     "donor": 0.015,
+     "donor_ci": [
+      0.0,
+      0.035
+     ],
+     "recipient": 0.95,
+     "other": 0.03500000000000003,
+     "n": 200,
+     "recipient_known_like_x_only": 0.9661016949152542
+    },
+    "16": {
+     "donor": 0.015,
+     "donor_ci": [
+      0.0,
+      0.035
+     ],
+     "recipient": 0.95,
+     "other": 0.03500000000000003,
+     "n": 200,
+     "recipient_known_like_x_only": 0.9661016949152542
+    },
+    "20": {
+     "donor": 0.015,
+     "donor_ci": [
+      0.0,
+      0.035
+     ],
+     "recipient": 0.95,
+     "other": 0.03500000000000003,
+     "n": 200,
+     "recipient_known_like_x_only": 0.9661016949152542
+    }
+   },
+   "readout": {
+    "4": {
+     "donor": 0.965,
+     "donor_ci": [
+      0.94,
+      0.99
+     ],
+     "recipient": 0.005,
+     "other": 0.03000000000000003,
+     "n": 200,
+     "recipient_known_like_x_only": 0.0
+    },
+    "6": {
+     "donor": 0.955,
+     "donor_ci": [
+      0.925,
+      0.98
+     ],
+     "recipient": 0.005,
+     "other": 0.04000000000000004,
+     "n": 200,
+     "recipient_known_like_x_only": 0.0
+    },
+    "8": {
+     "donor": 0.91,
+     "donor_ci": [
+      0.87,
+      0.945
+     ],
+     "recipient": 0.025,
+     "other": 0.06499999999999997,
+     "n": 200,
+     "recipient_known_like_x_only": 0.022598870056497175
+    },
+    "9": {
+     "donor": 0.9,
+     "donor_ci": [
+      0.86,
+      0.94
+     ],
+     "recipient": 0.025,
+     "other": 0.07499999999999998,
+     "n": 200,
+     "recipient_known_like_x_only": 0.022598870056497175
+    },
+    "10": {
+     "donor": 0.89,
+     "donor_ci": [
+      0.845,
+      0.93
+     ],
+     "recipient": 0.035,
+     "other": 0.07499999999999998,
+     "n": 200,
+     "recipient_known_like_x_only": 0.03389830508474576
+    },
+    "11": {
+     "donor": 0.795,
+     "donor_ci": [
+      0.74,
+      0.85
+     ],
+     "recipient": 0.125,
+     "other": 0.07999999999999996,
+     "n": 200,
+     "recipient_known_like_x_only": 0.13559322033898305
+    },
+    "12": {
+     "donor": 0.025,
+     "donor_ci": [
+      0.005,
+      0.05
+     ],
+     "recipient": 0.945,
+     "other": 0.030000000000000027,
+     "n": 200,
+     "recipient_known_like_x_only": 0.9661016949152542
+    },
+    "14": {
+     "donor": 0.02,
+     "donor_ci": [
+      0.005,
+      0.04
+     ],
+     "recipient": 0.945,
+     "other": 0.03500000000000003,
+     "n": 200,
+     "recipient_known_like_x_only": 0.96045197740113
+    },
+    "16": {
+     "donor": 0.02,
+     "donor_ci": [
+      0.005,
+      0.04
+     ],
+     "recipient": 0.945,
+     "other": 0.03500000000000003,
+     "n": 200,
+     "recipient_known_like_x_only": 0.96045197740113
+    },
+    "20": {
+     "donor": 0.02,
+     "donor_ci": [
+      0.005,
+      0.04
+     ],
+     "recipient": 0.945,
+     "other": 0.03500000000000003,
+     "n": 200,
+     "recipient_known_like_x_only": 0.96045197740113
+    }
+   }
+  },
+  "transition": {
+   "report": 12,
+   "readout": 12
+  },
+  "agreement": {
+   "mean": 0.9645,
+   "n_rows": 2000,
+   "ci_rows": [
+    0.956,
+    0.9725
+   ],
+   "ci_pair_cluster": [
+    0.951,
+    0.977
+   ],
+   "expected_if_independent_pooled": 0.8629900000000001,
+   "kappa_pooled": 0.7408948251952411,
+   "per_B": {
+    "4": {
+     "observed": 1.0,
+     "expected_if_independent": 0.93215,
+     "kappa": 1.0,
+     "rep_donor_ro_not": 0,
+     "ro_donor_rep_not": 0
+    },
+    "6": {
+     "observed": 0.985,
+     "expected_if_independent": 0.918225,
+     "kappa": 0.816569856313054,
+     "rep_donor_ro_not": 2,
+     "ro_donor_rep_not": 1
+    },
+    "8": {
+     "observed": 0.945,
+     "expected_if_independent": 0.8548750000000002,
+     "kappa": 0.621016365202411,
+     "rep_donor_ro_not": 8,
+     "ro_donor_rep_not": 3
+    },
+    "9": {
+     "observed": 0.935,
+     "expected_if_independent": 0.846125,
+     "kappa": 0.5775792038992692,
+     "rep_donor_ro_not": 10,
+     "ro_donor_rep_not": 3
+    },
+    "10": {
+     "observed": 0.945,
+     "expected_if_independent": 0.811775,
+     "kappa": 0.7077965201221939,
+     "rep_donor_ro_not": 6,
+     "ro_donor_rep_not": 3
+    },
+    "11": {
+     "observed": 0.9,
+     "expected_if_independent": 0.6835250000000002,
+     "kappa": 0.6840192748242356,
+     "rep_donor_ro_not": 14,
+     "ro_donor_rep_not": 5
+    },
+    "12": {
+     "observed": 0.98,
+     "expected_if_independent": 0.8854,
+     "kappa": 0.825479930191972,
+     "rep_donor_ro_not": 1,
+     "ro_donor_rep_not": 1
+    },
+    "14": {
+     "observed": 0.985,
+     "expected_if_independent": 0.8992749999999999,
+     "kappa": 0.8510796723752792,
+     "rep_donor_ro_not": 0,
+     "ro_donor_rep_not": 1
+    },
+    "16": {
+     "observed": 0.985,
+     "expected_if_independent": 0.8992749999999999,
+     "kappa": 0.8510796723752792,
+     "rep_donor_ro_not": 0,
+     "ro_donor_rep_not": 1
+    },
+    "20": {
+     "observed": 0.985,
+     "expected_if_independent": 0.8992749999999999,
+     "kappa": 0.8510796723752792,
+     "rep_donor_ro_not": 0,
+     "ro_donor_rep_not": 1
+    }
+   }
+  },
+  "C": {
+   "report_names_donor": 0.02,
+   "report_names_recipient": 0.945,
+   "n": 200,
+   "donor_ci": [
+    0.005,
+    0.04
+   ]
+  },
+  "H": {
+   "H1": true,
+   "H2": true,
+   "H2_parts": {
+    "agreement>=0.85": true,
+    "ends": true,
+    "transitions_equal_or_adjacent": true
+   },
+   "H3": true
+  },
+  "verdict": "SAME WINDOW",
+  "comparison": {
+   "rows": [
+    {
+     "what": "A prior calibration",
+     "recomputed": 0.3137254901960784,
+     "reported": 0.3137254901960784,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "A prior CI low",
+     "recomputed": 0.26143790849673204,
+     "reported": 0.26143790849673204,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "A prior CI high",
+     "recomputed": 0.3660130718954248,
+     "reported": 0.3660130718954248,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "A R calibration",
+     "recomputed": 0.35294117647058826,
+     "reported": 0.35294117647058826,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "A R CI low",
+     "recomputed": 0.3006535947712418,
+     "reported": 0.3006535947712418,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "A R CI high",
+     "recomputed": 0.4084967320261438,
+     "reported": 0.4084967320261438,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "A city+R calibration",
+     "recomputed": 0.9607843137254902,
+     "reported": 0.9607843137254902,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "A city+R CI low",
+     "recomputed": 0.9379084967320261,
+     "reported": 0.9379084967320261,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "A city+R CI high",
+     "recomputed": 0.9803921568627451,
+     "reported": 0.9803921568627451,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "A cityR_minus_R diff",
+     "recomputed": 0.6078431372549019,
+     "reported": 0.6078431372549019,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "A cityR_minus_R CI low",
+     "recomputed": 0.5522875816993464,
+     "reported": 0.5490196078431373,
+     "absdiff": 0.0032679738562091387,
+     "mismatch": false
+    },
+    {
+     "what": "A cityR_minus_R CI high",
+     "recomputed": 0.6633986928104575,
+     "reported": 0.6602124183006524,
+     "absdiff": 0.0031862745098051315,
+     "mismatch": false
+    },
+    {
+     "what": "A R_minus_prior diff",
+     "recomputed": 0.0392156862745098,
+     "reported": 0.0392156862745098,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "A R_minus_prior CI low",
+     "recomputed": -0.006535947712418301,
+     "reported": -0.006535947712418301,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "A R_minus_prior CI high",
+     "recomputed": 0.08496732026143791,
+     "reported": 0.08496732026143791,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "A R_equals_prior_pick",
+     "recomputed": 0.6862745098039216,
+     "reported": 0.6862745098039216,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=4 donor",
+     "recomputed": 0.965,
+     "reported": 0.965,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=4 recipient",
+     "recomputed": 0.005,
+     "reported": 0.005,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=4 donor CI low",
+     "recomputed": 0.935,
+     "reported": 0.935,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=4 donor CI high",
+     "recomputed": 0.99,
+     "reported": 0.99,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=6 donor",
+     "recomputed": 0.96,
+     "reported": 0.96,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=6 recipient",
+     "recomputed": 0.005,
+     "reported": 0.005,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=6 donor CI low",
+     "recomputed": 0.93,
+     "reported": 0.93,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=6 donor CI high",
+     "recomputed": 0.985,
+     "reported": 0.985,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=8 donor",
+     "recomputed": 0.935,
+     "reported": 0.935,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=8 recipient",
+     "recomputed": 0.005,
+     "reported": 0.005,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=8 donor CI low",
+     "recomputed": 0.9,
+     "reported": 0.9,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=8 donor CI high",
+     "recomputed": 0.965,
+     "reported": 0.965,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=9 donor",
+     "recomputed": 0.935,
+     "reported": 0.935,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=9 recipient",
+     "recomputed": 0.005,
+     "reported": 0.005,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=9 donor CI low",
+     "recomputed": 0.9,
+     "reported": 0.9,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=9 donor CI high",
+     "recomputed": 0.965,
+     "reported": 0.965,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=10 donor",
+     "recomputed": 0.905,
+     "reported": 0.905,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=10 recipient",
+     "recomputed": 0.02,
+     "reported": 0.02,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=10 donor CI low",
+     "recomputed": 0.865,
+     "reported": 0.8648750000000001,
+     "absdiff": 0.00012499999999993072,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=10 donor CI high",
+     "recomputed": 0.945,
+     "reported": 0.945,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=11 donor",
+     "recomputed": 0.84,
+     "reported": 0.84,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=11 recipient",
+     "recomputed": 0.065,
+     "reported": 0.065,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=11 donor CI low",
+     "recomputed": 0.79,
+     "reported": 0.79,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=11 donor CI high",
+     "recomputed": 0.89,
+     "reported": 0.89,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=12 donor",
+     "recomputed": 0.025,
+     "reported": 0.025,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=12 recipient",
+     "recomputed": 0.935,
+     "reported": 0.935,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=12 donor CI low",
+     "recomputed": 0.005,
+     "reported": 0.005,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=12 donor CI high",
+     "recomputed": 0.05,
+     "reported": 0.05,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=14 donor",
+     "recomputed": 0.015,
+     "reported": 0.015,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=14 recipient",
+     "recomputed": 0.95,
+     "reported": 0.95,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=14 donor CI low",
+     "recomputed": 0.0,
+     "reported": 0.0,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=14 donor CI high",
+     "recomputed": 0.035,
+     "reported": 0.035,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=16 donor",
+     "recomputed": 0.015,
+     "reported": 0.015,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=16 recipient",
+     "recomputed": 0.95,
+     "reported": 0.95,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=16 donor CI low",
+     "recomputed": 0.0,
+     "reported": 0.0,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=16 donor CI high",
+     "recomputed": 0.035,
+     "reported": 0.035,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=20 donor",
+     "recomputed": 0.015,
+     "reported": 0.015,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=20 recipient",
+     "recomputed": 0.95,
+     "reported": 0.95,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=20 donor CI low",
+     "recomputed": 0.0,
+     "reported": 0.0,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B report B=20 donor CI high",
+     "recomputed": 0.035,
+     "reported": 0.035,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=4 donor",
+     "recomputed": 0.965,
+     "reported": 0.965,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=4 recipient",
+     "recomputed": 0.005,
+     "reported": 0.005,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=4 donor CI low",
+     "recomputed": 0.94,
+     "reported": 0.935,
+     "absdiff": 0.004999999999999893,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=4 donor CI high",
+     "recomputed": 0.99,
+     "reported": 0.99,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=6 donor",
+     "recomputed": 0.955,
+     "reported": 0.955,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=6 recipient",
+     "recomputed": 0.005,
+     "reported": 0.005,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=6 donor CI low",
+     "recomputed": 0.925,
+     "reported": 0.925,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=6 donor CI high",
+     "recomputed": 0.98,
+     "reported": 0.98,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=8 donor",
+     "recomputed": 0.91,
+     "reported": 0.91,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=8 recipient",
+     "recomputed": 0.025,
+     "reported": 0.025,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=8 donor CI low",
+     "recomputed": 0.87,
+     "reported": 0.87,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=8 donor CI high",
+     "recomputed": 0.945,
+     "reported": 0.945,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=9 donor",
+     "recomputed": 0.9,
+     "reported": 0.9,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=9 recipient",
+     "recomputed": 0.025,
+     "reported": 0.025,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=9 donor CI low",
+     "recomputed": 0.86,
+     "reported": 0.855,
+     "absdiff": 0.0050000000000000044,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=9 donor CI high",
+     "recomputed": 0.94,
+     "reported": 0.94,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=10 donor",
+     "recomputed": 0.89,
+     "reported": 0.89,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=10 recipient",
+     "recomputed": 0.035,
+     "reported": 0.035,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=10 donor CI low",
+     "recomputed": 0.845,
+     "reported": 0.845,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=10 donor CI high",
+     "recomputed": 0.93,
+     "reported": 0.93,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=11 donor",
+     "recomputed": 0.795,
+     "reported": 0.795,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=11 recipient",
+     "recomputed": 0.125,
+     "reported": 0.125,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=11 donor CI low",
+     "recomputed": 0.74,
+     "reported": 0.74,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=11 donor CI high",
+     "recomputed": 0.85,
+     "reported": 0.85,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=12 donor",
+     "recomputed": 0.025,
+     "reported": 0.025,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=12 recipient",
+     "recomputed": 0.945,
+     "reported": 0.945,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=12 donor CI low",
+     "recomputed": 0.005,
+     "reported": 0.005,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=12 donor CI high",
+     "recomputed": 0.05,
+     "reported": 0.05,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=14 donor",
+     "recomputed": 0.02,
+     "reported": 0.02,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=14 recipient",
+     "recomputed": 0.945,
+     "reported": 0.945,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=14 donor CI low",
+     "recomputed": 0.005,
+     "reported": 0.005,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=14 donor CI high",
+     "recomputed": 0.04,
+     "reported": 0.04,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=16 donor",
+     "recomputed": 0.02,
+     "reported": 0.02,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=16 recipient",
+     "recomputed": 0.945,
+     "reported": 0.945,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=16 donor CI low",
+     "recomputed": 0.005,
+     "reported": 0.005,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=16 donor CI high",
+     "recomputed": 0.04,
+     "reported": 0.04,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=20 donor",
+     "recomputed": 0.02,
+     "reported": 0.02,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=20 recipient",
+     "recomputed": 0.945,
+     "reported": 0.945,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=20 donor CI low",
+     "recomputed": 0.005,
+     "reported": 0.005,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B readout B=20 donor CI high",
+     "recomputed": 0.04,
+     "reported": 0.04,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B agreement",
+     "recomputed": 0.9645,
+     "reported": 0.9645,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B agreement CI low",
+     "recomputed": 0.956,
+     "reported": 0.956,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "B agreement CI high",
+     "recomputed": 0.9725,
+     "reported": 0.9725,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "transition report",
+     "recomputed": 12,
+     "reported": 12,
+     "absdiff": 0,
+     "mismatch": false
+    },
+    {
+     "what": "transition readout",
+     "recomputed": 12,
+     "reported": 12,
+     "absdiff": 0,
+     "mismatch": false
+    },
+    {
+     "what": "C donor",
+     "recomputed": 0.02,
+     "reported": 0.02,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "C recipient",
+     "recomputed": 0.945,
+     "reported": 0.945,
+     "absdiff": 0.0,
+     "mismatch": false
+    },
+    {
+     "what": "n_test",
+     "recomputed": 363,
+     "reported": 363,
+     "absdiff": 0,
+     "mismatch": false
+    },
+    {
+     "what": "n_known",
+     "recomputed": 306,
+     "reported": 306,
+     "absdiff": 0,
+     "mismatch": false
+    },
+    {
+     "what": "n_pairs",
+     "recomputed": 200,
+     "reported": 200,
+     "absdiff": 0,
+     "mismatch": false
+    }
+   ],
+   "n_mismatch": 0,
+   "H_match": true,
+   "verdict_reported": "SAME WINDOW: this bed cannot separate reading the computation from reconstructing from the input",
+   "verdict_match": true
+  }
+ },
+ "checks": {}
+}

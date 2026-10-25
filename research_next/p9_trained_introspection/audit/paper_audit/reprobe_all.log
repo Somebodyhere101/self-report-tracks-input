@@ -1,0 +1,78 @@
+    5.4s 0a_rep_L8_K2 {"lam_file": 0.5, "B2_donor": 0.375, "B2_recipient": 0.625, "B2_donor_file": 0.375, "B1": 0.738, "B1_file": 0.738, "C": 0.695, "C_file": 0.695, "B2_donor_indep": 0.348, "B2_recipient_indep": 0.652}
+    7.0s 0a_rep_L8_K4 {"lam_file": 0.5, "B2_donor": 0.31, "B2_recipient": 0.34, "B2_donor_file": 0.31}
+    9.2s 0a_rep_L12_K2 {"lam_file": 0.5, "B2_donor": 0.391, "B2_recipient": 0.609, "B2_donor_file": 0.391, "B1": 0.715, "B1_file": 0.715, "C": 0.773, "C_file": 0.773, "B2_donor_indep": 0.383, "B2_recipient_indep": 0.617}
+   10.7s 0a_rep_L12_K4 {"lam_file": 0.5, "B2_donor": 0.295, "B2_recipient": 0.365, "B2_donor_file": 0.295}
+   18.3s 0a_rep_L16_K2 {"lam_file": 0.5, "B2_donor": 0.359, "B2_recipient": 0.641, "B2_donor_file": 0.359, "B1": 0.707, "B1_file": 0.707, "C": 0.766, "C_file": 0.766, "lam_reselected": 0.5, "B2_donor_at_lam0.5": 0.359, "B2_donor_indep": 0.352, "B2_recipient_indep": 0.648}
+   19.9s 0a_rep_L16_K4 {"lam_file": 0.5, "B2_donor": 0.285, "B2_recipient": 0.325, "B2_donor_file": 0.285}
+   22.2s 0a_rep_L20_K2 {"lam_file": 0.5, "B2_donor": 0.402, "B2_recipient": 0.598, "B2_donor_file": 0.402, "B1": 0.676, "B1_file": 0.676, "C": 0.691, "C_file": 0.691, "B2_donor_indep": 0.402, "B2_recipient_indep": 0.598}
+   23.6s 0a_rep_L20_K4 {"lam_file": 0.5, "B2_donor": 0.262, "B2_recipient": 0.338, "B2_donor_file": 0.262}
+   25.8s 0a_rep_L24_K2 {"lam_file": 0.5, "B2_donor": 0.375, "B2_recipient": 0.625, "B2_donor_file": 0.375, "B1": 0.707, "B1_file": 0.707, "C": 0.715, "C_file": 0.715, "B2_donor_indep": 0.406, "B2_recipient_indep": 0.594}
+   28.4s 0a_rep_L24_K4 {"lam_file": 0.05, "B2_donor": 0.272, "B2_recipient": 0.35, "B2_donor_file": 0.272}
+   30.6s 0a_rep_L27_K2 {"lam_file": 0.5, "B2_donor": 0.398, "B2_recipient": 0.602, "B2_donor_file": 0.398, "B1": 0.715, "B1_file": 0.715, "C": 0.688, "C_file": 0.688, "B2_donor_indep": 0.422, "B2_recipient_indep": 0.578}
+   32.5s 0a_rep_L27_K4 {"lam_file": 0.5, "B2_donor": 0.281, "B2_recipient": 0.35, "B2_donor_file": 0.281}
+   34.3s 0a_R0_L8_K2 {"lam_file": 0.05, "B2_donor": 0.348, "B2_recipient": 0.652, "B2_donor_file": 0.348, "B2_donor_indep": 0.355, "B2_recipient_indep": 0.645}
+   36.1s 0a_R0_L8_K4 {"lam_file": 0.5, "B2_donor": 0.266, "B2_recipient": 0.409, "B2_donor_file": 0.266}
+   37.1s 0a_R0_L12_K2 {"lam_file": 0.5, "B2_donor": 0.367, "B2_recipient": 0.633, "B2_donor_file": 0.367, "B2_donor_indep": 0.352, "B2_recipient_indep": 0.648}
+   38.5s 0a_R0_L12_K4 {"lam_file": 0.5, "B2_donor": 0.27, "B2_recipient": 0.371, "B2_donor_file": 0.27}
+   39.5s 0a_R0_L16_K2 {"lam_file": 0.5, "B2_donor": 0.637, "B2_recipient": 0.363, "B2_donor_file": 0.637, "B2_donor_indep": 0.676, "B2_recipient_indep": 0.324}
+   41.1s 0a_R0_L16_K4 {"lam_file": 0.5, "B2_donor": 0.416, "B2_recipient": 0.262, "B2_donor_file": 0.416}
+   42.3s 0a_R0_L20_K2 {"lam_file": 0.5, "B2_donor": 0.66, "B2_recipient": 0.34, "B2_donor_file": 0.66, "B2_donor_indep": 0.633, "B2_recipient_indep": 0.367}
+   43.9s 0a_R0_L20_K4 {"lam_file": 0.5, "B2_donor": 0.401, "B2_recipient": 0.247, "B2_donor_file": 0.401}
+   45.5s 0a_R0_L24_K2 {"lam_file": 0.5, "B2_donor": 0.609, "B2_recipient": 0.391, "B2_donor_file": 0.609, "B2_donor_indep": 0.629, "B2_recipient_indep": 0.371}
+   51.4s 0a_R0_L24_K4 {"lam_file": 0.005, "B2_donor": 0.428, "B2_recipient": 0.236, "B2_donor_file": 0.428}
+   54.2s 0a_R0_L27_K2 {"lam_file": 0.5, "B2_donor": 0.652, "B2_recipient": 0.348, "B2_donor_file": 0.652, "A": 0.737, "A_file": 0.737, "B2_donor_indep": 0.668, "B2_recipient_indep": 0.332}
+   59.0s 0a_R0_L27_K4 {"lam_file": 0.5, "B2_donor": 0.414, "B2_recipient": 0.268, "B2_donor_file": 0.414, "A": 0.441, "A_file": 0.441}
+   60.3s imm_rep_L8_K2 {"lam_file": 0.5, "B2_donor": 0.348, "B2_recipient": 0.652, "B2_donor_file": 0.348, "B2_donor_indep": 0.355, "B2_recipient_indep": 0.645}
+   62.3s imm_rep_L8_K4 {"lam_file": 0.5, "B2_donor": 0.274, "B2_recipient": 0.386, "B2_donor_file": 0.274}
+   63.5s imm_rep_L12_K2 {"lam_file": 0.5, "B2_donor": 0.363, "B2_recipient": 0.637, "B2_donor_file": 0.363, "B2_donor_indep": 0.336, "B2_recipient_indep": 0.664}
+   65.5s imm_rep_L12_K4 {"lam_file": 0.5, "B2_donor": 0.291, "B2_recipient": 0.333, "B2_donor_file": 0.291}
+   66.9s imm_rep_L16_K2 {"lam_file": 0.5, "B2_donor": 0.371, "B2_recipient": 0.629, "B2_donor_file": 0.371, "B2_donor_indep": 0.383, "B2_recipient_indep": 0.617}
+   70.8s imm_rep_L16_K4 {"lam_file": 0.05, "B2_donor": 0.289, "B2_recipient": 0.297, "B2_donor_file": 0.289}
+   79.3s imm_rep_L20_K2 {"lam_file": 0.005, "B2_donor": 0.398, "B2_recipient": 0.602, "B2_donor_file": 0.398, "lam_reselected": 0.005, "B2_donor_at_lam0.5": 0.355, "B2_donor_indep": 0.375, "B2_recipient_indep": 0.625}
+   80.7s imm_rep_L20_K4 {"lam_file": 0.5, "B2_donor": 0.259, "B2_recipient": 0.327, "B2_donor_file": 0.259}
+   81.6s imm_rep_L24_K2 {"lam_file": 0.5, "B2_donor": 0.367, "B2_recipient": 0.633, "B2_donor_file": 0.367, "B2_donor_indep": 0.387, "B2_recipient_indep": 0.613}
+   83.0s imm_rep_L24_K4 {"lam_file": 0.5, "B2_donor": 0.255, "B2_recipient": 0.333, "B2_donor_file": 0.255}
+   84.0s imm_rep_L27_K2 {"lam_file": 0.5, "B2_donor": 0.352, "B2_recipient": 0.648, "B2_donor_file": 0.352, "B2_donor_indep": 0.352, "B2_recipient_indep": 0.648}
+   85.3s imm_rep_L27_K4 {"lam_file": 0.5, "B2_donor": 0.283, "B2_recipient": 0.335, "B2_donor_file": 0.283}
+   91.8s imm_R0_L8_K2 {"lam_file": 0.05, "B2_donor": 0.344, "B2_recipient": 0.656, "B2_donor_file": 0.344, "lam_reselected": 0.05, "B2_donor_at_lam0.5": 0.328, "B2_donor_indep": 0.348, "B2_recipient_indep": 0.652}
+   93.0s imm_R0_L8_K4 {"lam_file": 0.5, "B2_donor": 0.262, "B2_recipient": 0.409, "B2_donor_file": 0.262}
+   94.4s imm_R0_L12_K2 {"lam_file": 0.5, "B2_donor": 0.375, "B2_recipient": 0.625, "B2_donor_file": 0.375, "B2_donor_indep": 0.348, "B2_recipient_indep": 0.652}
+   96.3s imm_R0_L12_K4 {"lam_file": 0.5, "B2_donor": 0.27, "B2_recipient": 0.373, "B2_donor_file": 0.27}
+   97.7s imm_R0_L16_K2 {"lam_file": 0.5, "B2_donor": 0.645, "B2_recipient": 0.355, "B2_donor_file": 0.645, "B2_donor_indep": 0.676, "B2_recipient_indep": 0.324}
+  100.5s imm_R0_L16_K4 {"lam_file": 0.5, "B2_donor": 0.401, "B2_recipient": 0.276, "B2_donor_file": 0.401}
+  101.9s imm_R0_L20_K2 {"lam_file": 0.5, "B2_donor": 0.66, "B2_recipient": 0.34, "B2_donor_file": 0.66, "B2_donor_indep": 0.633, "B2_recipient_indep": 0.367}
+  103.7s imm_R0_L20_K4 {"lam_file": 0.5, "B2_donor": 0.401, "B2_recipient": 0.247, "B2_donor_file": 0.401}
+  105.1s imm_R0_L24_K2 {"lam_file": 0.5, "B2_donor": 0.609, "B2_recipient": 0.391, "B2_donor_file": 0.609, "B2_donor_indep": 0.629, "B2_recipient_indep": 0.371}
+  108.6s imm_R0_L24_K4 {"lam_file": 0.005, "B2_donor": 0.424, "B2_recipient": 0.234, "B2_donor_file": 0.424}
+  111.4s imm_R0_L27_K2 {"lam_file": 0.5, "B2_donor": 0.66, "B2_recipient": 0.34, "B2_donor_file": 0.66, "A": 0.739, "A_file": 0.739, "B2_donor_indep": 0.668, "B2_recipient_indep": 0.332}
+  120.8s imm_R0_L27_K4 {"lam_file": 0.005, "B2_donor": 0.445, "B2_recipient": 0.245, "B2_donor_file": 0.445, "A": 0.426, "A_file": 0.426}
+  122.5s del_rep_L8_K2 {"lam_file": 0.5, "B2_donor": 0.379, "B2_recipient": 0.621, "B2_donor_file": 0.379, "B2_donor_indep": 0.367, "B2_recipient_indep": 0.633}
+  124.2s del_rep_L8_K4 {"lam_file": 0.5, "B2_donor": 0.262, "B2_recipient": 0.344, "B2_donor_file": 0.262}
+  125.4s del_rep_L12_K2 {"lam_file": 0.5, "B2_donor": 0.391, "B2_recipient": 0.609, "B2_donor_file": 0.391, "B2_donor_indep": 0.367, "B2_recipient_indep": 0.633}
+  127.1s del_rep_L12_K4 {"lam_file": 0.5, "B2_donor": 0.285, "B2_recipient": 0.348, "B2_donor_file": 0.285}
+  128.1s del_rep_L16_K2 {"lam_file": 0.5, "B2_donor": 0.379, "B2_recipient": 0.621, "B2_donor_file": 0.379, "B2_donor_indep": 0.387, "B2_recipient_indep": 0.613}
+  129.5s del_rep_L16_K4 {"lam_file": 0.5, "B2_donor": 0.295, "B2_recipient": 0.325, "B2_donor_file": 0.295}
+  136.5s del_rep_L20_K2 {"lam_file": 0.05, "B2_donor": 0.414, "B2_recipient": 0.586, "B2_donor_file": 0.414, "lam_reselected": 0.05, "B2_donor_at_lam0.5": 0.422, "B2_donor_indep": 0.398, "B2_recipient_indep": 0.602}
+  138.1s del_rep_L20_K4 {"lam_file": 0.5, "B2_donor": 0.281, "B2_recipient": 0.297, "B2_donor_file": 0.281}
+  139.3s del_rep_L24_K2 {"lam_file": 0.5, "B2_donor": 0.387, "B2_recipient": 0.613, "B2_donor_file": 0.387, "B2_donor_indep": 0.406, "B2_recipient_indep": 0.594}
+  141.0s del_rep_L24_K4 {"lam_file": 0.5, "B2_donor": 0.283, "B2_recipient": 0.327, "B2_donor_file": 0.283}
+  142.1s del_rep_L27_K2 {"lam_file": 0.5, "B2_donor": 0.355, "B2_recipient": 0.645, "B2_donor_file": 0.355, "B2_donor_indep": 0.398, "B2_recipient_indep": 0.602}
+  143.7s del_rep_L27_K4 {"lam_file": 0.5, "B2_donor": 0.31, "B2_recipient": 0.35, "B2_donor_file": 0.31}
+  145.4s del_R0_L8_K2 {"lam_file": 0.05, "B2_donor": 0.344, "B2_recipient": 0.656, "B2_donor_file": 0.344, "B2_donor_indep": 0.348, "B2_recipient_indep": 0.652}
+  146.9s del_R0_L8_K4 {"lam_file": 0.5, "B2_donor": 0.262, "B2_recipient": 0.409, "B2_donor_file": 0.262}
+  148.0s del_R0_L12_K2 {"lam_file": 0.5, "B2_donor": 0.375, "B2_recipient": 0.625, "B2_donor_file": 0.375, "B2_donor_indep": 0.348, "B2_recipient_indep": 0.652}
+  149.4s del_R0_L12_K4 {"lam_file": 0.5, "B2_donor": 0.27, "B2_recipient": 0.373, "B2_donor_file": 0.27}
+  150.4s del_R0_L16_K2 {"lam_file": 0.5, "B2_donor": 0.645, "B2_recipient": 0.355, "B2_donor_file": 0.645, "B2_donor_indep": 0.676, "B2_recipient_indep": 0.324}
+  152.1s del_R0_L16_K4 {"lam_file": 0.5, "B2_donor": 0.401, "B2_recipient": 0.276, "B2_donor_file": 0.401}
+  153.1s del_R0_L20_K2 {"lam_file": 0.5, "B2_donor": 0.66, "B2_recipient": 0.34, "B2_donor_file": 0.66, "B2_donor_indep": 0.633, "B2_recipient_indep": 0.367}
+  154.8s del_R0_L20_K4 {"lam_file": 0.5, "B2_donor": 0.401, "B2_recipient": 0.247, "B2_donor_file": 0.401}
+  155.8s del_R0_L24_K2 {"lam_file": 0.5, "B2_donor": 0.609, "B2_recipient": 0.391, "B2_donor_file": 0.609, "B2_donor_indep": 0.629, "B2_recipient_indep": 0.371}
+  159.2s del_R0_L24_K4 {"lam_file": 0.005, "B2_donor": 0.424, "B2_recipient": 0.234, "B2_donor_file": 0.424}
+  162.0s del_R0_L27_K2 {"lam_file": 0.5, "B2_donor": 0.66, "B2_recipient": 0.34, "B2_donor_file": 0.66, "A": 0.739, "A_file": 0.739, "B2_donor_indep": 0.668, "B2_recipient_indep": 0.332}
+  171.3s del_R0_L27_K4 {"lam_file": 0.005, "B2_donor": 0.445, "B2_recipient": 0.245, "B2_donor_file": 0.445, "A": 0.426, "A_file": 0.426}
+  195.8s tail L12 done; maxabs vs file 0.0
+  220.9s tail L16 done; maxabs vs file 0.0
+  245.5s tail L20 done; maxabs vs file 0.0
+  270.5s tail L24 done; maxabs vs file 0.0
+  296.3s tail L27 done; maxabs vs file 0.0
+done 5.1 min

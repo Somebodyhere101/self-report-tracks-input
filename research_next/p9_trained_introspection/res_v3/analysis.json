@@ -1,0 +1,337 @@
+{
+ "seeds": [
+  0,
+  1
+ ],
+ "gates": {
+  "G1": true,
+  "G2": true,
+  "G3": true,
+  "G4": true,
+  "G5": true
+ },
+ "gate_values": {
+  "G1": {
+   "accuracy_test": 0.8638073739653875,
+   "n_test_usable": 1148
+  },
+  "G2": {
+   "answer_kept_T1": 1.0
+  },
+  "G3": {
+   "bin_prob_vs_entropy_agreement": 0.9956445993031359
+  },
+  "G4": {
+   "T1_diff_bin_equals_donor": 1.0,
+   "n": 412
+  },
+  "G5": {
+   "best_baseline": "para",
+   "n_T3": 1148,
+   "n_divergent": 463,
+   "div_rate": 0.40331010452961674,
+   "power_strong_reader": 1.0
+  }
+ },
+ "T3_baselines": {
+  "para": 0.5966898954703833,
+  "majority": 0.23780487804878048,
+  "learned": 0.5966898954703833,
+  "external_X": 0.24477351916376305
+ },
+ "T3_learned": {
+  "w": [
+   -1.0322590719915465,
+   -2.08794797910627,
+   -0.6940061343706734,
+   -1.1834790983057588,
+   -1.5322880375531578,
+   0.09886009296704967,
+   0.025618316615231212,
+   -1.0176418561240212
+  ],
+  "max_abs_grad": 4.4356169368788695e-06,
+  "n_train_items": 991,
+  "majority_bin": 0
+ },
+ "T3": {
+  "N": {
+   "acc_per_seed": [
+    0.27177700348432055
+   ],
+   "delta_vs_best_baseline": -0.32491289198606277,
+   "ci": [
+    -0.36759581881533104,
+    -0.28135888501742157
+   ],
+   "divergent_names_cb": 0.4060475161987041,
+   "divergent_names_baseline": 0.27213822894168466
+  },
+  "O": {
+   "acc_per_seed": [
+    0.23344947735191637,
+    0.2343205574912892
+   ],
+   "delta_vs_best_baseline": -0.36280487804878053,
+   "ci": [
+    -0.39677700348432055,
+    -0.32839721254355403
+   ],
+   "divergent_names_cb": 0.234341252699784,
+   "divergent_names_baseline": 0.16198704103671707
+  },
+  "I": {
+   "acc_per_seed": [
+    0.24912891986062718,
+    0.22909407665505227
+   ],
+   "delta_vs_best_baseline": -0.3575783972125436,
+   "ci": [
+    -0.39329268292682923,
+    -0.32186411149825783
+   ],
+   "divergent_names_cb": 0.2786177105831533,
+   "divergent_names_baseline": 0.22570194384449244
+  },
+  "J": {
+   "acc_per_seed": [
+    0.23519163763066203,
+    0.2508710801393728
+   ],
+   "delta_vs_best_baseline": -0.3536585365853659,
+   "ci": [
+    -0.3885017421602788,
+    -0.3183797909407665
+   ],
+   "divergent_names_cb": 0.2699784017278618,
+   "divergent_names_baseline": 0.12311015118790497
+  },
+  "X": {
+   "acc": 0.24477351916376305
+  }
+ },
+ "T1": {
+  "N": {
+   "acc_diff": 0.2766990291262136,
+   "acc_same": 0.21739130434782608,
+   "names_input_bin_diff": 0.2524271844660194,
+   "ci_diff": [
+    0.23300970873786409,
+    0.3179611650485437
+   ]
+  },
+  "O": {
+   "acc_diff": 0.24150485436893204,
+   "acc_same": 0.22608695652173913,
+   "names_input_bin_diff": 0.20388349514563106,
+   "ci_diff": [
+    0.2099514563106796,
+    0.27427184466019416
+   ]
+  },
+  "I": {
+   "acc_diff": 0.30097087378640774,
+   "acc_same": 0.2289855072463768,
+   "names_input_bin_diff": 0.22572815533980584,
+   "ci_diff": [
+    0.2669902912621359,
+    0.33495145631067963
+   ]
+  },
+  "J": {
+   "acc_diff": 0.21237864077669902,
+   "acc_same": 0.21739130434782608,
+   "names_input_bin_diff": 0.24393203883495146,
+   "ci_diff": [
+    0.1808252427184466,
+    0.24514563106796117
+   ]
+  }
+ },
+ "T2": {
+  "N": {
+   "n_changed": {
+    "T2a": 335,
+    "T2c": 312
+   },
+   "acc": {
+    "T2a": 0.25671641791044775,
+    "T2c": 0.21474358974358973
+   },
+   "pooled_acc": 0.23647604327666152,
+   "pooled_ci": [
+    0.20184899845916796,
+    0.2717557251908397
+   ],
+   "evaluable_families": [
+    "T2a",
+    "T2c"
+   ]
+  },
+  "O": {
+   "n_changed": {
+    "T2a": 335,
+    "T2c": 312
+   },
+   "acc": {
+    "T2a": 0.2417910447761194,
+    "T2c": 0.28525641025641024
+   },
+   "pooled_acc": 0.26275115919629055,
+   "pooled_ci": [
+    0.23651771956856701,
+    0.2886684876658812
+   ],
+   "evaluable_families": [
+    "T2a",
+    "T2c"
+   ]
+  },
+  "I": {
+   "n_changed": {
+    "T2a": 335,
+    "T2c": 312
+   },
+   "acc": {
+    "T2a": 0.24029850746268658,
+    "T2c": 0.32211538461538464
+   },
+   "pooled_acc": 0.2797527047913447,
+   "pooled_ci": [
+    0.25426323640415516,
+    0.3062507178407351
+   ],
+   "evaluable_families": [
+    "T2a",
+    "T2c"
+   ]
+  },
+  "J": {
+   "n_changed": {
+    "T2a": 335,
+    "T2c": 312
+   },
+   "acc": {
+    "T2a": 0.2671641791044776,
+    "T2c": 0.2980769230769231
+   },
+   "pooled_acc": 0.2820710973724884,
+   "pooled_ci": [
+    0.2546583850931677,
+    0.3094521085422751
+   ],
+   "evaluable_families": [
+    "T2a",
+    "T2c"
+   ]
+  }
+ },
+ "T4": {
+  "N": {
+   "kl": {
+    "n": 400,
+    "switch_increase": -0.015,
+    "ci": [
+     -0.0575,
+     0.025
+    ],
+    "bin_changed_rate": 0.3
+   },
+   "norm": {
+    "n": 400,
+    "switch_increase": 0.0075,
+    "ci": [
+     -0.04,
+     0.055
+    ],
+    "bin_changed_rate": 0.385
+   }
+  },
+  "O": {
+   "kl": {
+    "n": 400,
+    "switch_increase": -0.01375,
+    "ci": [
+     -0.05125,
+     0.02375
+    ],
+    "bin_changed_rate": 0.3
+   },
+   "norm": {
+    "n": 400,
+    "switch_increase": 0.00125,
+    "ci": [
+     -0.0375,
+     0.03875
+    ],
+    "bin_changed_rate": 0.385
+   }
+  },
+  "I": {
+   "kl": {
+    "n": 400,
+    "switch_increase": -0.01125,
+    "ci": [
+     -0.0525,
+     0.03
+    ],
+    "bin_changed_rate": 0.3
+   },
+   "norm": {
+    "n": 400,
+    "switch_increase": -0.02375,
+    "ci": [
+     -0.06625,
+     0.02
+    ],
+    "bin_changed_rate": 0.385
+   }
+  },
+  "J": {
+   "kl": {
+    "n": 400,
+    "switch_increase": 0.0,
+    "ci": [
+     -0.035,
+     0.035
+    ],
+    "bin_changed_rate": 0.3
+   },
+   "norm": {
+    "n": 400,
+    "switch_increase": -0.01125,
+    "ci": [
+     -0.0475,
+     0.025
+    ],
+    "bin_changed_rate": 0.385
+   }
+  }
+ },
+ "T5": {
+  "N": {
+   "mc_acc_gated": 0.8958333333333334,
+   "mult_acc_ungated": 1.0
+  },
+  "O": {
+   "mc_acc_gated": 0.875,
+   "mult_acc_ungated": 0.9950000000000001,
+   "drift_flag": false
+  },
+  "I": {
+   "mc_acc_gated": 0.8854166666666667,
+   "mult_acc_ungated": 0.9975,
+   "drift_flag": false
+  },
+  "J": {
+   "mc_acc_gated": 0.8854166666666667,
+   "mult_acc_ungated": 0.995,
+   "drift_flag": false
+  }
+ },
+ "verdict": "NOT SUPPORTED",
+ "reasons": [
+  "I does not beat the best input-only predictor on T3",
+  "I is not above 1/3 on unseen intervention families (T2)"
+ ]
+}
