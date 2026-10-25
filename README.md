@@ -3,7 +3,7 @@
 This repository holds the code, preregistrations, results and audits for **"Self-Report Positions in Qwen3-1.7B Track the Input, Not the Swapped-In Computation: Answer-Fixed Swaps, Probes and Null Training Results"** (Sam Ramdan, October 2026). It is paper 9 in a series on whether hidden-state directions and self-reports track the processes they are named after.
 
 - **Paper:** [`paper/self-report-tracks-input.pdf`](paper/self-report-tracks-input.pdf). The LaTeX source, `make_numbers.py` (which writes every number and figure from the result files) and the citation check are in `research_next/p9_trained_introspection/paper/`.
-- **Zenodo:** `<ZENODO-DOI>` (added when the record is published). The record also holds `code-and-data.zip`, which adds the per-item result files that are too large for git.
+- **Zenodo:** [doi:10.5281/zenodo.23640527](https://doi.org/10.5281/zenodo.23640527) (this version), [doi:10.5281/zenodo.23640526](https://doi.org/10.5281/zenodo.23640526) (all versions). The record also holds `code-and-data.zip`, which adds the per-item result files that are too large for git.
 - **Previous paper in the series:** [Where a Logit-Lens Settling Profile Is Carried, and Whether Qwen3-1.7B Reports It (paper 8)](https://doi.org/10.5281/zenodo.23532061).
 
 ## What the study does
